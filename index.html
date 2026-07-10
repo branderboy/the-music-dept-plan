@@ -28,7 +28,8 @@
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; }
+        html { scroll-behavior: smooth; overflow-x: clip; }
+        body { overflow-x: clip; max-width: 100%; }
         
         body {
             font-family: var(--font-body);
@@ -101,8 +102,7 @@
             background: var(--bg-main);
             border-bottom: 4px solid #000;
             box-shadow: 0 6px 0px rgba(0,0,0,1);
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
+            overflow-x: clip;
         }
         .toc::-webkit-scrollbar { height: 0; display: none; }
         .toc-inner {
