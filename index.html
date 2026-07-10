@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Growth Strategy for The Music Dept | Kay Ali</title>
+    <style>
+        :root {
+            --bg-main: #ffffff;
+            --bg-alt: #faf9fc;
+            --bg-dark: #100b1c;
+            --bg-toc: #100b1c;
+            --brand: #7c3aed;
+            --brand-hover: #6d28d9;
+            --text-dark: #14101f;
+            --text-body: #29233a;
+            --text-muted: #6b6480;
+            --border-color: #e8e5f0;
+            --highlight: #ddd6fe;
+            --red-alert: #dc2626;
+            --green: #16a34a;
+            --pillar-1: #7c3aed;
+            --pillar-2: #0891b2;
+            --pillar-3: #2563eb;
+            --pillar-4: #059669;
+            --pillar-5: #d97706;
+            --pillar-6: #e11d48;
+            --pillar-7: #0d9488;
+            --pillar-8: #4f46e5;
+            --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-alt);
+            color: var(--text-body);
+            line-height: 1.55;
+            font-size: 18px;
+            font-weight: 500;
+            -webkit-font-smoothing: antialiased;
+        }
+        p, li { font-weight: 500; }
+        .container { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+        .wrapper { background: var(--bg-main); box-shadow: 0 20px 40px -10px rgba(20,10,40,0.12); margin: 0 auto 60px; }
+
+        /* WARNING BAR */
+        .warning-bar { background: var(--bg-dark); color: white; text-align: center; padding: 12px 20px; font-size: 14px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; }
+        .warning-bar span { color: #c4b5fd; }
+
+        /* STICKY TOC */
+        .toc {
+            position: sticky; top: 0; z-index: 50;
+            background: #f5f3ff;
+            border-bottom: 4px solid var(--brand);
+            box-shadow: 0 4px 14px rgba(20,10,40,0.08);
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        .toc::-webkit-scrollbar { height: 0; display: none; }
+        .toc-inner {
+            margin: 0 auto;
+            padding: 12px 16px;
+            display: flex; flex-wrap: nowrap; gap: 8px;
+            align-items: center; justify-content: center;
+            min-width: max-content;
+        }
+        .toc-label {
+            display: inline-flex; align-items: center; gap: 6px;
+            font-size: clamp(13px, 1.4vw, 16px);
+            font-weight: 900; letter-spacing: 2px; text-transform: uppercase;
+            color: var(--brand-hover); margin-right: 4px; flex-shrink: 0;
+        }
+        .toc-label .arrow {
+            display: inline-block; font-size: 18px; color: var(--brand);
+            animation: arrow-nudge 1.2s ease-in-out infinite;
+        }
+        @keyframes arrow-nudge {
+            0%, 100% { transform: translateX(0); }
+            50% { transform: translateX(6px); }
+        }
+        .toc a {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 9px 12px; border-radius: 7px;
+            font-size: clamp(12px, 1.2vw, 14px); font-weight: 900;
+            color: white; background: var(--brand); text-decoration: none;
+            border: 2px solid var(--brand);
+            transition: all 0.15s; white-space: nowrap;
+            text-transform: uppercase; letter-spacing: 0.5px;
+            flex-shrink: 0;
+        }
+        .toc a:hover {
+            background: var(--brand-hover); color: white; border-color: var(--brand-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 14px rgba(124,58,237,0.35);
+        }
+        .toc a .num {
+            color: var(--brand); background: white;
+            padding: 0 5px; border-radius: 3px;
+            font-weight: 900;
+        }
+        .toc a:hover .num { color: var(--brand-hover); }
+        .toc a.bonus { background: #f59e0b; color: #43290b; border-color: #d97706; }
+        .toc a.bonus:hover { background: #d97706; color: white; border-color: #b45309; }
+        .toc a.bonus .num { color: #f59e0b; background: #43290b; padding: 0 5px; border-radius: 3px; }
+        .toc a.bonus:hover .num { color: #d97706; background: white; }
+
+        /* SECTION SHELL */
+        .section {
+            padding: 60px 40px;
+            scroll-margin-top: 110px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .section.gray { background: var(--bg-alt); }
+        .section.dark { background: var(--bg-dark); color: white; }
+        @media (max-width: 600px) { .section { padding: 44px 22px; scroll-margin-top: 90px; } }
+
+        .eyebrow {
+            display: block; text-align: center;
+            font-size: clamp(16px, 2vw, 20px);
+            font-weight: 900; letter-spacing: 4px; text-transform: uppercase;
+            color: var(--brand);
+            margin-bottom: 14px;
+        }
+        .section-title {
+            font-size: clamp(42px, 8vw, 76px);
+            font-weight: 900; color: var(--text-dark);
+            margin: 0 auto 6px; text-align: center;
+            letter-spacing: -1.5px; line-height: 1;
+            max-width: 1100px;
+        }
+        .section.dark .section-title { color: white; }
+        .section-title::after {
+            content: ""; display: block; width: 110px; height: 7px;
+            background: var(--brand); border-radius: 4px;
+            margin: 22px auto 28px;
+        }
+        .section-lede {
+            font-size: 17px;
+            text-align: center; max-width: 820px;
+            margin: 0 auto 36px;
+            color: var(--text-body); font-weight: 500;
+            line-height: 1.55;
+        }
+        .section.dark .section-lede { color: #cdc6de; }
+
+        /* HERO */
+        .hero { padding: 50px 30px 40px; text-align: center; background: var(--bg-main); border-bottom: 4px solid var(--border-color); }
+        .pre-headline {
+            color: var(--brand); font-weight: 900; font-size: 14px;
+            text-transform: uppercase; margin-bottom: 16px; letter-spacing: 2px;
+        }
+        .main-headline {
+            font-size: clamp(32px, 5.4vw, 56px);
+            font-weight: 900; color: var(--text-dark);
+            line-height: 1.08; letter-spacing: -1.2px;
+            margin-bottom: 20px;
+            max-width: 940px; margin-left: auto; margin-right: auto;
+        }
+        .sub-headline {
+            font-size: clamp(18px, 2.4vw, 22px);
+            color: var(--text-body); font-weight: 600;
+            margin-bottom: 30px; line-height: 1.4;
+            max-width: 820px; margin-left: auto; margin-right: auto;
+        }
+        .text-brand { color: var(--brand); }
+        .highlight { background: var(--highlight); padding: 0 5px; color: var(--text-dark); }
+
+        /* CTA BUTTON */
+        .cta-button {
+            display: inline-block; width: 100%; max-width: 540px;
+            background: var(--brand); color: white;
+            padding: 20px; text-decoration: none; border-radius: 8px;
+            box-shadow: 0 8px 0 var(--brand-hover), 0 15px 20px rgba(124,58,237,0.2);
+            transition: all 0.1s; border: none; cursor: pointer;
+            margin: 10px auto; text-align: center;
+        }
+        .cta-button:active { transform: translateY(8px); box-shadow: 0 0 0 var(--brand-hover); }
+        .cta-main-text { display: block; font-size: clamp(18px, 3.5vw, 24px); font-weight: 900; text-transform: uppercase; line-height: 1.2; }
+        .cta-sub-text { display: block; font-size: 14px; font-weight: 600; opacity: 0.95; margin-top: 6px; }
+
+        /* GMB PREVIEW */
+        .gmb-preview {
+            max-width: 760px; margin: 0 auto 26px;
+            border-radius: 12px; overflow: hidden;
+            border: 2px solid var(--border-color);
+            box-shadow: 0 10px 25px -5px rgba(20,10,40,0.14);
+            background: var(--bg-main);
+        }
+        .gmb-head {
+            background: var(--bg-alt); padding: 14px 20px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex; align-items: center; justify-content: space-between;
+            flex-wrap: wrap; gap: 8px;
+        }
+        .gmb-head strong { font-size: 17px; color: var(--text-dark); }
+        .gmb-head .tag {
+            font-size: 12px; color: var(--text-muted);
+            font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;
+        }
+        .gmb-foot {
+            padding: 14px 20px; font-size: 15px; color: var(--text-muted);
+            background: var(--bg-alt);
+            border-top: 1px solid var(--border-color);
+        }
+
+        /* STACK BADGES */
+        .stack-row {
+            max-width: 760px; margin: 0 auto 30px;
+            padding: 18px 20px;
+            border: 1px solid var(--border-color); border-radius: 12px;
+            background: var(--bg-main);
+        }
+        .stack-label {
+            font-size: 12px; font-weight: 800; color: var(--text-muted);
+            text-transform: uppercase; letter-spacing: 1.5px;
+            text-align: center; margin-bottom: 14px;
+        }
+        .stack-badges {
+            display: flex; gap: 14px; flex-wrap: wrap;
+            justify-content: center; align-items: center;
+        }
+        .badge-wp {
+            display: inline-flex; align-items: center; gap: 10px;
+            padding: 10px 18px; background: #21759b; color: white;
+            border-radius: 8px; font-weight: 900; font-size: 18px;
+            letter-spacing: -0.5px;
+        }
+        .badge-wp .b-mark {
+            display: inline-flex; width: 26px; height: 26px;
+            align-items: center; justify-content: center;
+            background: white; color: #21759b; border-radius: 50%;
+            font-weight: 900; font-size: 16px;
+        }
+        .badge-google {
+            display: inline-flex; align-items: center; gap: 10px;
+            padding: 10px 18px; background: var(--bg-alt);
+            color: var(--text-dark);
+            border: 1px solid var(--border-color);
+            border-radius: 8px; font-weight: 800; font-size: 17px;
+        }
+        .badge-google .b-mark {
+            display: inline-flex; width: 26px; height: 26px;
+            align-items: center; justify-content: center;
+            border-radius: 50%; font-weight: 900; font-size: 18px;
+            background: linear-gradient(135deg, #4285F4 0%, #4285F4 25%, #EA4335 25%, #EA4335 50%, #FBBC05 50%, #FBBC05 75%, #34A853 75%);
+            color: white;
+        }
+        .badge-ai {
+            display: inline-flex; align-items: center; gap: 10px;
+            padding: 10px 18px; background: var(--bg-dark);
+            color: white; border-radius: 8px; font-weight: 800; font-size: 17px;
+        }
+        .badge-ai .b-mark {
+            display: inline-flex; width: 26px; height: 26px;
+            align-items: center; justify-content: center;
+            border-radius: 50%; font-weight: 900; font-size: 15px;
+            background: #c4b5fd; color: var(--bg-dark);
+        }
+
+        /* KAY INTRO */
+        .kay-row {
+            max-width: 820px; margin: 0 auto;
+            display: flex; gap: 20px;
+            align-items: flex-start; flex-wrap: wrap;
+        }
+        .kay-avatar {
+            width: 72px; height: 72px;
+            border-radius: 50%; background: var(--brand); color: white;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 26px; font-weight: 900; flex-shrink: 0;
+        }
+        .kay-meta-label {
+            font-size: 12px; font-weight: 800; color: var(--text-muted);
+            text-transform: uppercase; letter-spacing: 1.5px;
+        }
+        .kay-name { font-size: 24px; margin: 4px 0; color: var(--text-dark); font-weight: 900; }
+        .kay-role { font-size: 14px; color: var(--text-muted); font-weight: 600; margin-bottom: 14px; }
+        .kay-text { font-size: 16px; color: var(--text-body); line-height: 1.65; }
+        .kay-text p { margin-bottom: 10px; }
+
+        /* FOUNDATION STATS */
+        .stat-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px; max-width: 1000px; margin: 0 auto 36px;
+        }
+        .stat-box {
+            background: var(--bg-main);
+            border: 2px solid var(--border-color); border-radius: 12px;
+            padding: 24px 20px; text-align: center;
+        }
+        .stat-box.accent { border-color: #c4b5fd; background: #f5f3ff; }
+        .stat-num {
+            font-size: 44px; font-weight: 900; color: var(--brand);
+            line-height: 1; letter-spacing: -1px;
+        }
+        .stat-desc {
+            font-size: 14px; color: var(--text-body);
+            margin-top: 8px; font-weight: 700;
+        }
+
+        /* SUBSECTION TITLE */
+        .subsection-title {
+            font-size: clamp(22px, 2.6vw, 28px);
+            font-weight: 900; color: var(--text-dark);
+            margin: 36px 0 16px;
+            padding-left: 16px;
+            border-left: 6px solid var(--brand);
+            line-height: 1.2;
+        }
+        .subsection-sub {
+            font-size: 14px; font-weight: 600; color: var(--text-muted);
+            text-transform: none; letter-spacing: 0;
+            display: block; margin-top: 4px;
+        }
+
+        /* FINDINGS LIST */
+        .findings {
+            max-width: 1000px; margin: 0 auto;
+            display: grid; gap: 12px;
+        }
+        .finding-card {
+            display: flex; gap: 16px;
+            padding: 18px 20px;
+            background: var(--bg-main);
+            border: 1px solid var(--border-color); border-radius: 10px;
+        }
+        .finding-icon {
+            width: 28px; height: 28px;
+            color: var(--red-alert); flex-shrink: 0; margin-top: 2px;
+        }
+        .finding-text strong {
+            display: block; color: var(--text-dark); font-size: 17px;
+            font-weight: 900; margin-bottom: 4px;
+        }
+        .finding-text p { font-size: 16px; color: var(--text-body); }
+
+        /* INSIGHTS */
+        .insights-grid {
+            max-width: 1000px; margin: 0 auto;
+            display: grid; gap: 18px;
+        }
+        .insight-card {
+            background: var(--bg-main);
+            border: 1px solid var(--border-color);
+            border-left: 6px solid var(--brand);
+            border-radius: 10px;
+            padding: 24px 26px;
+        }
+        .insight-num {
+            display: inline-block;
+            font-size: 12px; font-weight: 900;
+            text-transform: uppercase; letter-spacing: 2px;
+            color: var(--brand); margin-bottom: 6px;
+        }
+        .insight-title {
+            font-size: 22px; font-weight: 900; color: var(--text-dark);
+            margin-bottom: 10px; line-height: 1.25;
+        }
+        .insight-body { font-size: 16px; color: var(--text-body); line-height: 1.6; }
+        .insight-body p + p { margin-top: 10px; }
+        .insight-body strong { color: var(--text-dark); }
+        .insight-body ul { margin-top: 10px; padding-left: 20px; }
+        .insight-body ul li { margin: 4px 0; font-size: 15px; }
+        .insight-pill-row {
+            display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px;
+        }
+        .insight-pill {
+            display: inline-block; padding: 6px 12px;
+            background: #f5f3ff; color: #5b21b6;
+            border: 1px solid #ddd6fe; border-radius: 99px;
+            font-size: 13px; font-weight: 700;
+        }
+
+        /* PILLARS */
+        .pillars-stack {
+            display: flex; flex-direction: column; gap: 24px;
+            max-width: 1040px; margin: 0 auto;
+        }
+        .pillar {
+            background: var(--bg-main);
+            border-radius: 14px; overflow: hidden;
+            border: 2px solid var(--border-color);
+            box-shadow: 0 6px 18px rgba(20,10,40,0.05);
+        }
+        .pillar.p1 { border-color: var(--pillar-1); }
+        .pillar.p2 { border-color: var(--pillar-2); }
+        .pillar.p3 { border-color: var(--pillar-3); }
+        .pillar.p4 { border-color: var(--pillar-4); }
+        .pillar.p5 { border-color: var(--pillar-5); }
+        .pillar.p6 { border-color: var(--pillar-6); }
+        .pillar.p7 { border-color: var(--pillar-7); }
+        .pillar.p8 { border-color: var(--pillar-8); }
+        .pillar-header {
+            display: flex; gap: 18px; align-items: flex-start;
+            padding: 24px 28px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .pillar-num {
+            width: 56px; height: 56px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 26px; font-weight: 900; color: white;
+            border-radius: 12px; flex-shrink: 0;
+        }
+        .pillar.p1 .pillar-num { background: var(--pillar-1); }
+        .pillar.p2 .pillar-num { background: var(--pillar-2); }
+        .pillar.p3 .pillar-num { background: var(--pillar-3); }
+        .pillar.p4 .pillar-num { background: var(--pillar-4); }
+        .pillar.p5 .pillar-num { background: var(--pillar-5); }
+        .pillar.p6 .pillar-num { background: var(--pillar-6); }
+        .pillar.p7 .pillar-num { background: var(--pillar-7); }
+        .pillar.p8 .pillar-num { background: var(--pillar-8); }
+        .pillar-eyebrow {
+            font-size: 12px; font-weight: 900;
+            text-transform: uppercase; letter-spacing: 2px;
+            display: block;
+        }
+        .pillar.p1 .pillar-eyebrow { color: var(--pillar-1); }
+        .pillar.p2 .pillar-eyebrow { color: var(--pillar-2); }
+        .pillar.p3 .pillar-eyebrow { color: var(--pillar-3); }
+        .pillar.p4 .pillar-eyebrow { color: var(--pillar-4); }
+        .pillar.p5 .pillar-eyebrow { color: var(--pillar-5); }
+        .pillar.p6 .pillar-eyebrow { color: var(--pillar-6); }
+        .pillar.p7 .pillar-eyebrow { color: var(--pillar-7); }
+        .pillar.p8 .pillar-eyebrow { color: var(--pillar-8); }
+        .pillar-title {
+            font-size: clamp(24px, 3vw, 30px);
+            font-weight: 900; color: var(--text-dark);
+            line-height: 1.15; margin: 4px 0;
+        }
+        .pillar-strategy {
+            font-size: 16px; color: var(--text-body);
+            font-style: italic; margin-top: 8px;
+        }
+        .pillar-strategy strong { font-style: normal; color: var(--text-dark); }
+        .pillar-body {
+            display: grid; grid-template-columns: 1fr;
+            gap: 24px; padding: 24px 28px;
+        }
+        @media (min-width: 820px) {
+            .pillar-body { grid-template-columns: 1.4fr 1fr; }
+        }
+        .pillar-deliverables h4,
+        .pillar-kpi h4 {
+            font-size: 16px; font-weight: 900;
+            text-transform: uppercase; letter-spacing: 2px;
+            color: var(--text-dark);
+            margin-bottom: 14px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--text-dark);
+        }
+        .pillar-deliverables ol {
+            list-style: none; padding: 0;
+            counter-reset: deliv;
+        }
+        .pillar-deliverables ol li {
+            counter-increment: deliv;
+            position: relative;
+            padding: 16px 0 16px 56px;
+            font-size: 17px; color: var(--text-body);
+            border-bottom: 1px solid var(--border-color);
+            line-height: 1.45;
+        }
+        .pillar-deliverables ol li:last-child { border-bottom: none; }
+        .pillar-deliverables ol li::before {
+            content: counter(deliv, decimal-leading-zero);
+            position: absolute; left: 0; top: 14px;
+            font-size: 22px; font-weight: 900;
+            letter-spacing: -1px;
+            font-feature-settings: "tnum";
+            min-width: 44px;
+        }
+        .pillar.p1 .pillar-deliverables ol li::before { color: var(--pillar-1); }
+        .pillar.p2 .pillar-deliverables ol li::before { color: var(--pillar-2); }
+        .pillar.p3 .pillar-deliverables ol li::before { color: var(--pillar-3); }
+        .pillar.p4 .pillar-deliverables ol li::before { color: var(--pillar-4); }
+        .pillar.p5 .pillar-deliverables ol li::before { color: var(--pillar-5); }
+        .pillar.p6 .pillar-deliverables ol li::before { color: var(--pillar-6); }
+        .pillar.p7 .pillar-deliverables ol li::before { color: var(--pillar-7); }
+        .pillar.p8 .pillar-deliverables ol li::before { color: var(--pillar-8); }
+        .pillar-deliverables ol li strong {
+            display: block; color: var(--text-dark);
+            font-weight: 900; font-size: 18px;
+            margin-bottom: 4px; line-height: 1.25;
+            letter-spacing: -0.3px;
+        }
+        .pillar-deliverables ol li.featured {
+            background: #fffbeb;
+            border: 2px solid var(--pillar-5);
+            border-radius: 10px;
+            padding: 20px 22px 20px 70px;
+            margin: 12px 0;
+        }
+        .pillar-deliverables ol li.featured::before {
+            left: 16px; color: var(--pillar-5);
+        }
+        .pillar-deliverables ol li.featured strong {
+            font-size: 20px; color: #78350f;
+        }
+        .pillar-deliverables ol li.featured .signature-tag {
+            display: inline-block;
+            background: var(--pillar-5); color: white;
+            font-size: 11px; font-weight: 900;
+            text-transform: uppercase; letter-spacing: 1.5px;
+            padding: 3px 8px; border-radius: 4px;
+            margin-left: 8px; vertical-align: middle;
+        }
+        .pillar-deliverables ol li.featured .why-it-works {
+            margin-top: 10px;
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 8px;
+        }
+        .pillar-deliverables ol li.featured .why-it-works div {
+            background: white; border: 1px solid #fde68a;
+            border-radius: 6px; padding: 8px 10px;
+            font-size: 13px; line-height: 1.3;
+        }
+        .pillar-deliverables ol li.featured .why-it-works strong {
+            display: inline; color: #78350f; font-size: 13px; font-weight: 900;
+        }
+        .kpi-grid { background: var(--bg-alt); border-radius: 10px; padding: 14px 16px; }
+        .kpi-row {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 8px 0; border-bottom: 1px solid var(--border-color);
+            font-size: 14px; gap: 12px;
+        }
+        .kpi-row:last-child { border-bottom: none; }
+        .kpi-row .label { color: var(--text-body); font-weight: 600; }
+        .kpi-row .value { color: var(--text-dark); font-weight: 900; text-align: right; }
+
+        /* PROOF (BEFORE / AFTER) */
+        .ba-grid {
+            display: grid; grid-template-columns: 1fr;
+            gap: 16px; max-width: 1000px; margin: 0 auto 24px;
+        }
+        @media (min-width: 720px) { .ba-grid { grid-template-columns: 1fr 1fr; } }
+        .ba-col {
+            border-radius: 12px; overflow: hidden;
+            border: 1px solid var(--border-color);
+            background: var(--bg-main);
+        }
+        .ba-col-header {
+            padding: 16px 22px; display: flex; align-items: center; gap: 10px;
+            color: white; font-weight: 900;
+            text-transform: uppercase; letter-spacing: 1px;
+        }
+        .ba-col.before .ba-col-header { background: var(--red-alert); }
+        .ba-col.after .ba-col-header { background: var(--green); }
+        .ba-col ul { list-style: none; padding: 0; margin: 0; }
+        .ba-col ul li {
+            padding: 12px 22px; border-bottom: 1px solid var(--border-color);
+            display: flex; align-items: flex-start; gap: 10px;
+            font-size: 15px; color: var(--text-body);
+        }
+        .ba-col ul li:last-child { border-bottom: none; }
+        .ba-col.before ul li .ico { color: var(--red-alert); font-weight: 900; flex-shrink: 0; }
+        .ba-col.after ul li .ico { color: var(--green); font-weight: 900; flex-shrink: 0; }
+
+        /* DELIVERABLES CHECK GRID */
+        .deliver-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 12px; max-width: 1000px; margin: 0 auto;
+        }
+        .deliver-item {
+            display: flex; align-items: flex-start; gap: 12px;
+            background: var(--bg-main); border: 1px solid var(--border-color);
+            border-radius: 10px; padding: 16px 18px;
+            font-size: 16px; font-weight: 700; color: var(--text-dark);
+        }
+        .deliver-item .check {
+            width: 22px; height: 22px; flex-shrink: 0; margin-top: 1px;
+            background: var(--green); color: white; border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 13px; font-weight: 900;
+        }
+
+        /* PHASES */
+        .phases {
+            display: grid; grid-template-columns: 1fr;
+            gap: 14px; max-width: 1000px; margin: 0 auto 30px;
+        }
+        @media (min-width: 720px) { .phases { grid-template-columns: repeat(3, 1fr); } }
+        .phase {
+            background: var(--bg-main);
+            border: 2px solid var(--border-color); border-radius: 12px;
+            padding: 24px 22px;
+        }
+        .phase-num {
+            font-size: 12px; font-weight: 900; text-transform: uppercase;
+            letter-spacing: 1.5px; color: var(--brand); margin-bottom: 6px;
+        }
+        .phase-title { font-size: 20px; font-weight: 900; color: var(--text-dark); margin-bottom: 4px; }
+        .phase-weeks { font-size: 13px; color: var(--text-muted); font-weight: 700; margin-bottom: 14px; }
+        .phase-items { list-style: none; padding: 0; margin: 0; }
+        .phase-items li {
+            position: relative; padding: 8px 0 8px 22px;
+            font-size: 14px; color: var(--text-body);
+            border-bottom: 1px solid var(--border-color);
+        }
+        .phase-items li:last-child { border-bottom: none; }
+        .phase-items li::before {
+            content: '\2192'; position: absolute; left: 0; top: 8px;
+            color: var(--text-muted); font-weight: 900;
+        }
+
+        /* INVESTMENT CARD */
+        .invest-card {
+            max-width: 640px; margin: 0 auto 30px;
+            background: var(--bg-main);
+            border: 2px solid var(--brand); border-radius: 16px;
+            padding: 34px 30px; text-align: center;
+            box-shadow: 0 14px 34px -12px rgba(124,58,237,0.4);
+        }
+        .invest-label {
+            font-size: 14px; font-weight: 900; text-transform: uppercase;
+            letter-spacing: 2px; color: var(--brand); margin-bottom: 8px;
+        }
+        .invest-name { font-size: 22px; font-weight: 900; color: var(--text-dark); margin-bottom: 16px; }
+        .invest-price { font-size: clamp(56px, 12vw, 84px); font-weight: 900; color: var(--text-dark); line-height: 1; letter-spacing: -2px; }
+        .invest-price span { font-size: 40%; vertical-align: super; color: var(--text-muted); font-weight: 800; }
+        .invest-terms { font-size: 15px; color: var(--text-muted); font-weight: 700; margin-top: 10px; }
+        .invest-desc { font-size: 15px; color: var(--text-body); line-height: 1.6; max-width: 560px; margin: 20px auto 0; }
+
+        /* RISK REVERSAL BOX */
+        .risk-box {
+            max-width: 720px; margin: 0 auto 30px;
+            padding: 22px 26px;
+            background: rgba(124, 58, 237, 0.14);
+            border: 2px solid var(--brand); border-radius: 12px;
+            text-align: center;
+        }
+        .risk-box strong { color: white; }
+        .section.dark .risk-box { background: rgba(124, 58, 237, 0.22); }
+
+        /* BONUS */
+        .bonus-box {
+            background: var(--bg-main);
+            border: 3px dashed var(--pillar-5); border-radius: 14px;
+            padding: 36px 30px;
+            position: relative;
+            max-width: 1000px; margin: 0 auto;
+        }
+        .bonus-badge {
+            position: absolute; top: -16px; left: 50%; transform: translateX(-50%);
+            background: var(--pillar-5); color: white;
+            padding: 6px 20px; font-weight: 900; font-size: 14px;
+            text-transform: uppercase; letter-spacing: 1.5px;
+            border-radius: 99px;
+            box-shadow: 0 4px 6px rgba(217,119,6,0.3);
+            white-space: nowrap;
+        }
+        .tool-table-wrap { background: #ffffff; border-radius: 10px; border: 1px solid var(--border-color); overflow-x: auto; }
+        .tool-table { width: 100%; border-collapse: collapse; text-align: left; font-size: 15px; min-width: 560px; }
+        .tool-table th {
+            padding: 14px 16px; background: #f9fafb;
+            border-bottom: 2px solid var(--border-color); color: var(--text-dark);
+            text-transform: uppercase; font-size: 12px; letter-spacing: 0.5px;
+        }
+        .tool-table td { padding: 14px 16px; border-bottom: 1px solid var(--border-color); }
+        .tool-table tr:last-child td { border-bottom: none; }
+        .tool-table tr:nth-child(even) { background: var(--bg-alt); }
+        .tool-table td.name { font-weight: 800; color: var(--text-dark); }
+        .tool-table td.desc { color: var(--text-body); }
+        .tool-table td.impact { color: var(--green); font-weight: 800; }
+
+        /* CALENDLY SECTION */
+        .calendly-wrap {
+            background: var(--bg-main); border-radius: 12px; padding: 8px;
+            max-width: 920px; margin: 0 auto;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="warning-bar">
+        For The Music Dept, <span>a website growth strategy, built by Kay Ali.</span>
+    </div>
+
+    <!-- STICKY TOC -->
+    <nav class="toc" aria-label="Proposal sections">
+        <div class="toc-inner">
+            <span class="toc-label">The Plan <span class="arrow">&rarr;</span></span>
+            <a href="#opportunity"><span class="num">01</span> Opportunity</a>
+            <a href="#strategy"><span class="num">02</span> Strategy</a>
+            <a href="#pillars"><span class="num">03</span> The 8 Pillars</a>
+            <a href="#tools" class="bonus"><span class="num">&#9733;</span> Studio Tools</a>
+            <a href="#proof"><span class="num">04</span> Proof</a>
+            <a href="#investment"><span class="num">05</span> Investment</a>
+            <a href="#start"><span class="num">&rarr;</span> Get Started</a>
+        </div>
+    </nav>
+
+    <div class="container" style="padding-top: 18px;">
+        <div class="wrapper">
+
+            <!-- HERO -->
+            <div class="hero">
+                <div class="pre-headline">For The Music Dept &middot; 4848 Battery Ln, Bethesda, MD</div>
+                <h1 class="main-headline">Right now the website explains <span class="text-brand">what the studio is.</span> Let's make it where every creator in the DMV lands when they search for what they need.</h1>
+                <p class="sub-headline">This is a strategy document, not a sales page. It lays out the growth plan, the eight pillars, the proprietary <strong>Studio Growth Tools&trade;</strong>, and exactly what ships &mdash; built to turn a respected 50-year brand into the region's search-first creative destination.</p>
+
+                <!-- MAP -->
+                <div class="gmb-preview">
+                    <div class="gmb-head">
+                        <div style="display:flex;align-items:center;gap:10px;">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <strong>Your Studio, On The Map</strong>
+                        </div>
+                        <span class="tag">Live from Google Maps</span>
+                    </div>
+                    <iframe
+                        src="https://maps.google.com/maps?q=The%20Music%20Dept%2C%204848%20Battery%20Ln%2C%20Bethesda%2C%20MD%2020814&output=embed"
+                        width="100%" height="320" style="border:0; display:block;"
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="The Music Dept on Google Maps"></iframe>
+                    <div class="gmb-foot">The reputation and the location are here. This plan makes the website work as hard as the room does.</div>
+                </div>
+
+                <!-- STACK -->
+                <div class="stack-row">
+                    <div class="stack-label">Your Platform, We Build Right On It</div>
+                    <div class="stack-badges">
+                        <div class="badge-wp"><span class="b-mark">W</span> WordPress</div>
+                        <div class="badge-google"><span class="b-mark">G</span> Google Search + Maps</div>
+                        <div class="badge-ai"><span class="b-mark">AI</span> AI Search</div>
+                    </div>
+                </div>
+
+                <a href="#investment" class="cta-button">
+                    <span class="cta-main-text">See the Plan &amp; Investment</span>
+                    <span class="cta-sub-text">A complete strategic blueprint for The Music Dept &mdash; fixed at $2,950.</span>
+                </a>
+                <p style="margin-top: 18px; font-size: 14px; font-weight: 700; color: var(--text-muted);">Prepared for Justin Campbell &middot; by Kay Ali &middot; Growth &amp; Search Strategy</p>
+            </div>
+
+            <!-- KAY INTRO -->
+            <div class="section">
+                <div class="kay-row">
+                    <div class="kay-avatar">KA</div>
+                    <div style="flex:1; min-width: 240px;">
+                        <div class="kay-meta-label">A Note From</div>
+                        <h3 class="kay-name">Kay Ali</h3>
+                        <p class="kay-role">Growth &amp; Search Strategy &middot; content, SEO, AI search, and lead-generation systems for local businesses</p>
+                        <div class="kay-text">
+                            <p>Justin &mdash; The Music Dept has something most studios would kill for: a genuine 50-year history and a location people already trust. The problem isn't the studio. It's that the website reads like a brochure while the people you want are out there searching Google and AI assistants for exactly what you offer.</p>
+                            <p>This document lays out how I'd fix that: eight growth pillars, a set of proprietary tools competitors can't copy, and a clear order of operations. It's a complete strategic blueprint for turning search into your best salesperson.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 01 OPPORTUNITY -->
+            <div class="section gray" id="opportunity">
+                <span class="eyebrow">01 &middot; Opportunity</span>
+                <h2 class="section-title">A Brochure Sitting On A Gold Mine</h2>
+                <p class="section-lede">The Music Dept has built a respected reputation and an incredible history, but the website currently works as an online brochure. It explains what the studio <em>is</em> instead of becoming the place musicians discover while searching for solutions. Here's the scale of what that leaves on the table.</p>
+
+                <!-- STAT BOXES -->
+                <div class="stat-grid">
+                    <div class="stat-box accent">
+                        <div class="stat-num">8</div>
+                        <div class="stat-desc">Distinct audiences the studio can serve, not just bands</div>
+                    </div>
+                    <div class="stat-box accent">
+                        <div class="stat-num">13</div>
+                        <div class="stat-desc">Proprietary Studio Growth Tools&trade; planned</div>
+                    </div>
+                    <div class="stat-box accent">
+                        <div class="stat-num">100s</div>
+                        <div class="stat-desc">High-intent searches you could rank for</div>
+                    </div>
+                    <div class="stat-box accent">
+                        <div class="stat-num">10+</div>
+                        <div class="stat-desc">DMV neighborhoods with dedicated local pages</div>
+                    </div>
+                    <div class="stat-box accent">
+                        <div class="stat-num">1</div>
+                        <div class="stat-desc">Studio positioned to own the region's creative search</div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Where The Brochure Leaks <span class="subsection-sub">What this strategy is built to fix first</span></h3>
+                <div class="findings">
+                    <div class="finding-card">
+                        <svg class="finding-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        <div class="finding-text"><strong>Pages About Rooms, Not Goals</strong><p>The site describes the facility. Musicians don't search for "rehearsal room" &mdash; they search for "record my first EP" or "self-tape studio near me." Every one of those intents needs its own page, and today they don't exist.</p></div>
+                    </div>
+                    <div class="finding-card">
+                        <svg class="finding-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                        <div class="finding-text"><strong>Invisible To AI Search</strong><p>Google's AI Overviews and assistants like ChatGPT now answer "where can my band rehearse near DC?" directly. Without answer-structured content, the studio is absent from the exact place buying decisions are now being made.</p></div>
+                    </div>
+                    <div class="finding-card">
+                        <svg class="finding-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        <div class="finding-text"><strong>Betting On One Or Two Keywords</strong><p>Ranking hopes rest on a handful of terms like "recording studio Bethesda." That's a sliver of the demand. Hundreds of service-plus-city and use-case searches go completely uncontested.</p></div>
+                    </div>
+                    <div class="finding-card">
+                        <svg class="finding-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                        <div class="finding-text"><strong>Stock Imagery, No Local Proof</strong><p>Generic photos weaken local relevance. Real sessions, rehearsals, and productions are credibility signals for both visitors and Google &mdash; and they're not being captured or used.</p></div>
+                    </div>
+                    <div class="finding-card">
+                        <svg class="finding-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        <div class="finding-text"><strong>No Tools To Capture A Lead</strong><p>A visitor who isn't ready to book today has no reason to leave a name. Interactive planners and calculators turn browsers into leads and give people a reason to come back.</p></div>
+                    </div>
+                    <div class="finding-card">
+                        <svg class="finding-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        <div class="finding-text"><strong>Membership Sold On Discount, Not Belonging</strong><p>Membership is framed as a pricing option. Musicians join communities, not coupons. Repositioning it around access, events, and network turns it into something people actively want in on.</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 02 STRATEGY -->
+            <div class="section" id="strategy">
+                <span class="eyebrow">02 &middot; Strategy</span>
+                <h2 class="section-title">From Brochure To Growth Platform</h2>
+                <p class="section-lede">The objective is to transform The Music Dept from a traditional studio website into a <strong>search-first growth platform</strong> &mdash; combining modern SEO, AI-search optimization, local search, and proprietary lead-generation tools into one content-and-software ecosystem competitors can't easily replicate.</p>
+
+                <div class="insights-grid">
+                    <div class="insight-card">
+                        <span class="insight-num">The Core Idea</span>
+                        <h3 class="insight-title">Build an ecosystem, not a set of keywords</h3>
+                        <div class="insight-body">
+                            <p>Rather than chasing a small number of search terms, we build a complete content and software ecosystem that positions The Music Dept as the authoritative destination for rehearsal, recording, creative production, and artist development &mdash; attracting visitors at <strong>every stage of their creative journey</strong>.</p>
+                            <p>A major component is the development of <strong>custom WordPress plugins</strong> that turn the site into an interactive platform instead of a static brochure. These tools generate leads, build topical authority, increase engagement, and create assets rivals can't copy.</p>
+                        </div>
+                    </div>
+                    <div class="insight-card">
+                        <span class="insight-num">The Desired Outcome</span>
+                        <h3 class="insight-title">A scalable digital growth system</h3>
+                        <div class="insight-body">
+                            <p>On completion, The Music Dept will have a system designed to:</p>
+                            <ul>
+                                <li>Increase qualified organic traffic from Google and AI-powered search.</li>
+                                <li>Rank for hundreds of high-intent searches across recording, rehearsal, podcasting, voice-over, acting, schools, and creative production.</li>
+                                <li>Become the leading online resource for creators across D.C., Maryland, and Northern Virginia.</li>
+                                <li>Capture more leads through interactive planners, calculators, and generators.</li>
+                                <li>Strengthen local visibility across cities, neighborhoods, universities, and landmarks.</li>
+                                <li>Grow membership sign-ups and studio bookings through better positioning.</li>
+                                <li>Differentiate the studio with proprietary tools competitors don't offer.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="insight-card">
+                        <span class="insight-num">The Vehicle</span>
+                        <h3 class="insight-title">Eight growth pillars, one destination</h3>
+                        <div class="insight-body">
+                            <p>The strategy is organized around eight pillars &mdash; a Content Engine, Generative Engine Optimization, Answer Engine Optimization, Local SEO, Interactive Studio Growth Tools&trade;, Brand Repositioning, Authority Content, and a Membership Growth System. Each is detailed below.</p>
+                            <div class="insight-pill-row">
+                                <span class="insight-pill">Content Engine</span>
+                                <span class="insight-pill">GEO</span>
+                                <span class="insight-pill">AEO</span>
+                                <span class="insight-pill">Local SEO</span>
+                                <span class="insight-pill">Studio Tools&trade;</span>
+                                <span class="insight-pill">Brand</span>
+                                <span class="insight-pill">Authority</span>
+                                <span class="insight-pill">Membership</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 03 THE 8 PILLARS -->
+            <div class="section gray" id="pillars">
+                <span class="eyebrow">03 &middot; The Plan</span>
+                <h2 class="section-title">The Eight Growth Pillars</h2>
+                <p class="section-lede">Each pillar carries a clear strategy, the deliverables that ship, and the outcome it drives. Together they form the complete blueprint for repositioning The Music Dept as the region's search-first creative destination.</p>
+
+                <div class="pillars-stack">
+
+                    <!-- PILLAR 1: CONTENT ENGINE -->
+                    <div class="pillar p1">
+                        <div class="pillar-header">
+                            <div class="pillar-num">1</div>
+                            <div>
+                                <span class="pillar-eyebrow">Pillar 1 &middot; Content Engine</span>
+                                <h3 class="pillar-title">Build Content Around What People Are Trying To Do</h3>
+                                <p class="pillar-strategy"><strong>Strategy:</strong> Stop making pages about rooms. Make pages around goals and use cases &mdash; for every audience, at every stage of the creative journey.</p>
+                            </div>
+                        </div>
+                        <div class="pillar-body">
+                            <div class="pillar-deliverables">
+                                <h4>Deliverables</h4>
+                                <ol>
+                                    <li><strong>Use-Case Landing Pages</strong>A dedicated page for every goal: Record Your First EP, Full-Length Album, Vocal &amp; Drum Recording, Band &amp; Tour Rehearsal, Video Podcast, Voice-Over, Audiobook, Self-Tape Studio, YouTube &amp; course recording, and dozens more.</li>
+                                    <li><strong>Audience Content Hubs</strong>Musicians, Bands, Podcasters, Voice Talent, Actors, Content Creators, Schools, and Events &mdash; each its own hub, including the largely untapped actor and self-tape market.</li>
+                                    <li><strong>Topic Clusters &amp; Templates</strong>Every topic linked into a cluster that builds the topical authority Google and AI engines reward, with reusable content templates the team can scale.</li>
+                                    <li><strong>The Asset Multiplier</strong>Every topic becomes a landing page, a search-optimized article, an FAQ, a downloadable checklist, Instagram content, a YouTube video, and an AI answer source.</li>
+                                </ol>
+                            </div>
+                            <div class="pillar-kpi">
+                                <h4>What It Produces</h4>
+                                <div class="kpi-grid">
+                                    <div class="kpi-row"><span class="label">Ranking entry points</span><span class="value">dozens of new pages</span></div>
+                                    <div class="kpi-row"><span class="label">Audiences covered</span><span class="value">all 8</span></div>
+                                    <div class="kpi-row"><span class="label">Journey coverage</span><span class="value">every stage</span></div>
+                                    <div class="kpi-row"><span class="label">Reusable templates</span><span class="value">team can scale</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PILLAR 2: GEO -->
+                    <div class="pillar p2">
+                        <div class="pillar-header">
+                            <div class="pillar-num">2</div>
+                            <div>
+                                <span class="pillar-eyebrow">Pillar 2 &middot; Generative Engine Optimization</span>
+                                <h3 class="pillar-title">Match How People Actually Search The Map</h3>
+                                <p class="pillar-strategy"><strong>Strategy:</strong> Build pages around landmarks, universities, and neighborhoods &mdash; the way people really search &mdash; instead of relying on a single city page.</p>
+                            </div>
+                        </div>
+                        <div class="pillar-body">
+                            <div class="pillar-deliverables">
+                                <h4>Deliverables</h4>
+                                <ol>
+                                    <li><strong>Landmark &amp; University Pages</strong>Recording Studio Near NIH, American, Howard, UMD, Georgetown, and GWU; Band Rehearsal Near Bethesda Metro; near Silver Spring and College Park.</li>
+                                    <li><strong>Neighborhood Pages</strong>Bethesda, Chevy Chase, Kensington, Silver Spring, Rockville, Gaithersburg, Washington DC, Arlington, Alexandria, and Hyattsville.</li>
+                                    <li><strong>Genuinely Useful Local Detail</strong>Each page carries parking info, Metro access, driving directions, nearby restaurants, music stores, hotels, equipment rental, and original photography.</li>
+                                </ol>
+                            </div>
+                            <div class="pillar-kpi">
+                                <h4>What It Produces</h4>
+                                <div class="kpi-grid">
+                                    <div class="kpi-row"><span class="label">Neighborhood pages</span><span class="value">10+</span></div>
+                                    <div class="kpi-row"><span class="label">Landmark / campus pages</span><span class="value">9+</span></div>
+                                    <div class="kpi-row"><span class="label">AI-friendly local content</span><span class="value">yes</span></div>
+                                    <div class="kpi-row"><span class="label">Genuine visitor value</span><span class="value">built in</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PILLAR 3: AEO -->
+                    <div class="pillar p3">
+                        <div class="pillar-header">
+                            <div class="pillar-num">3</div>
+                            <div>
+                                <span class="pillar-eyebrow">Pillar 3 &middot; Answer Engine Optimization</span>
+                                <h3 class="pillar-title">Answer The Questions Musicians Ask Every Day</h3>
+                                <p class="pillar-strategy"><strong>Strategy:</strong> Create content that directly answers real questions, in the format Google, AI search engines, and voice assistants pull from.</p>
+                            </div>
+                        </div>
+                        <div class="pillar-body">
+                            <div class="pillar-deliverables">
+                                <h4>Deliverables</h4>
+                                <ol>
+                                    <li><strong>Question Hubs</strong>"How much does recording an EP cost?", "What should I bring to my first session?", "Can I record drums in an apartment?", "Where can my band rehearse near DC?", and dozens more.</li>
+                                    <li><strong>AI Answer Pages</strong>Each question becomes an AI-friendly resource designed to appear in Google, AI search engines, and voice assistants.</li>
+                                    <li><strong>Structured FAQ Framework</strong>Schema-marked so answers surface directly in search results and AI overviews.</li>
+                                </ol>
+                            </div>
+                            <div class="pillar-kpi">
+                                <h4>What It Produces</h4>
+                                <div class="kpi-grid">
+                                    <div class="kpi-row"><span class="label">Question pages</span><span class="value">dozens</span></div>
+                                    <div class="kpi-row"><span class="label">AI Overview presence</span><span class="value">the target</span></div>
+                                    <div class="kpi-row"><span class="label">Voice-search ready</span><span class="value">yes</span></div>
+                                    <div class="kpi-row"><span class="label">FAQ schema</span><span class="value">deployed</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PILLAR 4: LOCAL SEO -->
+                    <div class="pillar p4">
+                        <div class="pillar-header">
+                            <div class="pillar-num">4</div>
+                            <div>
+                                <span class="pillar-eyebrow">Pillar 4 &middot; Local SEO</span>
+                                <h3 class="pillar-title">Own A Page For Every Service In Every City</h3>
+                                <p class="pillar-strategy"><strong>Strategy:</strong> Expand beyond one or two primary keywords with a dedicated page for every major service, mapped to every target city.</p>
+                            </div>
+                        </div>
+                        <div class="pillar-body">
+                            <div class="pillar-deliverables">
+                                <h4>Deliverables</h4>
+                                <ol>
+                                    <li><strong>Service Pages</strong>Band Rehearsal, Podcast Studio, Recording Studio, Music Practice Rooms, Voice-Over Studio, Audiobook Recording, Album Recording, Demo Recording, Music Production, and Recording Engineer.</li>
+                                    <li><strong>City Pages</strong>Each service mapped across Bethesda, Maryland, Washington DC, Silver Spring, Rockville, Chevy Chase, and beyond &mdash; e.g. "Band Rehearsal Bethesda," "Podcast Studio Bethesda."</li>
+                                    <li><strong>Authentic Local Media</strong>Replace stock imagery with real sessions, rehearsals, and productions to strengthen local relevance and credibility.</li>
+                                </ol>
+                            </div>
+                            <div class="pillar-kpi">
+                                <h4>What It Produces</h4>
+                                <div class="kpi-grid">
+                                    <div class="kpi-row"><span class="label">Service pages</span><span class="value">10+ core</span></div>
+                                    <div class="kpi-row"><span class="label">Service x city combos</span><span class="value">wide coverage</span></div>
+                                    <div class="kpi-row"><span class="label">Local relevance signals</span><span class="value">strengthened</span></div>
+                                    <div class="kpi-row"><span class="label">Stock imagery</span><span class="value">replaced</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PILLAR 5: STUDIO TOOLS (FEATURED) -->
+                    <div class="pillar p5">
+                        <div class="pillar-header">
+                            <div class="pillar-num">5</div>
+                            <div>
+                                <span class="pillar-eyebrow">Pillar 5 &middot; Studio Growth Tools&trade;</span>
+                                <h3 class="pillar-title">Turn The Website Into An Interactive Platform</h3>
+                                <p class="pillar-strategy"><strong>Strategy:</strong> Build proprietary interactive tools &mdash; implemented as custom WordPress plugins, branded <strong>Music Dept Studio Growth Tools&trade;</strong> &mdash; that solve real problems, capture leads, and can't be copied.</p>
+                            </div>
+                        </div>
+                        <div class="pillar-body">
+                            <div class="pillar-deliverables">
+                                <h4>Deliverables</h4>
+                                <ol>
+                                    <li class="featured"><strong>Missing Royalties Finder <span class="signature-tag">Signature</span></strong>The strongest opportunity in the plan. Artists answer whether they're registered with ASCAP, BMI, SESAC, SoundExchange, The MLC, Songtrust, Harry Fox, YouTube Content ID, and more &mdash; and the tool flags missing registrations and potential unclaimed revenue. It delivers a genuine "wow," and every use captures a lead.
+ <div class="why-it-works">
+ <div><strong>Real value, instantly.</strong> It surfaces money artists may be owed &mdash; a reason to share it and come back.</div>
+ <div><strong>Every use = a capture.</strong> Name and email feed the studio's growing lead list.</div>
+ <div><strong>Impossible to copy.</strong> No competing DMV studio offers anything like it.</div>
+ <div><strong>Link magnet.</strong> The kind of tool blogs, forums, and AI answers point people toward.</div>
+ </div></li>
+                                    <li><strong>Music Release Planner</strong>Builds a customized 90-day release strategy from release date, budget, distribution platform, and genre.</li>
+                                    <li><strong>Recording Budget Calculator</strong>Estimates recording costs based on project scope &mdash; a high-intent lead capture.</li>
+                                    <li><strong>The Full Studio Tool Suite</strong>EP Timeline Generator, Band Practice Planner, Music Marketing Checklist, Studio Session Checklist, Podcast Launch Planner, Album Budget Planner, Tour Rehearsal Planner, Equipment Checklist Generator, Session Prep Planner, and Music Career Roadmap.</li>
+                                </ol>
+                            </div>
+                            <div class="pillar-kpi">
+                                <h4>What It Produces</h4>
+                                <div class="kpi-grid">
+                                    <div class="kpi-row"><span class="label">Always-on lead magnets</span><span class="value">13 tools</span></div>
+                                    <div class="kpi-row"><span class="label">Every use</span><span class="value">= a captured lead</span></div>
+                                    <div class="kpi-row"><span class="label">Competitor can copy?</span><span class="value">no</span></div>
+                                    <div class="kpi-row"><span class="label">Built as</span><span class="value">custom WP plugins</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PILLAR 6: BRAND REPOSITIONING -->
+                    <div class="pillar p6">
+                        <div class="pillar-header">
+                            <div class="pillar-num">6</div>
+                            <div>
+                                <span class="pillar-eyebrow">Pillar 6 &middot; Brand Repositioning</span>
+                                <h3 class="pillar-title">Speak To Audiences, Not Facilities</h3>
+                                <p class="pillar-strategy"><strong>Strategy:</strong> The website should communicate more than room rentals. Organize messaging around who you serve so every visitor instantly sees the studio was built for them.</p>
+                            </div>
+                        </div>
+                        <div class="pillar-body">
+                            <div class="pillar-deliverables">
+                                <h4>Deliverables</h4>
+                                <ol>
+                                    <li><strong>Audience-First Architecture</strong>Clear paths for For Bands, For Solo Artists, For Podcasters, For Voice Talent, For Actors, For Schools, For Content Creators, and For Labels.</li>
+                                    <li><strong>Homepage Strategy</strong>Reframe the homepage from "what the studio is" to "what you can create here," establishing a complete creative destination.</li>
+                                    <li><strong>Messaging &amp; Service Architecture</strong>A messaging framework and service structure that make the value obvious to each audience segment.</li>
+                                </ol>
+                            </div>
+                            <div class="pillar-kpi">
+                                <h4>What It Produces</h4>
+                                <div class="kpi-grid">
+                                    <div class="kpi-row"><span class="label">Audience paths</span><span class="value">8 segments</span></div>
+                                    <div class="kpi-row"><span class="label">Positioning</span><span class="value">creative destination</span></div>
+                                    <div class="kpi-row"><span class="label">Homepage clarity</span><span class="value">outcome-led</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PILLAR 7: AUTHORITY CONTENT -->
+                    <div class="pillar p7">
+                        <div class="pillar-header">
+                            <div class="pillar-num">7</div>
+                            <div>
+                                <span class="pillar-eyebrow">Pillar 7 &middot; Authority Content</span>
+                                <h3 class="pillar-title">Become The Reference The Community Cites</h3>
+                                <p class="pillar-strategy"><strong>Strategy:</strong> Develop high-value resources that naturally attract backlinks and establish topical authority across the local music scene.</p>
+                            </div>
+                        </div>
+                        <div class="pillar-body">
+                            <div class="pillar-deliverables">
+                                <h4>Deliverables</h4>
+                                <ol>
+                                    <li><strong>Local Music Guides</strong>Best Music Venues in Washington DC, Best Open Mic Nights, Best Music Schools, Best Guitar Shops, Best Drum Shops, and Best Local Producers.</li>
+                                    <li><strong>Industry Reference Content</strong>Best Recording Software, Studio Microphones, Mixing Engineers, Music Attorneys, Copyright Resources, and Music Marketing Tools.</li>
+                                    <li><strong>A Resource Center</strong>A hub that houses the guides and reference content, becoming reference material for the local music community.</li>
+                                </ol>
+                            </div>
+                            <div class="pillar-kpi">
+                                <h4>What It Produces</h4>
+                                <div class="kpi-grid">
+                                    <div class="kpi-row"><span class="label">Backlink-worthy guides</span><span class="value">12+</span></div>
+                                    <div class="kpi-row"><span class="label">Topical authority</span><span class="value">compounding</span></div>
+                                    <div class="kpi-row"><span class="label">Community reference</span><span class="value">the goal</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PILLAR 8: MEMBERSHIP -->
+                    <div class="pillar p8">
+                        <div class="pillar-header">
+                            <div class="pillar-num">8</div>
+                            <div>
+                                <span class="pillar-eyebrow">Pillar 8 &middot; Membership Growth</span>
+                                <h3 class="pillar-title">Make Membership Something Musicians Want In On</h3>
+                                <p class="pillar-strategy"><strong>Strategy:</strong> Shift membership from simple discounts to genuine community value &mdash; something musicians actively want to belong to, not just another pricing option.</p>
+                            </div>
+                        </div>
+                        <div class="pillar-body">
+                            <div class="pillar-deliverables">
+                                <h4>Deliverables</h4>
+                                <ol>
+                                    <li><strong>Community-Value Benefits</strong>Weekly rehearsal discounts, last-minute booking access, artist networking events, a member directory, monthly workshops, producer office hours, member showcases, and equipment-partner discounts.</li>
+                                    <li><strong>Membership Positioning</strong>Reframe membership from a discount tier into a creative community worth joining.</li>
+                                    <li><strong>Member Acquisition</strong>The on-site funnel and community features that convert visitors into members and bookings.</li>
+                                </ol>
+                            </div>
+                            <div class="pillar-kpi">
+                                <h4>What It Produces</h4>
+                                <div class="kpi-grid">
+                                    <div class="kpi-row"><span class="label">Membership sign-ups</span><span class="value">grow</span></div>
+                                    <div class="kpi-row"><span class="label">Studio bookings</span><span class="value">grow</span></div>
+                                    <div class="kpi-row"><span class="label">Member benefits</span><span class="value">9 planned</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- STUDIO TOOLS SPOTLIGHT (BONUS-STYLE) -->
+            <div class="section" id="tools">
+                <div class="bonus-box">
+                    <div class="bonus-badge">&#9733; The Unfair Advantage</div>
+                    <h2 style="font-size: clamp(28px, 4.4vw, 40px); font-weight: 900; color: var(--text-dark); text-align: center; line-height: 1.15; margin-bottom: 14px;">Music Dept Studio Growth Tools&trade;</h2>
+                    <p style="text-align: center; max-width: 780px; margin: 0 auto 18px; font-size: 17px; color: var(--text-body);">Calling these "WordPress plugins" undersells them. Branded as <strong>Studio Growth Tools&trade;</strong>, they're proprietary software that turns the website into an interactive platform &mdash; each one solves a real problem, captures a lead, and gives musicians a reason to come back. No competing DMV studio offers anything like them.</p>
+                    <div style="text-align: center; max-width: 720px; margin: 0 auto 28px; padding: 12px 18px; background: #fffbeb; border: 2px dashed var(--pillar-5); border-radius: 8px; font-size: 15px; color: #92400e; font-weight: 700;">
+                        13 tools. Every single use captures a name and email &mdash; and hands the visitor something genuinely useful.
+                    </div>
+
+                    <div class="tool-table-wrap">
+                        <table class="tool-table">
+                            <thead>
+                                <tr>
+                                    <th>Studio Tool</th>
+                                    <th>What It Does For The Musician</th>
+                                    <th>Lead Value</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td class="name">Missing Royalties Finder &#9733;</td><td class="desc">Flags missing PRO / distributor registrations and potential unclaimed revenue.</td><td class="impact">Signature</td></tr>
+                                <tr><td class="name">Music Release Planner</td><td class="desc">Custom 90-day release strategy from date, budget, platform, and genre.</td><td class="impact">High</td></tr>
+                                <tr><td class="name">Recording Budget Calculator</td><td class="desc">Estimates recording cost from project scope.</td><td class="impact">High</td></tr>
+                                <tr><td class="name">EP Timeline Generator</td><td class="desc">Creates an eight-week production schedule.</td><td class="impact">Medium</td></tr>
+                                <tr><td class="name">Band Practice Planner</td><td class="desc">Generates structured rehearsal schedules.</td><td class="impact">Medium</td></tr>
+                                <tr><td class="name">Music Marketing Checklist</td><td class="desc">Everything required before releasing new music.</td><td class="impact">Medium</td></tr>
+                                <tr><td class="name">Studio Session Checklist</td><td class="desc">Exactly what to bring before arriving.</td><td class="impact">Medium</td></tr>
+                                <tr><td class="name">Podcast Launch Planner</td><td class="desc">Maps the path to a launched podcast.</td><td class="impact">High</td></tr>
+                                <tr><td class="name">Album Budget Planner</td><td class="desc">Full-length budgeting for serious projects.</td><td class="impact">High</td></tr>
+                                <tr><td class="name">Tour Rehearsal Planner</td><td class="desc">Structures pre-tour rehearsal blocks.</td><td class="impact">Medium</td></tr>
+                                <tr><td class="name">Equipment Checklist Generator</td><td class="desc">Builds a gear list for any session type.</td><td class="impact">Medium</td></tr>
+                                <tr><td class="name">Session Prep Planner</td><td class="desc">Gets artists session-ready before they book.</td><td class="impact">Medium</td></tr>
+                                <tr><td class="name">Music Career Roadmap</td><td class="desc">A personalized path from where they are to where they want to be.</td><td class="impact">High</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p style="text-align: center; margin-top: 14px; font-size: 14px; color: var(--text-muted); font-style: italic;">Each tool is an asset that keeps working long after it ships &mdash; a lead magnet, a link magnet, and a differentiator competitors can't replicate.</p>
+                </div>
+            </div>
+
+            <!-- 04 PROOF -->
+            <div class="section gray" id="proof">
+                <span class="eyebrow">04 &middot; Proof</span>
+                <h2 class="section-title">Brochure vs. Growth Platform</h2>
+                <p class="section-lede">Same studio, same 50-year reputation &mdash; two completely different digital realities.</p>
+
+                <div class="ba-grid">
+                    <div class="ba-col before">
+                        <div class="ba-col-header">
+                            <span>&#10007;</span> The Website Today
+                        </div>
+                        <ul>
+                            <li><span class="ico">&minus;</span> Pages describe rooms; nobody searches for "rehearsal room"</li>
+                            <li><span class="ico">&minus;</span> Absent from AI Overviews and voice-assistant answers</li>
+                            <li><span class="ico">&minus;</span> Ranking rests on one or two keywords like "recording studio Bethesda"</li>
+                            <li><span class="ico">&minus;</span> Only bands are addressed; actors, podcasters, and creators are ignored</li>
+                            <li><span class="ico">&minus;</span> Stock imagery, no real local proof</li>
+                            <li><span class="ico">&minus;</span> No interactive tools, so browsers leave without a trace</li>
+                            <li><span class="ico">&minus;</span> Membership framed as a discount, not a community</li>
+                        </ul>
+                    </div>
+                    <div class="ba-col after">
+                        <div class="ba-col-header">
+                            <span>&#10003;</span> With This Strategy
+                        </div>
+                        <ul>
+                            <li><span class="ico">+</span> A page for every goal, service, city, and question people actually search</li>
+                            <li><span class="ico">+</span> Answer-structured content built to surface in Google AI and voice search</li>
+                            <li><span class="ico">+</span> Hundreds of high-intent searches contested instead of a handful</li>
+                            <li><span class="ico">+</span> Eight audiences served, including the untapped actor and podcast markets</li>
+                            <li><span class="ico">+</span> Authentic session photography strengthening local relevance</li>
+                            <li><span class="ico">+</span> 13 Studio Growth Tools&trade; capturing a lead on every use</li>
+                            <li><span class="ico">+</span> Membership repositioned as a creative community people want in on</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 05 INVESTMENT + DELIVERABLES -->
+            <div class="section" id="investment">
+                <span class="eyebrow">05 &middot; Deliverables &amp; Investment</span>
+                <h2 class="section-title">What You Get, And What It Costs</h2>
+                <p class="section-lede">This engagement delivers a complete strategic blueprint &mdash; the full roadmap for transforming The Music Dept into the region's leading rehearsal, recording, and creative-production destination.</p>
+
+                <h3 class="subsection-title">What Ships <span class="subsection-sub">The complete strategic blueprint</span></h3>
+                <div class="deliver-grid">
+                    <div class="deliver-item"><span class="check">&#10003;</span> Complete website growth strategy</div>
+                    <div class="deliver-item"><span class="check">&#10003;</span> SEO roadmap</div>
+                    <div class="deliver-item"><span class="check">&#10003;</span> AEO roadmap</div>
+                    <div class="deliver-item"><span class="check">&#10003;</span> GEO roadmap</div>
+                    <div class="deliver-item"><span class="check">&#10003;</span> Local SEO expansion strategy</div>
+                    <div class="deliver-item"><span class="check">&#10003;</span> Content architecture</div>
+                    <div class="deliver-item"><span class="check">&#10003;</span> Topic cluster planning</div>
+                    <div class="deliver-item"><span class="check">&#10003;</span> Interactive generator strategy</div>
+                    <div class="deliver-item"><span class="check">&#10003;</span> Homepage repositioning recommendations</div>
+                    <div class="deliver-item"><span class="check">&#10003;</span> Membership growth strategy</div>
+                    <div class="deliver-item"><span class="check">&#10003;</span> Authority content plan</div>
+                    <div class="deliver-item"><span class="check">&#10003;</span> Implementation priorities</div>
+                </div>
+
+                <h3 class="subsection-title" style="margin-top:44px;">How We'd Sequence It <span class="subsection-sub">Recommended implementation priorities, part of the roadmap</span></h3>
+                <div class="phases">
+                    <div class="phase">
+                        <div class="phase-num">Priority 1</div>
+                        <h3 class="phase-title">Foundation</h3>
+                        <div class="phase-weeks">Positioning &amp; architecture</div>
+                        <ul class="phase-items">
+                            <li>Brand repositioning &amp; homepage strategy</li>
+                            <li>Audience-first site architecture</li>
+                            <li>Content architecture &amp; topic clusters</li>
+                            <li>Core service + city page framework</li>
+                        </ul>
+                    </div>
+                    <div class="phase">
+                        <div class="phase-num">Priority 2</div>
+                        <h3 class="phase-title">Search Engine</h3>
+                        <div class="phase-weeks">Content, GEO, AEO &amp; local</div>
+                        <ul class="phase-items">
+                            <li>Use-case &amp; audience content hubs</li>
+                            <li>Neighborhood, landmark &amp; university pages</li>
+                            <li>Question hubs &amp; FAQ schema</li>
+                            <li>Authentic local media capture</li>
+                        </ul>
+                    </div>
+                    <div class="phase">
+                        <div class="phase-num">Priority 3</div>
+                        <h3 class="phase-title">Tools &amp; Authority</h3>
+                        <div class="phase-weeks">Differentiate &amp; compound</div>
+                        <ul class="phase-items">
+                            <li>Studio Growth Tools&trade;, led by the Royalties Finder</li>
+                            <li>Authority guides &amp; resource center</li>
+                            <li>Membership growth system</li>
+                            <li>Ongoing content engine</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="invest-card">
+                    <div class="invest-label">Project Investment</div>
+                    <div class="invest-name">Website Growth Strategy &amp; SEO Roadmap</div>
+                    <div class="invest-price"><span>$</span>2,950</div>
+                    <div class="invest-terms">Fixed investment</div>
+                    <p class="invest-desc">A complete strategic blueprint for transforming The Music Dept into the leading rehearsal, recording, and creative-production destination in the Washington D.C. region &mdash; expanding visibility across search engines, AI search, local search, and high-intent customer journeys.</p>
+                </div>
+            </div>
+
+            <!-- GET STARTED -->
+            <div class="section dark" id="start">
+                <span class="eyebrow">Next &middot; Get Started</span>
+                <h2 class="section-title">Let's Build The Destination.</h2>
+                <p class="section-lede">The reputation is already there. This is how The Music Dept becomes the first result &mdash; and the best answer &mdash; when the DMV searches for where to create. Book a time and we'll walk through the blueprint together.</p>
+
+                <div class="risk-box">
+                    <div style="font-size: 14px; font-weight: 900; color: white; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 6px;">The Commitment</div>
+                    <div style="font-size: 17px; color: white; line-height: 1.5;">One fixed investment of <strong>$2,950</strong> for the complete strategic blueprint &mdash; every roadmap, every page framework, and the full Studio Growth Tools&trade; plan.</div>
+                </div>
+
+                <div class="calendly-wrap">
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/tagglefish/30min?hide_gdpr_banner=1" style="min-width:320px;height:720px;"></div>
+                </div>
+                <p style="text-align: center; margin-top: 18px; font-size: 14px; color: #a8a29e;">Prepared for Justin Campbell by Kay Ali &middot; Pick any open slot and the calendar invite goes out automatically.</p>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
