@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic Plan for Chicho's Peruvian Charcoal Chicken | Kay Ali</title>
+    <style>
+        :root {
+            --bg-main: #ffffff;
+            --bg-alt: #fafaf9;
+            --bg-dark: #0f172a;
+            --bg-toc: #0f172a;
+            --brand: #ea580c;
+            --brand-hover: #c2410c;
+            --text-dark: #0b1220;
+            --text-body: #1f2937;
+            --text-muted: #64748b;
+            --border-color: #e5e7eb;
+            --pillar-1: #ea580c;
+            --pillar-2: #16a34a;
+            --pillar-3: #0891b2;
+            --highlight: #fef08a;
+            --red-alert: #dc2626;
+            --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-alt);
+            color: var(--text-body);
+            line-height: 1.55;
+            font-size: 18px;
+            font-weight: 500;
+            -webkit-font-smoothing: antialiased;
+        }
+        p, li { font-weight: 500; }
+        .container { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+        .wrapper { background: var(--bg-main); box-shadow: 0 20px 40px -10px rgba(0,0,0,0.08); margin: 0 auto 60px; }
+
+        /* WARNING BAR */
+        .warning-bar { background: var(--bg-dark); color: white; text-align: center; padding: 12px 20px; font-size: 14px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; }
+        .warning-bar span { color: var(--brand); }
+
+        /* STICKY TOC (light) */
+        .toc {
+            position: sticky; top: 0; z-index: 50;
+            background: #fff7ed;
+            border-bottom: 4px solid var(--brand);
+            box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        .toc::-webkit-scrollbar { height: 0; display: none; }
+        .toc-inner {
+            margin: 0 auto;
+            padding: 12px 16px;
+            display: flex; flex-wrap: nowrap; gap: 8px;
+            align-items: center; justify-content: center;
+            min-width: max-content;
+        }
+        .toc-label {
+            display: inline-flex; align-items: center; gap: 6px;
+            font-size: clamp(13px, 1.4vw, 16px);
+            font-weight: 900; letter-spacing: 2px; text-transform: uppercase;
+            color: var(--brand-hover); margin-right: 4px; flex-shrink: 0;
+        }
+        .toc-label .arrow {
+            display: inline-block; font-size: 18px; color: var(--brand);
+            animation: arrow-nudge 1.2s ease-in-out infinite;
+        }
+        @keyframes arrow-nudge {
+            0%, 100% { transform: translateX(0); }
+            50% { transform: translateX(6px); }
+        }
+        .toc a {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 9px 12px; border-radius: 7px;
+            font-size: clamp(12px, 1.2vw, 14px); font-weight: 900;
+            color: white; background: var(--brand); text-decoration: none;
+            border: 2px solid var(--brand);
+            transition: all 0.15s; white-space: nowrap;
+            text-transform: uppercase; letter-spacing: 0.5px;
+            flex-shrink: 0;
+        }
+        .toc a:hover {
+            background: var(--brand-hover); color: white; border-color: var(--brand-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 14px rgba(234,88,12,0.35);
+        }
+        .toc a .num {
+            color: var(--brand); background: white;
+            padding: 0 5px; border-radius: 3px;
+            font-weight: 900;
+        }
+        .toc a:hover .num { color: var(--brand-hover); }
+        .toc a.bonus { background: #fbbf24; color: #78350f; border-color: #f59e0b; }
+        .toc a.bonus:hover { background: #f59e0b; color: white; border-color: #d97706; }
+        .toc a.bonus .num { color: #fbbf24; background: #78350f; padding: 0 5px; border-radius: 3px; }
+        .toc a.bonus:hover .num { color: #d97706; background: white; }
+
+        /* SECTION SHELL */
+        .section {
+            padding: 60px 40px;
+            scroll-margin-top: 110px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .section.gray { background: var(--bg-alt); }
+        .section.dark { background: var(--bg-dark); color: white; }
+        @media (max-width: 600px) { .section { padding: 44px 22px; scroll-margin-top: 90px; } }
+
+        .eyebrow {
+            display: block; text-align: center;
+            font-size: clamp(16px, 2vw, 20px);
+            font-weight: 900; letter-spacing: 4px; text-transform: uppercase;
+            color: var(--brand);
+            margin-bottom: 14px;
+        }
+        .section-title {
+            font-size: clamp(42px, 8vw, 76px);
+            font-weight: 900; color: var(--text-dark);
+            margin: 0 auto 6px; text-align: center;
+            letter-spacing: -1.5px; line-height: 1;
+            max-width: 1100px;
+        }
+        .section.dark .section-title { color: white; }
+        .section-title::after {
+            content: ""; display: block; width: 110px; height: 7px;
+            background: var(--brand); border-radius: 4px;
+            margin: 22px auto 28px;
+        }
+        .section-lede {
+            font-size: 17px;
+            text-align: center; max-width: 820px;
+            margin: 0 auto 36px;
+            color: var(--text-body); font-weight: 500;
+            line-height: 1.55;
+        }
+        .section.dark .section-lede { color: #d6d3d1; }
+
+        /* HERO */
+        .hero { padding: 50px 30px 40px; text-align: center; background: var(--bg-main); border-bottom: 4px solid var(--border-color); }
+        .pre-headline {
+            color: var(--brand); font-weight: 900; font-size: 14px;
+            text-transform: uppercase; margin-bottom: 16px; letter-spacing: 2px;
+        }
+        .main-headline {
+            font-size: clamp(32px, 5.4vw, 56px);
+            font-weight: 900; color: var(--text-dark);
+            line-height: 1.08; letter-spacing: -1.2px;
+            margin-bottom: 20px;
+            max-width: 920px; margin-left: auto; margin-right: auto;
+        }
+        .sub-headline {
+            font-size: clamp(18px, 2.4vw, 22px);
+            color: var(--text-body); font-weight: 600;
+            margin-bottom: 30px; line-height: 1.4;
+            max-width: 800px; margin-left: auto; margin-right: auto;
+        }
+        .text-brand { color: var(--brand); }
+        .highlight { background: var(--highlight); padding: 0 5px; color: var(--text-dark); }
+
+        /* CTA BUTTON */
+        .cta-button {
+            display: inline-block; width: 100%; max-width: 520px;
+            background: var(--brand); color: white;
+            padding: 20px; text-decoration: none; border-radius: 8px;
+            box-shadow: 0 8px 0 var(--brand-hover), 0 15px 20px rgba(234,88,12,0.2);
+            transition: all 0.1s; border: none; cursor: pointer;
+            margin: 10px auto; text-align: center;
+        }
+        .cta-button:active { transform: translateY(8px); box-shadow: 0 0 0 var(--brand-hover); }
+        .cta-main-text { display: block; font-size: clamp(18px, 3.5vw, 24px); font-weight: 900; text-transform: uppercase; line-height: 1.2; }
+        .cta-sub-text { display: block; font-size: 14px; font-weight: 600; opacity: 0.95; margin-top: 6px; }
+
+        /* GMB PREVIEW */
+        .gmb-preview {
+            max-width: 760px; margin: 0 auto 26px;
+            border-radius: 12px; overflow: hidden;
+            border: 2px solid var(--border-color);
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.12);
+            background: var(--bg-main);
+        }
+        .gmb-head {
+            background: var(--bg-alt); padding: 14px 20px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex; align-items: center; justify-content: space-between;
+            flex-wrap: wrap; gap: 8px;
+        }
+        .gmb-head strong { font-size: 17px; color: var(--text-dark); }
+        .gmb-head .tag {
+            font-size: 12px; color: var(--text-muted);
+            font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;
+        }
+        .gmb-foot {
+            padding: 14px 20px; font-size: 15px; color: var(--text-muted);
+            background: var(--bg-alt);
+            border-top: 1px solid var(--border-color);
+        }
+
+        /* STACK BADGES */
+        .stack-row {
+            max-width: 760px; margin: 0 auto 30px;
+            padding: 18px 20px;
+            border: 1px solid var(--border-color); border-radius: 12px;
+            background: var(--bg-main);
+        }
+        .stack-label {
+            font-size: 12px; font-weight: 800; color: var(--text-muted);
+            text-transform: uppercase; letter-spacing: 1.5px;
+            text-align: center; margin-bottom: 14px;
+        }
+        .stack-badges {
+            display: flex; gap: 14px; flex-wrap: wrap;
+            justify-content: center; align-items: center;
+        }
+        .badge-toast {
+            display: inline-flex; align-items: center; gap: 10px;
+            padding: 10px 18px; background: #FF4D00; color: white;
+            border-radius: 8px; font-weight: 900; font-size: 18px;
+            letter-spacing: -0.5px;
+        }
+        .badge-toast .b-mark {
+            display: inline-flex; width: 26px; height: 26px;
+            align-items: center; justify-content: center;
+            background: white; color: #FF4D00; border-radius: 6px;
+            font-weight: 900; font-size: 16px;
+        }
+        .badge-google {
+            display: inline-flex; align-items: center; gap: 10px;
+            padding: 10px 18px; background: var(--bg-alt);
+            color: var(--text-dark);
+            border: 1px solid var(--border-color);
+            border-radius: 8px; font-weight: 800; font-size: 17px;
+        }
+        .badge-google .b-mark {
+            display: inline-flex; width: 26px; height: 26px;
+            align-items: center; justify-content: center;
+            border-radius: 50%; font-weight: 900; font-size: 18px;
+            background: linear-gradient(135deg, #4285F4 0%, #4285F4 25%, #EA4335 25%, #EA4335 50%, #FBBC05 50%, #FBBC05 75%, #34A853 75%);
+            color: white;
+        }
+
+        /* KAY INTRO */
+        .kay-row {
+            max-width: 820px; margin: 0 auto;
+            display: flex; gap: 20px;
+            align-items: flex-start; flex-wrap: wrap;
+        }
+        .kay-avatar {
+            width: 72px; height: 72px;
+            border-radius: 50%; background: var(--brand); color: white;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 26px; font-weight: 900; flex-shrink: 0;
+        }
+        .kay-meta-label {
+            font-size: 12px; font-weight: 800; color: var(--text-muted);
+            text-transform: uppercase; letter-spacing: 1.5px;
+        }
+        .kay-name { font-size: 24px; margin: 4px 0; color: var(--text-dark); font-weight: 900; }
+        .kay-role { font-size: 14px; color: var(--text-muted); font-weight: 600; margin-bottom: 14px; }
+        .kay-text { font-size: 16px; color: var(--text-body); line-height: 1.65; }
+        .kay-text p { margin-bottom: 10px; }
+
+        /* FOUNDATION STATS */
+        .stat-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px; max-width: 1000px; margin: 0 auto 36px;
+        }
+        .stat-box {
+            background: var(--bg-main);
+            border: 2px solid var(--border-color); border-radius: 12px;
+            padding: 24px 20px; text-align: center;
+        }
+        .stat-box.warn { border-color: #fbbf24; background: #fffbeb; }
+        .stat-box.crit { border-color: #fecaca; background: #fef2f2; }
+        .stat-num {
+            font-size: 44px; font-weight: 900; color: var(--text-dark);
+            line-height: 1; letter-spacing: -1px;
+        }
+        .stat-box.warn .stat-num { color: #b45309; }
+        .stat-box.crit .stat-num { color: var(--red-alert); }
+        .stat-desc {
+            font-size: 14px; color: var(--text-body);
+            margin-top: 8px; font-weight: 700;
+        }
+
+        /* SUBSECTION TITLE */
+        .subsection-title {
+            font-size: clamp(22px, 2.6vw, 28px);
+            font-weight: 900; color: var(--text-dark);
+            margin: 36px 0 16px;
+            padding-left: 16px;
+            border-left: 6px solid var(--brand);
+            line-height: 1.2;
+        }
+        .subsection-sub {
+            font-size: 14px; font-weight: 600; color: var(--text-muted);
+            text-transform: none; letter-spacing: 0;
+            display: block; margin-top: 4px;
+        }
+
+        /* FINDINGS LIST */
+        .findings {
+            max-width: 1000px; margin: 0 auto;
+            display: grid; gap: 12px;
+        }
+        .finding-card {
+            display: flex; gap: 16px;
+            padding: 18px 20px;
+            background: var(--bg-main);
+            border: 1px solid var(--border-color); border-radius: 10px;
+        }
+        .finding-icon {
+            width: 28px; height: 28px;
+            color: var(--red-alert); flex-shrink: 0; margin-top: 2px;
+        }
+        .finding-text strong {
+            display: block; color: var(--text-dark); font-size: 17px;
+            font-weight: 900; margin-bottom: 4px;
+        }
+        .finding-text p { font-size: 16px; color: var(--text-body); }
+
+        /* INSIGHTS */
+        .insights-grid {
+            max-width: 1000px; margin: 0 auto;
+            display: grid; gap: 18px;
+        }
+        .insight-card {
+            background: var(--bg-main);
+            border: 1px solid var(--border-color);
+            border-left: 6px solid var(--brand);
+            border-radius: 10px;
+            padding: 24px 26px;
+        }
+        .insight-num {
+            display: inline-block;
+            font-size: 12px; font-weight: 900;
+            text-transform: uppercase; letter-spacing: 2px;
+            color: var(--brand); margin-bottom: 6px;
+        }
+        .insight-title {
+            font-size: 22px; font-weight: 900; color: var(--text-dark);
+            margin-bottom: 10px; line-height: 1.25;
+        }
+        .insight-body { font-size: 16px; color: var(--text-body); line-height: 1.6; }
+        .insight-body p + p { margin-top: 10px; }
+        .insight-body strong { color: var(--text-dark); }
+        .insight-body ul { margin-top: 10px; padding-left: 20px; }
+        .insight-body ul li { margin: 4px 0; font-size: 15px; }
+        .insight-pill-row {
+            display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px;
+        }
+        .insight-pill {
+            display: inline-block; padding: 6px 12px;
+            background: #fff7ed; color: #9a3412;
+            border: 1px solid #fed7aa; border-radius: 99px;
+            font-size: 13px; font-weight: 700;
+        }
+
+        /* MOCK SLOW DAY CHART */
+        .slow-chart {
+            margin-top: 16px; background: var(--bg-alt);
+            border: 1px solid var(--border-color); border-radius: 10px;
+            padding: 18px 18px 12px;
+        }
+        .slow-chart-head {
+            display: flex; justify-content: space-between;
+            font-size: 13px; color: var(--text-muted);
+            font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+        .slow-bars {
+            display: grid; grid-template-columns: repeat(7, 1fr);
+            gap: 8px; align-items: end; height: 140px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 4px;
+        }
+        .slow-bar {
+            background: var(--brand); border-radius: 4px 4px 0 0;
+            display: flex; align-items: flex-start; justify-content: center;
+            color: white; font-size: 11px; font-weight: 800;
+            padding-top: 4px;
+        }
+        .slow-bar.danger { background: var(--red-alert); }
+        .slow-labels {
+            display: grid; grid-template-columns: repeat(7, 1fr);
+            gap: 8px; margin-top: 6px;
+        }
+        .slow-labels span {
+            text-align: center; font-size: 12px; font-weight: 700;
+            color: var(--text-muted);
+        }
+
+        /* PILLARS */
+        .pillars-stack {
+            display: flex; flex-direction: column; gap: 24px;
+            max-width: 1040px; margin: 0 auto;
+        }
+        .pillar {
+            background: var(--bg-main);
+            border-radius: 14px; overflow: hidden;
+            border: 2px solid var(--border-color);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+        }
+        .pillar.p1 { border-color: var(--pillar-1); }
+        .pillar.p2 { border-color: var(--pillar-2); }
+        .pillar.p3 { border-color: var(--pillar-3); }
+        .pillar-header {
+            display: flex; gap: 18px; align-items: flex-start;
+            padding: 24px 28px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .pillar-num {
+            width: 56px; height: 56px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 26px; font-weight: 900; color: white;
+            border-radius: 12px; flex-shrink: 0;
+        }
+        .pillar.p1 .pillar-num { background: var(--pillar-1); }
+        .pillar.p2 .pillar-num { background: var(--pillar-2); }
+        .pillar.p3 .pillar-num { background: var(--pillar-3); }
+        .pillar-eyebrow {
+            font-size: 12px; font-weight: 900;
+            text-transform: uppercase; letter-spacing: 2px;
+            display: block;
+        }
+        .pillar.p1 .pillar-eyebrow { color: var(--pillar-1); }
+        .pillar.p2 .pillar-eyebrow { color: var(--pillar-2); }
+        .pillar.p3 .pillar-eyebrow { color: var(--pillar-3); }
+        .pillar-title {
+            font-size: clamp(24px, 3vw, 30px);
+            font-weight: 900; color: var(--text-dark);
+            line-height: 1.15; margin: 4px 0;
+        }
+        .pillar-strategy {
+            font-size: 16px; color: var(--text-body);
+            font-style: italic; margin-top: 8px;
+        }
+        .pillar-strategy strong { font-style: normal; color: var(--text-dark); }
+        .pillar-body {
+            display: grid; grid-template-columns: 1fr;
+            gap: 24px; padding: 24px 28px;
+        }
+        @media (min-width: 820px) {
+            .pillar-body { grid-template-columns: 1.4fr 1fr; }
+        }
+        .pillar-deliverables h4,
+        .pillar-kpi h4 {
+            font-size: 16px; font-weight: 900;
+            text-transform: uppercase; letter-spacing: 2px;
+            color: var(--text-dark);
+            margin-bottom: 14px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--text-dark);
+        }
+        .pillar-deliverables ol {
+            list-style: none; padding: 0;
+            counter-reset: deliv;
+        }
+        .pillar-deliverables ol li {
+            counter-increment: deliv;
+            position: relative;
+            padding: 16px 0 16px 56px;
+            font-size: 17px; color: var(--text-body);
+            border-bottom: 1px solid var(--border-color);
+            line-height: 1.45;
+        }
+        .pillar-deliverables ol li:last-child { border-bottom: none; }
+        .pillar-deliverables ol li::before {
+            content: counter(deliv, decimal-leading-zero);
+            position: absolute; left: 0; top: 14px;
+            font-size: 22px; font-weight: 900;
+            letter-spacing: -1px;
+            font-feature-settings: "tnum";
+            min-width: 44px;
+        }
+        .pillar.p1 .pillar-deliverables ol li::before { color: var(--pillar-1); }
+        .pillar.p2 .pillar-deliverables ol li::before { color: var(--pillar-2); }
+        .pillar.p3 .pillar-deliverables ol li::before { color: var(--pillar-3); }
+        .pillar-deliverables ol li strong {
+            display: block; color: var(--text-dark);
+            font-weight: 900; font-size: 18px;
+            margin-bottom: 4px; line-height: 1.25;
+            letter-spacing: -0.3px;
+        }
+        .pillar-deliverables ol li.featured {
+            background: #f0fdf4;
+            border: 2px solid #16a34a;
+            border-bottom: 2px solid #16a34a;
+            border-radius: 10px;
+            padding: 20px 22px 20px 70px;
+            margin: 12px 0;
+        }
+        .pillar-deliverables ol li.featured::before {
+            left: 16px; color: #16a34a;
+        }
+        .pillar-deliverables ol li.featured strong {
+            font-size: 20px; color: #14532d;
+        }
+        .pillar-deliverables ol li.featured .signature-tag {
+            display: inline-block;
+            background: #16a34a; color: white;
+            font-size: 11px; font-weight: 900;
+            text-transform: uppercase; letter-spacing: 1.5px;
+            padding: 3px 8px; border-radius: 4px;
+            margin-left: 8px; vertical-align: middle;
+        }
+        .pillar-deliverables ol li.featured .why-it-works {
+            margin-top: 10px;
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 8px;
+        }
+        .pillar-deliverables ol li.featured .why-it-works div {
+            background: white; border: 1px solid #bbf7d0;
+            border-radius: 6px; padding: 8px 10px;
+            font-size: 13px; line-height: 1.3;
+        }
+        .pillar-deliverables ol li.featured .why-it-works strong {
+            display: inline; color: #14532d; font-size: 13px; font-weight: 900;
+        }
+        .kpi-grid { background: var(--bg-alt); border-radius: 10px; padding: 14px 16px; }
+        .kpi-row {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 8px 0; border-bottom: 1px solid var(--border-color);
+            font-size: 14px;
+        }
+        .kpi-row:last-child { border-bottom: none; }
+        .kpi-row .label { color: var(--text-body); font-weight: 600; }
+        .kpi-row .value { color: var(--text-dark); font-weight: 900; text-align: right; }
+        .kpi-row .arrow { color: var(--text-muted); margin: 0 4px; font-weight: 700; }
+
+        /* PROOF (BEFORE / AFTER) */
+        .ba-grid {
+            display: grid; grid-template-columns: 1fr;
+            gap: 16px; max-width: 1000px; margin: 0 auto 24px;
+        }
+        @media (min-width: 720px) { .ba-grid { grid-template-columns: 1fr 1fr; } }
+        .ba-col {
+            border-radius: 12px; overflow: hidden;
+            border: 1px solid var(--border-color);
+            background: var(--bg-main);
+        }
+        .ba-col-header {
+            padding: 16px 22px; display: flex; align-items: center; gap: 10px;
+            color: white; font-weight: 900;
+            text-transform: uppercase; letter-spacing: 1px;
+        }
+        .ba-col.before .ba-col-header { background: var(--red-alert); }
+        .ba-col.after .ba-col-header { background: #16a34a; }
+        .ba-col ul { list-style: none; padding: 0; margin: 0; }
+        .ba-col ul li {
+            padding: 12px 22px; border-bottom: 1px solid var(--border-color);
+            display: flex; align-items: flex-start; gap: 10px;
+            font-size: 15px; color: var(--text-body);
+        }
+        .ba-col ul li:last-child { border-bottom: none; }
+        .ba-col.before ul li .ico { color: var(--red-alert); font-weight: 900; flex-shrink: 0; }
+        .ba-col.after ul li .ico { color: #16a34a; font-weight: 900; flex-shrink: 0; }
+        .ba-stats {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 14px; max-width: 1000px; margin: 0 auto;
+        }
+        .ba-stat {
+            background: #f0fdf4; border: 1px solid #bbf7d0;
+            border-radius: 10px; padding: 18px 16px; text-align: center;
+        }
+        .ba-stat-num { font-size: 30px; font-weight: 900; color: #16a34a; line-height: 1; }
+        .ba-stat-label { font-size: 13px; color: var(--text-body); margin-top: 6px; font-weight: 700; }
+
+        /* INVESTMENT / NEXT STEPS */
+        .phases {
+            display: grid; grid-template-columns: 1fr;
+            gap: 14px; max-width: 1000px; margin: 0 auto 30px;
+        }
+        @media (min-width: 720px) { .phases { grid-template-columns: repeat(3, 1fr); } }
+        .phase {
+            background: var(--bg-main);
+            border: 2px solid var(--border-color); border-radius: 12px;
+            padding: 24px 22px;
+        }
+        .phase-num {
+            font-size: 12px; font-weight: 900; text-transform: uppercase;
+            letter-spacing: 1.5px; color: var(--brand); margin-bottom: 6px;
+        }
+        .phase-title { font-size: 20px; font-weight: 900; color: var(--text-dark); margin-bottom: 4px; }
+        .phase-weeks { font-size: 13px; color: var(--text-muted); font-weight: 700; margin-bottom: 14px; }
+        .phase-items { list-style: none; padding: 0; margin: 0; }
+        .phase-items li {
+            position: relative; padding: 8px 0 8px 22px;
+            font-size: 14px; color: var(--text-body);
+            border-bottom: 1px solid var(--border-color);
+        }
+        .phase-items li:last-child { border-bottom: none; }
+        .phase-items li::before {
+            content: '→'; position: absolute; left: 0; top: 8px;
+            color: var(--text-muted); font-weight: 900;
+        }
+
+        /* RISK REVERSAL BOX */
+        .risk-box {
+            max-width: 720px; margin: 0 auto 30px;
+            padding: 22px 26px;
+            background: rgba(234, 88, 12, 0.12);
+            border: 2px solid var(--brand); border-radius: 12px;
+            text-align: center;
+        }
+        .risk-box strong { color: white; }
+        .section.dark .risk-box { background: rgba(234, 88, 12, 0.18); }
+
+        /* BONUS */
+        .bonus-box {
+            background: var(--bg-main);
+            border: 3px dashed #fbbf24; border-radius: 14px;
+            padding: 36px 30px;
+            position: relative;
+            max-width: 1000px; margin: 0 auto;
+        }
+        .bonus-badge {
+            position: absolute; top: -16px; left: 50%; transform: translateX(-50%);
+            background: var(--brand); color: white;
+            padding: 6px 20px; font-weight: 900; font-size: 14px;
+            text-transform: uppercase; letter-spacing: 1.5px;
+            border-radius: 99px;
+            box-shadow: 0 4px 6px rgba(234,88,12,0.3);
+        }
+
+        /* CALENDLY SECTION */
+        .calendly-wrap {
+            background: var(--bg-main); border-radius: 12px; padding: 8px;
+            max-width: 920px; margin: 0 auto;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="warning-bar">
+        For Chicho's Peruvian Charcoal Chicken, <span>your strategic plan, built by Kay Ali.</span>
+    </div>
+
+    <!-- STICKY TOC -->
+    <nav class="toc" aria-label="Plan sections">
+        <div class="toc-inner">
+            <span class="toc-label">The Plan <span class="arrow">→</span></span>
+            <a href="#foundation"><span class="num">01</span> Foundation</a>
+            <a href="#insights"><span class="num">02</span> Insights</a>
+            <a href="#strategy"><span class="num">03</span> Strategy</a>
+            <a href="#proof"><span class="num">04</span> Proof</a>
+            <a href="#next-steps"><span class="num">05</span> Next Steps</a>
+            <a href="#bonus" class="bonus"><span class="num">★</span> Bonus</a>
+            <a href="#discovery"><span class="num">→</span> Book Meeting</a>
+        </div>
+    </nav>
+
+    <div class="container" style="padding-top: 18px;">
+        <div class="wrapper">
+
+            <!-- HERO -->
+            <div class="hero">
+                <div class="pre-headline">For Chicho's, 6300-2 Annapolis Rd, Hyattsville</div>
+                <h1 class="main-headline">Most restaurants your size are losing <span class="text-brand">$6k to $20k a month</span> from slow days, missed catering, and bad listings.</h1>
+                <p class="sub-headline">This is a strategic plan, not a sales page. It walks through the foundation, the insights, the 3 pillar strategy, and the next steps. Built around the tools you already run.</p>
+
+                <!-- GMB MAP -->
+                <div class="gmb-preview">
+                    <div class="gmb-head">
+                        <div style="display:flex;align-items:center;gap:10px;">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <strong>Your Current Google Listing</strong>
+                        </div>
+                        <span class="tag">Live from Google Maps</span>
+                    </div>
+                    <iframe
+                        src="https://maps.google.com/maps?q=Chicho%27s%20Peruvian%20Charcoal%20Chicken%2C%206300%20Annapolis%20Rd%2C%20Hyattsville%2C%20MD&output=embed"
+                        width="100%" height="320" style="border:0; display:block;"
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Chicho's on Google Maps"></iframe>
+                    <div class="gmb-foot">This is what people see right now. Step one is making this listing actually work for you.</div>
+                </div>
+
+                <!-- STACK -->
+                <div class="stack-row">
+                    <div class="stack-label">Your Current Stack, We Plug Right In</div>
+                    <div class="stack-badges">
+                        <div class="badge-toast"><span class="b-mark">T</span> Toast POS</div>
+                        <div class="badge-google"><span class="b-mark">G</span> Google Business + Maps</div>
+                    </div>
+                </div>
+
+                <a href="#discovery" class="cta-button">
+                    <span class="cta-main-text">Book the 30-Min Meeting</span>
+                    <span class="cta-sub-text">If you don't leave with at least 2 things you can fix this week, don't hire me.</span>
+                </a>
+                <p style="margin-top: 18px; font-size: 14px; font-weight: 700; color: var(--text-muted);">Kay Ali · Marketing &amp; Data Analyst · 20+ years with local businesses</p>
+            </div>
+
+            <!-- KAY INTRO -->
+            <div class="section">
+                <div class="kay-row">
+                    <div class="kay-avatar">KA</div>
+                    <div style="flex:1; min-width: 240px;">
+                        <div class="kay-meta-label">A Note From</div>
+                        <h3 class="kay-name">Kay Ali</h3>
+                        <p class="kay-role">Marketing &amp; Data Analyst · 20+ years with local businesses across many verticals</p>
+                        <div class="kay-text">
+                            <p>I've spent 20+ years building data systems for local businesses, restaurants, retail, dental, gyms, contractors, salons. I'm not a salesperson. I'm the person owners call when they want a straight answer about what to do next.</p>
+                            <p>This document lays out exactly how I'd approach Chicho's. Foundation, insights, the 3 pillar plan, what ships, and the bonus. If you book the meeting and don't leave with at least 2 things you can use this week, don't work with me.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 01 FOUNDATION -->
+            <div class="section gray" id="foundation">
+                <span class="eyebrow">01 · Foundation</span>
+                <h2 class="section-title">What's Bleeding Today</h2>
+                <p class="section-lede">The audit. Before strategy, here's what typically shows up at a place your size, the leaks every independent restaurant doing $80K to $300K a month is sitting on. We confirm the exact numbers when we sit down.</p>
+
+                <!-- STAT BOXES -->
+                <div class="stat-grid">
+                    <div class="stat-box crit">
+                        <div class="stat-num">$6k–$20k</div>
+                        <div class="stat-desc">Lost every month at most spots your size</div>
+                    </div>
+                    <div class="stat-box crit">
+                        <div class="stat-num">25–40%</div>
+                        <div class="stat-desc">Sales drop on Tuesdays and Wednesdays</div>
+                    </div>
+                    <div class="stat-box warn">
+                        <div class="stat-num">40–60%</div>
+                        <div class="stat-desc">Of nearby Google searches you're invisible to</div>
+                    </div>
+                    <div class="stat-box warn">
+                        <div class="stat-num">30+</div>
+                        <div class="stat-desc">Directories with mismatched name, address, phone</div>
+                    </div>
+                    <div class="stat-box crit">
+                        <div class="stat-num">80%</div>
+                        <div class="stat-desc">Of catering inquiries that never get a callback</div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">The Five Common Leaks <span class="subsection-sub">What we'd patch first at Chicho's</span></h3>
+                <div class="findings">
+                    <div class="finding-card">
+                        <svg class="finding-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        <div class="finding-text"><strong>Slow Tuesdays and Wednesdays</strong><p>Sales drop 25 to 40% on those days, and nothing is firing to bring people in. This alone usually accounts for $8k to $15k a month.</p></div>
+                    </div>
+                    <div class="finding-card">
+                        <svg class="finding-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                        <div class="finding-text"><strong>Hidden From Google Search</strong><p>Most local restaurant sites are missing the basic schema markup Google needs. Result: low impressions on the queries that should be free wins ("rotisserie chicken near me", "Peruvian Hyattsville", "catering DMV").</p></div>
+                    </div>
+                    <div class="finding-card">
+                        <svg class="finding-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        <div class="finding-text"><strong>Google Business Profile Set to "Restaurant"</strong><p>Generic primary category. Out of about 4,000 categories Google offers, 5 to 9 specific ones are sitting unused. This hides you from 40 to 60% of nearby searches.</p></div>
+                    </div>
+                    <div class="finding-card">
+                        <svg class="finding-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                        <div class="finding-text"><strong>Mismatched NAP Across Directories</strong><p>Name, address, and phone don't match across 30+ directories that list local restaurants. Google reads that as a trust signal and pushes the listing down in local pack results.</p></div>
+                    </div>
+                    <div class="finding-card">
+                        <svg class="finding-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <div class="finding-text"><strong>Catering Pipeline With No Follow-Up</strong><p>People ask about catering, nobody calls back. Office lunches, churches, schools, HOAs, every showcase typically books 5 to 15 recurring accounts. That's the pipeline most independents leave dry.</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 02 INSIGHTS -->
+            <div class="section" id="insights">
+                <span class="eyebrow">02 · Insights</span>
+                <h2 class="section-title">Where The Leverage Hides</h2>
+                <p class="section-lede">Two leverage sources: <strong>your own data</strong> (Toast, Google, reviews, food apps) and <strong>reverse-engineered competitor data</strong> (what Sausal Chicken and other DMV chicken spots are ranking for and why). Both feed the strategy below.</p>
+
+                <div class="insights-grid">
+
+                    <div class="insight-card">
+                        <span class="insight-num">Insight 1 · Your Own Data</span>
+                        <h3 class="insight-title">The slow-day pattern is the fastest win</h3>
+                        <div class="insight-body">
+                            <p>Restaurants your size run a predictable Tuesday/Wednesday dip. Toast already knows it. Google's Popular Times confirms it. The dashboard turns that into <strong>a same-day SMS blast, a geofence ad burst, and a daily reminder for the team</strong>. Patching slow days alone moves $8k to $15k a month.</p>
+                            <div class="slow-chart">
+                                <div class="slow-chart-head">
+                                    <span>Sample Weekly Sales Pattern</span>
+                                    <span style="color: var(--red-alert);">Tue/Wed = -38%</span>
+                                </div>
+                                <div class="slow-bars">
+                                    <div class="slow-bar" style="height: 60%;">Mon</div>
+                                    <div class="slow-bar danger" style="height: 25%;">Tue</div>
+                                    <div class="slow-bar danger" style="height: 22%;">Wed</div>
+                                    <div class="slow-bar" style="height: 65%;">Thu</div>
+                                    <div class="slow-bar" style="height: 95%;">Fri</div>
+                                    <div class="slow-bar" style="height: 100%;">Sat</div>
+                                    <div class="slow-bar" style="height: 85%;">Sun</div>
+                                </div>
+                            </div>
+                            <p style="font-size: 13px; color: var(--text-muted); margin-top: 8px; font-style: italic;">Sample chart, not your actual data. We'd open Toast in person and pull the real numbers together.</p>
+                        </div>
+                    </div>
+
+                    <div class="insight-card">
+                        <span class="insight-num">Insight 2 · Your Own Data</span>
+                        <h3 class="insight-title">"Restaurant" is the wrong primary category</h3>
+                        <div class="insight-body">
+                            <p>Your charcoal rotisserie is the actual hook. Google has discrete categories for <em>Peruvian restaurant</em>, <em>Rotisserie Chicken Restaurant</em>, <em>Latin American restaurant</em>, <em>Chicken restaurant</em>, <em>Caterer</em>, and more. Picking the right primary plus 5 to 9 secondaries unlocks 40 to 60% more nearby search volume without spending a dollar on ads.</p>
+                            <p>This connects directly to the <strong>GMB Optimization bonus</strong> below.</p>
+                        </div>
+                    </div>
+
+                    <div class="insight-card">
+                        <span class="insight-num">Insight 3 · Your Own Data</span>
+                        <h3 class="insight-title">Catering is your highest-margin revenue line</h3>
+                        <div class="insight-body">
+                            <p>One quarterly Catering Showcase for businesses, churches, schools, and HOAs within 5 miles typically books <strong>5 to 15 recurring accounts</strong>. Each account is monthly office lunches or holiday parties. This is the line item most independents never build because they're stuck on retail-only mindset.</p>
+                            <div class="insight-pill-row">
+                                <span class="insight-pill">Office lunches</span>
+                                <span class="insight-pill">Churches</span>
+                                <span class="insight-pill">Schools</span>
+                                <span class="insight-pill">HOAs</span>
+                                <span class="insight-pill">5-mile radius</span>
+                                <span class="insight-pill">Recurring</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="insight-card">
+                        <span class="insight-num">Insight 4 · Reverse-Engineered</span>
+                        <h3 class="insight-title">Local audience scrape from competitor fans</h3>
+                        <div class="insight-body">
+                            <p>People who already engage with food pages in your area, Sausal Chicken's followers, food bloggers, neighborhood foodies, are the highest-converting Meta audience you can buy. We pull those lists and build them into custom audiences. Your ads stop hitting strangers and start hitting people who already love this kind of food and live close enough to drive over.</p>
+                        </div>
+                    </div>
+
+                    <div class="insight-card">
+                        <span class="insight-num">Insight 5 · Reverse-Engineered</span>
+                        <h3 class="insight-title">Competitor demand maps the playbook</h3>
+                        <div class="insight-body">
+                            <p>Yelp, Google, and TripAdvisor publish what people are searching for in Hyattsville and the broader DMV, "best Peruvian chicken near me", "rotisserie chicken catering DC", "underrated chicken Hyattsville". We harvest those signals once and turn them into the content patterns and Google Business posts that pull traffic without paid ads:</p>
+                            <div class="insight-pill-row">
+                                <span class="insight-pill">honest review of [place]</span>
+                                <span class="insight-pill">underrated [place] in [area]</span>
+                                <span class="insight-pill">[area] hidden gem</span>
+                                <span class="insight-pill">must-try [food] in [area]</span>
+                                <span class="insight-pill">[place] vs [place]</span>
+                                <span class="insight-pill">stop scrolling if you live in [area]</span>
+                            </div>
+                            <p style="margin-top: 12px;"><strong>Important:</strong> we don't shoot videos. We coach you and your team on what to film and when to post.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 03 STRATEGY -->
+            <div class="section gray" id="strategy">
+                <span class="eyebrow">03 · Strategy</span>
+                <h2 class="section-title">The 3-Pillar Plan</h2>
+                <p class="section-lede">Each pillar has a clear strategy, the deliverables that ship, and the KPIs we move. Foundation problems and Insights both feed the pillars below. The 12 assets in my framework get distributed across these three.</p>
+
+                <div class="pillars-stack">
+
+                    <!-- PILLAR 1: VISIBILITY -->
+                    <div class="pillar p1">
+                        <div class="pillar-header">
+                            <div class="pillar-num">1</div>
+                            <div>
+                                <span class="pillar-eyebrow">Pillar 1 · Visibility</span>
+                                <h3 class="pillar-title">Get Found Where Hungry DMV Diners Already Are</h3>
+                                <p class="pillar-strategy"><strong>Strategy:</strong> Fix the foundation Google penalizes you on, then dominate Maps, search, and review platforms for every chicken and catering query in your radius.</p>
+                            </div>
+                        </div>
+                        <div class="pillar-body">
+                            <div class="pillar-deliverables">
+                                <h4>Deliverables</h4>
+                                <ol>
+                                    <li><strong>Local Search Domination</strong>Full GMB, TripAdvisor, and Bing Local rebuild. Photos, services, Q&amp;A, posts on a weekly cadence. The right primary category locked in.</li>
+                                    <li><strong>NAP Reconciliation</strong>One canonical record locked across 30+ directories. Schema and sameAs deployed on the site so Google trusts the listing.</li>
+                                    <li><strong>Website Authority Layer</strong>Search Console and GA4 wired to the dashboard. Indexing repaired. Page speed lifted. Conversion events captured (orders, calls, directions, catering inquiries).</li>
+                                    <li><strong>Reviews Command Center</strong>Every review from Google, Yelp, TripAdvisor, DoorDash, Uber Eats, Grubhub, Facebook, and Nextdoor in one inbox with a tiered response queue. 1-2 star same-day, 3 star within 48 hours, 4-5 star within five days.</li>
+                                    <li><strong>Content That Ranks, Not Dances</strong>Coaching on the food-search patterns that already win (honest reviews, underrated, hidden gem). Auto-distribution to TikTok, Reels, Shorts, GMB posts, and Nextdoor.</li>
+                                </ol>
+                            </div>
+                            <div class="pillar-kpi">
+                                <h4>KPIs We Move</h4>
+                                <div class="kpi-grid">
+                                    <div class="kpi-row"><span class="label">GMB direction requests</span><span class="value">+30 to 50%</span></div>
+                                    <div class="kpi-row"><span class="label">Map-pack appearances</span><span class="value">target top 3</span></div>
+                                    <div class="kpi-row"><span class="label">NAP consistency</span><span class="value">100%</span></div>
+                                    <div class="kpi-row"><span class="label">Review response SLA</span><span class="value">tier-based, met</span></div>
+                                    <div class="kpi-row"><span class="label">Indexed pages</span><span class="value">all priority pages live</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PILLAR 2: CONVERSION -->
+                    <div class="pillar p2">
+                        <div class="pillar-header">
+                            <div class="pillar-num">2</div>
+                            <div>
+                                <span class="pillar-eyebrow">Pillar 2 · Conversion</span>
+                                <h3 class="pillar-title">Turn Local Demand Into Walk-Ins, Catering Books, and Captures</h3>
+                                <p class="pillar-strategy"><strong>Strategy:</strong> Activate people in your radius with sharp offers and capture every customer's phone and email, every time, on every channel.</p>
+                            </div>
+                        </div>
+                        <div class="pillar-body">
+                            <div class="pillar-deliverables">
+                                <h4>Deliverables</h4>
+                                <ol>
+                                    <li><strong>Geofenced Activation Ads</strong>Facebook and Instagram ads drawn around a tight radius (delivery zone, office parks, churches, apartments, schools) with a "come in this week" offer designed to put feet on the floor.</li>
+                                    <li><strong>Custom Audience Scrape</strong>Pull lists of people who engage with similar food pages in your area, build them into Meta custom audiences. Ads stop blasting strangers and start hitting people who already love this kind of food.</li>
+                                    <li class="featured"><strong>Happy Hour, The Signature Play <span class="signature-tag">Signature</span></strong>Most restaurants run promos. The good ones run events. <strong>Happy Hour is how I turn any moment into a branded event</strong>, a slow Tuesday, a holiday weekend, a sauce praised in reviews, a new menu drop. The reason it matters: a "Tuesday special" gets ignored. A named, dated event with a window unlocks <strong>free placement on platforms a promo can't touch</strong>, GMB Posts, Eventbrite, Luma, and Facebook Events all index events, not specials. We give the moment a name, list it everywhere event platforms reach, and capture phone and email on every RSVP.
+ <div class="why-it-works">
+ <div><strong>9 channels, one click.</strong> GMB Posts, Eventbrite, Luma, FB Events, Nextdoor, email, SMS, geofence ads, in-store signage.</div>
+ <div><strong>Every RSVP = a capture.</strong> Phone and email feed the customer list and welcome series.</div>
+ <div><strong>Every event mints content.</strong> Photos and short videos get reused across Reels, TikTok, and ads.</div>
+ <div><strong>The list compounds.</strong> Every Happy Hour adds to the list. Six months in, the list is your biggest marketing asset.</div>
+ </div></li>
+                                    <li><strong>Catering Showcase (Quarterly)</strong>Invite-only tasting for businesses, churches, schools, and HOAs within 5 miles. One showcase typically books 5 to 15 recurring catering accounts. Highest-ROI event we run.</li>
+                                    <li><strong>Monthly Text-to-Win Giveaway</strong>Recurring monthly drawing (free family meal, catering tray, gift card) promoted on table tents, receipts, food-app inserts, social posts, and ads. Captures phone and email in one move and feeds the welcome series.</li>
+                                    <li><strong>Third-Party Margin Defense</strong>DoorDash, Uber Eats, and Grubhub compared on ROAS, AOV, and conversion. Photo refreshes, item rewrites, sponsored listing optimization. Direct-order inserts in every order migrate customers off the platforms onto your own ordering link.</li>
+                                </ol>
+                            </div>
+                            <div class="pillar-kpi">
+                                <h4>KPIs We Move</h4>
+                                <div class="kpi-grid">
+                                    <div class="kpi-row"><span class="label">Slow-day sales lift</span><span class="value">+$8k to $15k/mo</span></div>
+                                    <div class="kpi-row"><span class="label">Catering accounts</span><span class="value">5 to 15 / showcase</span></div>
+                                    <div class="kpi-row"><span class="label">Email/SMS captures</span><span class="value">grow weekly</span></div>
+                                    <div class="kpi-row"><span class="label">Direct-order share</span><span class="value">migrate off DoorDash</span></div>
+                                    <div class="kpi-row"><span class="label">Geofence ROAS</span><span class="value">tracked per fence</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PILLAR 3: RETENTION & INTELLIGENCE -->
+                    <div class="pillar p3">
+                        <div class="pillar-header">
+                            <div class="pillar-num">3</div>
+                            <div>
+                                <span class="pillar-eyebrow">Pillar 3 · Retention &amp; Intelligence</span>
+                                <h3 class="pillar-title">Bring Customers Back On Autopilot, Run The Restaurant From One Screen</h3>
+                                <p class="pillar-strategy"><strong>Strategy:</strong> Connect Toast, email, SMS, and rewards into one dashboard, then turn that data into a weekly playbook and daily reminders so nothing gets missed.</p>
+                            </div>
+                        </div>
+                        <div class="pillar-body">
+                            <div class="pillar-deliverables">
+                                <h4>Deliverables</h4>
+                                <ol>
+                                    <li><strong>Toast as the Truth Layer</strong>Daily sales, daypart, channel mix, AOV, and email captures from Toast all flow into the dashboard. Every other asset is reconciled against this single source of truth.</li>
+                                    <li><strong>Lifecycle Email Automations</strong>Welcome series, post-purchase plus review request, birthday week free dessert, 60-day win-back with a free side, 90-day deep win-back with a free entrée, monthly VIP offer for top spenders, and catering follow-up at 90 days post-event. All running in the background.</li>
+                                    <li><strong>Rewards That Actually Retain</strong>Toast Loyalty as the foundation. Member AOV tracked against non-member. Inactive members get auto-fired win-back triggers. Reward redemption data tells us what people actually value.</li>
+                                    <li><strong>Weekly Playbook (Every Sunday)</strong>A 1-page plan emailed Sunday night with the week's revenue goal, busy-day forecast, the posts and offers to run, the catering list to call, and a short note on what worked last week.</li>
+                                    <li><strong>Daily Reminders (Every Morning)</strong>A short text or email each morning with today's top 3 actions, who to call back, what to post, when to post it, and how much chicken to prep based on the forecast.</li>
+                                    <li><strong>Forecast-Driven Operations</strong>Next-week sales predictions by day. Prep tightens. Staffing tightens. Saves 3 to 8% on labor in 90 days without touching service quality.</li>
+                                </ol>
+                            </div>
+                            <div class="pillar-kpi">
+                                <h4>KPIs We Move</h4>
+                                <div class="kpi-grid">
+                                    <div class="kpi-row"><span class="label">Customer list growth</span><span class="value">weekly captures up</span></div>
+                                    <div class="kpi-row"><span class="label">Email revenue / send</span><span class="value">tracked</span></div>
+                                    <div class="kpi-row"><span class="label">Repeat visit frequency</span><span class="value">member vs non-member delta</span></div>
+                                    <div class="kpi-row"><span class="label">Forecast accuracy</span><span class="value">within ±10%</span></div>
+                                    <div class="kpi-row"><span class="label">Labor cost</span><span class="value">3 to 8% saved</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 04 PROOF -->
+            <div class="section" id="proof">
+                <span class="eyebrow">04 · Proof</span>
+                <h2 class="section-title">Doing Nothing vs Doing This</h2>
+                <p class="section-lede">The behavioural delta. Same restaurant, same product, two different operating realities.</p>
+
+                <div class="ba-grid">
+                    <div class="ba-col before">
+                        <div class="ba-col-header">
+                            <span>✕</span> Doing Nothing
+                        </div>
+                        <ul>
+                            <li><span class="ico">−</span> Slow Tues/Wed running 25 to 40% below average, no triggers firing</li>
+                            <li><span class="ico">−</span> Catering inquiries land in an inbox and die there</li>
+                            <li><span class="ico">−</span> GMB primary stuck on "Restaurant", invisible to 40 to 60% of nearby search</li>
+                            <li><span class="ico">−</span> NAP mismatched across 30+ directories, Google distrusts the listing</li>
+                            <li><span class="ico">−</span> No customer list, every Tuesday push starts from zero</li>
+                            <li><span class="ico">−</span> DoorDash margin leaking, no inserts pushing direct orders</li>
+                            <li><span class="ico">−</span> Owner running everything from memory, not data</li>
+                        </ul>
+                    </div>
+                    <div class="ba-col after">
+                        <div class="ba-col-header">
+                            <span>✓</span> Doing This
+                        </div>
+                        <ul>
+                            <li><span class="ico">+</span> Slow days fixed with same-day SMS + geofence ad burst, +$8k to $15k/mo</li>
+                            <li><span class="ico">+</span> Catering Showcase quarterly books 5 to 15 recurring accounts</li>
+                            <li><span class="ico">+</span> GMB rebuilt with the right primary + 5 to 9 secondaries from 4,000 options</li>
+                            <li><span class="ico">+</span> NAP locked, schema and sameAs deployed, Google trusts the listing</li>
+                            <li><span class="ico">+</span> Customer list growing weekly via moment-to-event captures and the monthly text-to-win giveaway</li>
+                            <li><span class="ico">+</span> Direct-order inserts in every food-app order migrate margin back</li>
+                            <li><span class="ico">+</span> One dashboard, one weekly playbook, one daily reminder, run the restaurant from data</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ba-stats">
+                    <div class="ba-stat">
+                        <div class="ba-stat-num">+$8k–$15k</div>
+                        <div class="ba-stat-label">Monthly slow-day recovery</div>
+                    </div>
+                    <div class="ba-stat">
+                        <div class="ba-stat-num">5–15</div>
+                        <div class="ba-stat-label">Catering accounts per showcase</div>
+                    </div>
+                    <div class="ba-stat">
+                        <div class="ba-stat-num">+30–50%</div>
+                        <div class="ba-stat-label">GMB direction requests</div>
+                    </div>
+                    <div class="ba-stat">
+                        <div class="ba-stat-num">3–8%</div>
+                        <div class="ba-stat-label">Labor saved via forecasting</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 05 NEXT STEPS -->
+            <div class="section gray" id="next-steps">
+                <span class="eyebrow">05 · Next Steps</span>
+                <h2 class="section-title">What Ships and When</h2>
+                <p class="section-lede">Three phases. Each one ships specific deliverables. We confirm the order in our meeting based on which leaks are biggest at Chicho's.</p>
+
+                <div class="phases">
+                    <div class="phase">
+                        <div class="phase-num">Phase 1</div>
+                        <h3 class="phase-title">Foundation</h3>
+                        <div class="phase-weeks">Weeks 0 to 2</div>
+                        <ul class="phase-items">
+                            <li>Full audit: Toast, Google, social, food apps, reviews</li>
+                            <li>NAP locked across 30+ directories</li>
+                            <li>GMB rebuilt with the right categories</li>
+                            <li>Dashboard wired to Toast and all 12 assets</li>
+                            <li>Canonical record + schema deployed</li>
+                        </ul>
+                    </div>
+                    <div class="phase">
+                        <div class="phase-num">Phase 2</div>
+                        <h3 class="phase-title">Activation</h3>
+                        <div class="phase-weeks">Weeks 3 to 6</div>
+                        <ul class="phase-items">
+                            <li>First weekly playbook delivered</li>
+                            <li>Daily reminders firing each morning</li>
+                            <li>Geofence ads launched in your radius</li>
+                            <li>First moment-to-event activations live with capture flow</li>
+                            <li>Monthly text-to-win giveaway running</li>
+                            <li>Email automations turned on</li>
+                            <li>Reviews inbox + response queue running</li>
+                        </ul>
+                    </div>
+                    <div class="phase">
+                        <div class="phase-num">Phase 3</div>
+                        <h3 class="phase-title">Growth</h3>
+                        <div class="phase-weeks">Weeks 7 to 12+</div>
+                        <ul class="phase-items">
+                            <li>First Catering Showcase booked</li>
+                            <li>Forecasting tightens prep + staffing</li>
+                            <li>Direct-order migration off DoorDash</li>
+                            <li>Weekly refinement, monthly menu review</li>
+                            <li>Both locations on one dashboard when #2 opens</li>
+                        </ul>
+                    </div>
+                </div>
+                <p style="text-align: center; font-size: 14px; color: var(--text-muted); max-width: 700px; margin: 0 auto;">Investment is discussed live in the meeting, scoped to which phase you start with and which 4 or 5 of the 12 assets need work first.</p>
+            </div>
+
+            <!-- BONUS -->
+            <div class="section" id="bonus">
+                <div class="bonus-box">
+                    <div class="bonus-badge">★ Free Game, Yours to Keep</div>
+                    <h2 style="font-size: clamp(28px, 4.4vw, 40px); font-weight: 900; color: var(--text-dark); text-align: center; line-height: 1.15; margin-bottom: 14px;">Bonus: A GMB Optimization Plan You Can Run Yourself</h2>
+                    <p style="text-align: center; max-width: 760px; margin: 0 auto 18px; font-size: 17px; color: var(--text-body);">This one's free game. Whether you hire me or not, this is yours to keep and run. Google lets you pick <strong>one primary category</strong> (most chicken spots default to "Restaurant" and stay invisible) and <strong>up to 9 more</strong>. Out of about 4,000 categories, here are the exact ones I'd add for a place like Chicho's. Open your Google Business Profile, swap them in, and watch your nearby search visibility climb.</p>
+                    <div style="text-align: center; max-width: 720px; margin: 0 auto 28px; padding: 12px 18px; background: #fffbeb; border: 2px dashed #fbbf24; border-radius: 8px; font-size: 15px; color: #92400e; font-weight: 700;">
+                        Take this. Run it yourself. No catch. The whole bonus stays yours.
+                    </div>
+
+                    <div style="background: #ffffff; border-radius: 10px; border: 1px solid var(--border-color); overflow-x: auto;">
+                        <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 15px;">
+                            <thead>
+                                <tr>
+                                    <th style="padding: 14px 16px; background: #f9fafb; border-bottom: 2px solid var(--border-color); color: var(--text-dark); text-transform: uppercase; font-size: 12px; letter-spacing: 0.5px;">Category to Add</th>
+                                    <th style="padding: 14px 16px; background: #f9fafb; border-bottom: 2px solid var(--border-color); color: var(--text-dark); text-transform: uppercase; font-size: 12px; letter-spacing: 0.5px;">Why It Matters</th>
+                                    <th style="padding: 14px 16px; background: #f9fafb; border-bottom: 2px solid var(--border-color); color: var(--text-dark); text-transform: uppercase; font-size: 12px; letter-spacing: 0.5px;">Impact</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); font-weight: 800; color: var(--text-dark);">Peruvian Restaurant</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-body);">Catches people searching for exactly what you serve.</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); color: #16a34a; font-weight: 800;">High</td></tr>
+                                <tr><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); font-weight: 800; color: var(--text-dark);">Rotisserie Chicken Restaurant</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-body);">Your charcoal rotisserie is the star, this puts you on the map for "rotisserie chicken near me."</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); color: #16a34a; font-weight: 800;">High (Perfect Fit)</td></tr>
+                                <tr style="background: #fafaf9;"><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); font-weight: 800; color: var(--text-dark);">Chicken Restaurant</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-body);">Catches the huge crowd just searching "chicken near me."</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); color: #16a34a; font-weight: 800;">Massive (Big Crowd)</td></tr>
+                                <tr><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); font-weight: 800; color: var(--text-dark);">Latin American Restaurant</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-body);">Brings in a wider crowd around Hyattsville.</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); color: #16a34a; font-weight: 800;">Medium</td></tr>
+                                <tr style="background: #fafaf9;"><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); font-weight: 800; color: var(--text-dark);">Takeout Restaurant</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); color: var(--text-body);">Catches the giant "food to go" crowd.</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-color); color: #16a34a; font-weight: 800;">High</td></tr>
+                                <tr><td style="padding: 14px 16px; border-bottom: none; font-weight: 800; color: var(--text-dark);">Caterer</td><td style="padding: 14px 16px; border-bottom: none; color: var(--text-body);">Picks up office lunches and big party orders, the highest-paying jobs.</td><td style="padding: 14px 16px; border-bottom: none; color: #16a34a; font-weight: 800;">High (Big Money)</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p style="text-align: center; margin-top: 14px; font-size: 14px; color: var(--text-muted); font-style: italic;">If we end up working together, Phase 1 locks in all 9+ categories plus the photos, services, Q&amp;A, posts, and review engine that pushes you past local rivals like Sausal Chicken. Either way, this list above is yours.</p>
+                </div>
+            </div>
+
+            <!-- DISCOVERY CALL -->
+            <div class="section dark" id="discovery">
+                <span class="eyebrow">Next, Book the Meeting</span>
+                <h2 class="section-title">Pick a Time. Let's Sit Down.</h2>
+                <p class="section-lede">30 minutes in person. We'll open your Google page, your website, and your last 30 days of Toast sales together. I'll show you where the leaks are and what to do about them.</p>
+
+                <div class="risk-box">
+                    <div style="font-size: 14px; font-weight: 900; color: white; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 6px;">My Promise</div>
+                    <div style="font-size: 17px; color: white; line-height: 1.5;">If you don't leave the meeting with <strong>at least 2 things you can use immediately</strong>, don't work with me. That's it.</div>
+                </div>
+
+                <div class="calendly-wrap">
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/tagglefish/30min?hide_gdpr_banner=1" style="min-width:320px;height:720px;"></div>
+                </div>
+                <p style="text-align: center; margin-top: 18px; font-size: 14px; color: #a8a29e;">Pick any open slot. Calendar invite goes out automatically. No credit card, no obligation.</p>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
