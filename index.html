@@ -8,7 +8,7 @@
     <!-- Google Fonts for Brutalist/Indie Studio look -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Space+Grotesk:wght@400;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
         :root {
@@ -350,7 +350,7 @@
                             <li>Dedicated Neighborhood Pages</li>
                         </ul>
                     </div>
-                    <div class="content-block" style="margin: 0;">
+                    <div class="content-block" id="aeo" style="margin: 0; scroll-margin-top: 110px;">
                         <h3>AEO (Questions)</h3>
                         <p>Answering the questions they ask AI.</p>
                         <ul class="content-list" style="grid-template-columns: 1fr;">
@@ -368,7 +368,22 @@
                 <span class="eyebrow">Pillar 04</span>
                 <h2 class="section-title">Local SEO Expansion</h2>
                 <p class="section-lede">Expanding beyond a single primary keyword by generating localized pages for every major service across the DMV.</p>
-                
+
+                <div class="content-block">
+                    <h3>Service &times; City Pages</h3>
+                    <p>A dedicated, optimized page for every service in every target city &mdash; not one page trying to rank for everything.</p>
+                    <ul class="content-list">
+                        <li>Band Rehearsal Bethesda</li>
+                        <li>Podcast Studio Bethesda</li>
+                        <li>Recording Studio Bethesda</li>
+                        <li>Voice Over Studio Bethesda</li>
+                        <li>Album Recording Bethesda</li>
+                        <li>Band Rehearsal Silver Spring</li>
+                        <li>Band Rehearsal Rockville</li>
+                        <li>Band Rehearsal Washington DC</li>
+                    </ul>
+                </div>
+
                 <!-- STANDARD MAP PREVIEW -->
                 <div class="map-preview">
                     <div class="map-head">
@@ -377,7 +392,7 @@
                     </div>
                     <!-- Map type 'm' is standard map view. Removed grayscale filters via CSS -->
                     <iframe
-                        src="https://maps.google.com/maps?q=4940%20Battery%20Lane,%20Bethesda,%20MD&t=m&z=14&output=embed"
+                        src="https://maps.google.com/maps?q=The%20Music%20Dept%2C%204848%20Battery%20Ln%2C%20Bethesda%2C%20MD%2020814&t=m&z=15&output=embed"
                         width="100%" height="400" style="border:0; display:block;"
                         loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="The Music Dept on Maps">
                     </iframe>
@@ -412,6 +427,7 @@
                         <p>Generates highly structured rehearsal schedules so bands stop wasting time in the room and get the most out of their hourly rental.</p>
                     </div>
                 </div>
+                <p class="section-lede" style="margin-top: 30px; margin-bottom: 0; color: #ccc;">The full suite also includes the <strong style="background:rgba(245,178,54,0.25);">EP Timeline Generator</strong>, Music Marketing Checklist, Studio Session Checklist, Podcast Launch Planner, Album Budget Planner, Tour Rehearsal Planner, Equipment Checklist Generator, Session Prep Planner, and Music Career Roadmap &mdash; 13 lead-generating tools in total.</p>
             </div>
 
             <!-- 6, 7, 8. BRAND & AUTHORITY -->
@@ -422,6 +438,16 @@
                 <div class="content-block">
                     <h3>Brand Repositioning</h3>
                     <p>Organizing messaging around <strong>audiences</strong> instead of facilities. We want a podcaster to click "For Podcasters" and instantly see that the studio was built specifically for their needs.</p>
+                    <ul class="content-list">
+                        <li>For Bands</li>
+                        <li>For Solo Artists</li>
+                        <li>For Podcasters</li>
+                        <li>For Voice Talent</li>
+                        <li>For Actors</li>
+                        <li>For Schools</li>
+                        <li>For Content Creators</li>
+                        <li>For Labels</li>
+                    </ul>
                 </div>
                 
                 <div class="content-block">
@@ -437,6 +463,25 @@
 
             <!-- INVESTMENT -->
             <div class="section" id="investment">
+                <span class="eyebrow">Scope of Work</span>
+                <h2 class="section-title">Deliverables</h2>
+                <p class="section-lede">Everything included in the engagement &mdash; the complete strategic blueprint.</p>
+                <div class="content-block" style="margin-bottom: 40px;">
+                    <ul class="content-list">
+                        <li>Complete website growth strategy</li>
+                        <li>SEO roadmap</li>
+                        <li>AEO roadmap</li>
+                        <li>GEO roadmap</li>
+                        <li>Local SEO expansion strategy</li>
+                        <li>Content architecture</li>
+                        <li>Topic cluster planning</li>
+                        <li>Interactive generator strategy</li>
+                        <li>Homepage repositioning recommendations</li>
+                        <li>Membership growth strategy</li>
+                        <li>Authority content plan</li>
+                        <li>Implementation priorities</li>
+                    </ul>
+                </div>
                 <div class="investment-box">
                     <span class="eyebrow" style="background:#000; color:#fff;">Project Investment</span>
                     <h2 class="section-title" style="margin-bottom:0;">Website Growth Strategy & SEO Roadmap</h2>
@@ -452,32 +497,61 @@
                 <p class="section-lede">Ready to transform The Music Dept into a growth platform? Review the project terms and sign below to authorize initiation.</p>
 
                 <div class="sign-wrap">
-                    <form onsubmit="event.preventDefault(); document.getElementById('success-msg').style.display='block'; this.style.display='none';">
+                    <!-- Replace YOUR_FORMSPREE_ID with your real Formspree form ID (https://formspree.io -> New form). -->
+                    <form id="proposal-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
                         <div class="terms-box">
                             <strong>Terms & Conditions</strong>
                             <p>By signing below, you agree to the $2,950 fixed investment for the Website Growth Strategy & SEO Roadmap as outlined in this proposal. This officially initiates the Search & Architecture phase.</p>
                             <label class="checkbox-label">
-                                <input type="checkbox" required> 
+                                <input type="checkbox" name="accepted" required>
                                 <span style="color: #000;">I accept the terms, conditions, and scope of this proposal.</span>
                             </label>
                         </div>
-                        
+
                         <div class="signature-box">
                             <label for="signature">Authorized Signature (Type Full Name)</label>
-                            <input type="text" id="signature" placeholder="e.g. Justin Campbell" required autocomplete="name">
-                            
+                            <input type="text" id="signature" name="signature" placeholder="e.g. Justin Campbell" required autocomplete="name">
+                            <input type="hidden" name="_subject" value="The Music Dept — Proposal Signed">
+                            <input type="hidden" name="proposal" value="Website Growth Strategy & SEO Roadmap — $2,950">
+
                             <button type="submit" class="cta-button" style="width: 100%; max-width: 100%; margin-top: 24px;">
                                 <span class="cta-main-text">Sign & Approve</span>
                                 <span class="cta-sub-text">Initiate the project instantly</span>
                             </button>
                         </div>
                     </form>
-                    
+
                     <div id="success-msg">
                         <h2>Signature Accepted!</h2>
-                        <p>Thank you, Justin. The project is officially initiated. I will follow up shortly with our next steps.</p>
+                        <p>Thank you. The acceptance has been sent to Kay Ali, who will follow up shortly with next steps.</p>
+                    </div>
+                    <div id="error-msg" style="display:none; background:#e63946; color:#fff; border:3px solid #000; padding:20px; margin-top:20px; text-align:center; font-family:var(--font-mono); font-weight:700;">
+                        Submission could not be sent. Please email <a href="mailto:kawani@digiwaxx.com" style="color:#fff;">kawani@digiwaxx.com</a> to confirm your acceptance.
                     </div>
                 </div>
+
+                <script>
+                    (function () {
+                        var form = document.getElementById('proposal-form');
+                        var ok = document.getElementById('success-msg');
+                        var err = document.getElementById('error-msg');
+                        form.addEventListener('submit', function (e) {
+                            e.preventDefault();
+                            if (!form.reportValidity()) return;
+                            if (form.action.indexOf('YOUR_FORMSPREE_ID') !== -1) {
+                                err.innerHTML = 'Form not configured yet: replace YOUR_FORMSPREE_ID in the code with a real Formspree form ID.';
+                                err.style.display = 'block';
+                                return;
+                            }
+                            fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } })
+                                .then(function (res) {
+                                    if (res.ok) { form.style.display = 'none'; err.style.display = 'none'; ok.style.display = 'block'; }
+                                    else { err.style.display = 'block'; }
+                                })
+                                .catch(function () { err.style.display = 'block'; });
+                        });
+                    })();
+                </script>
             </div>
 
         </div>
