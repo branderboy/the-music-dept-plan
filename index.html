@@ -239,7 +239,15 @@
             background: var(--brand); border: 4px solid #000; padding: 40px; text-align: center;
             box-shadow: 12px 12px 0px #000; max-width: 800px; margin: 0 auto;
         }
-        .inv-price { font-family: var(--font-heading); font-size: 64px; color: #000; margin: 10px 0; }
+        .inv-tag {
+            display: inline-block; font-family: var(--font-mono); font-weight: 700;
+            font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: #000;
+            background: #fff; border: 2px solid #000; padding: 5px 12px;
+            box-shadow: 3px 3px 0px #000; margin-top: 10px;
+        }
+        .inv-price { font-family: var(--font-heading); font-size: 64px; color: #000; margin: 16px 0 4px; }
+        .inv-compare { font-family: var(--font-mono); font-weight: 700; font-size: 15px; color: #000; margin-bottom: 20px; }
+        .inv-compare s { text-decoration-thickness: 2px; opacity: 0.85; }
         .inv-desc { font-family: var(--font-mono); font-size: 16px; font-weight: 700; color: #000; }
 
         /* SIGNATURE SECTION */
@@ -420,6 +428,7 @@
                 <span class="eyebrow">Pillar 05 // Proprietary Tech</span>
                 <h2 class="section-title">Music Dept Studio Tools™</h2>
                 <p class="section-lede">A major component of this project is developing custom interactive tools (deployed as WordPress plugins). These turn the website from static brochure to software platform, generating qualified leads and creating assets competitors cannot easily replicate.</p>
+                <p class="section-lede" style="margin-top: -20px;">Because these are built on a <strong style="background:rgba(245,178,54,0.25); color:#fff;">proven plugin foundation we have already developed</strong>, you get software-grade tools without funding ground-up development &mdash; which is exactly why this project comes in well below typical agency cost.</p>
 
                 <div class="tools-grid">
                     <div class="tool-card">
@@ -501,7 +510,9 @@
                 <div class="investment-box">
                     <span class="eyebrow" style="background:#000; color:#fff;">Project Investment</span>
                     <h2 class="section-title" style="margin-bottom:0;">Website Growth Strategy & SEO Roadmap</h2>
-                    <div class="inv-price">$2,950</div>
+                    <div class="inv-tag">Website Growth System · One-Time Project</div>
+                    <div class="inv-price">$2,450</div>
+                    <div class="inv-compare">Comparable agency value: <s>$12,000+</s></div>
                     <p class="inv-desc">Fixed Investment. Includes the complete strategic blueprint, content architecture, and the architectural planning for the Music Dept Studio Tools™.</p>
                 </div>
             </div>
@@ -517,7 +528,7 @@
                     <form id="proposal-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
                         <div class="terms-box">
                             <strong>Terms & Conditions</strong>
-                            <p>By signing below, you agree to the $2,950 fixed investment for the Website Growth Strategy & SEO Roadmap as outlined in this proposal. This officially initiates the Search & Architecture phase.</p>
+                            <p>By signing below, you agree to the $2,450 fixed investment for the Website Growth Strategy & SEO Roadmap as outlined in this proposal. This officially initiates the Search & Architecture phase.</p>
                             <label class="checkbox-label">
                                 <input type="checkbox" name="accepted" required>
                                 <span style="color: #000;">I accept the terms, conditions, and scope of this proposal.</span>
@@ -528,7 +539,7 @@
                             <label for="signature">Authorized Signature (Type Full Name)</label>
                             <input type="text" id="signature" name="signature" placeholder="e.g. Justin Campbell" required autocomplete="name">
                             <input type="hidden" name="_subject" value="The Music Dept — Proposal Signed">
-                            <input type="hidden" name="proposal" value="Website Growth Strategy & SEO Roadmap — $2,950">
+                            <input type="hidden" name="proposal" value="Website Growth Strategy & SEO Roadmap — $2,450">
 
                             <button type="submit" class="cta-button" style="width: 100%; max-width: 100%; margin-top: 24px;">
                                 <span class="cta-main-text">Sign & Approve</span>
