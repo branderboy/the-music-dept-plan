@@ -52,6 +52,44 @@
         }
         .warning-bar span { color: var(--brand); }
 
+        /* BRAND MASTHEAD */
+        .masthead {
+            display: flex; align-items: center; gap: 18px;
+            padding: 22px 30px; background: #000; color: #fff;
+            border-bottom: 4px solid var(--brand);
+        }
+        .masthead .mark {
+            flex-shrink: 0; width: 56px; height: 56px;
+            background: var(--brand); color: #000; border: 3px solid #fff;
+            display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-heading); font-weight: 700; font-size: 19px; letter-spacing: -1px;
+        }
+        .masthead .wm { display: flex; flex-direction: column; line-height: 1.15; }
+        .masthead .wm .nm { font-family: var(--font-heading); font-weight: 700; font-size: 22px; letter-spacing: 1px; color: #fff; text-transform: uppercase; }
+        .masthead .wm .sb { font-family: var(--font-mono); font-size: 12px; color: var(--brand); text-transform: uppercase; letter-spacing: 1px; margin-top: 5px; }
+        .masthead .est {
+            margin-left: auto; flex-shrink: 0;
+            font-family: var(--font-mono); font-size: 12px; font-weight: 700; color: #fff;
+            border: 2px solid var(--brand); padding: 6px 12px; text-transform: uppercase; letter-spacing: 1px;
+        }
+        @media (max-width: 600px) {
+            .masthead { padding: 16px 20px; gap: 12px; }
+            .masthead .est { display: none; }
+            .masthead .wm .nm { font-size: 17px; }
+            .masthead .wm .sb { font-size: 10px; }
+            .masthead .mark { width: 46px; height: 46px; font-size: 16px; }
+        }
+
+        /* WORDPRESS BADGE */
+        .wp-badge {
+            display: inline-flex; align-items: center; gap: 12px;
+            background: #fff; color: #000; border: 3px solid #000;
+            box-shadow: 5px 5px 0px var(--brand); padding: 12px 18px;
+            font-family: var(--font-mono); font-weight: 700; font-size: 14px;
+            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 30px;
+        }
+        .wp-badge svg { width: 28px; height: 28px; fill: #21759b; flex-shrink: 0; }
+
         /* STICKY TOC */
         .toc {
             position: sticky; top: 0; z-index: 50;
@@ -203,6 +241,11 @@
             display: flex; align-items: center;
         }
         .content-list li::before { content: "►"; color: var(--brand); margin-right: 10px; font-size: 12px; }
+        .content-list.checks li::before {
+            content: "✓"; color: #000; background: var(--brand); border: 1px solid #000;
+            width: 20px; height: 20px; display: inline-flex; align-items: center; justify-content: center;
+            font-size: 13px; margin-right: 12px; flex-shrink: 0;
+        }
 
         /* DESIRED OUTCOMES - value highlight cards */
         .outcome-list { list-style: none; display: grid; gap: 14px; margin-top: 24px; }
@@ -245,7 +288,7 @@
             background: #fff; border: 2px solid #000; padding: 5px 12px;
             box-shadow: 3px 3px 0px #000; margin-top: 10px;
         }
-        .inv-price { font-family: var(--font-heading); font-size: 64px; color: #000; margin: 16px 0 4px; }
+        .inv-price { font-family: var(--font-heading); font-weight: 700; font-size: 64px; color: #000; margin: 16px 0 4px; }
         .inv-compare { font-family: var(--font-mono); font-weight: 700; font-size: 15px; color: #000; margin-bottom: 20px; }
         .inv-compare s { text-decoration-thickness: 2px; opacity: 0.85; }
         .inv-desc { font-family: var(--font-mono); font-size: 16px; font-weight: 700; color: #000; }
@@ -295,12 +338,21 @@
             <a href="#tools"><span class="num">05</span> Studio Tools™</a>
             <a href="#brand"><span class="num">06</span> Brand</a>
             <a href="#investment"><span class="num">07</span> Investment</a>
-            <a href="#sign" style="background: #000; color: var(--brand);">Accept & Sign</a>
         </div>
     </nav>
 
     <div class="container">
         <div class="wrapper">
+
+            <!-- BRAND MASTHEAD -->
+            <div class="masthead">
+                <div class="mark">TMD</div>
+                <div class="wm">
+                    <span class="nm">The Music Dept</span>
+                    <span class="sb">Rehearsal · Recording · Production — Bethesda, MD</span>
+                </div>
+                <div class="est">For: Justin Campbell</div>
+            </div>
 
             <!-- HERO -->
             <div class="hero">
@@ -429,6 +481,10 @@
                 <h2 class="section-title">Music Dept Studio Tools™</h2>
                 <p class="section-lede">A major component of this project is developing custom interactive tools (deployed as WordPress plugins). These turn the website from static brochure to software platform, generating qualified leads and creating assets competitors cannot easily replicate.</p>
                 <p class="section-lede" style="margin-top: -20px;">Because these are built on a <strong style="background:rgba(245,178,54,0.25); color:#fff;">proven plugin foundation we have already developed</strong>, you get software-grade tools without funding ground-up development &mdash; which is exactly why this project comes in well below typical agency cost.</p>
+                <div class="wp-badge">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-label="WordPress"><path d="M21.469 6.825c.84 1.537 1.318 3.3 1.318 5.175 0 3.979-2.156 7.456-5.363 9.325l3.295-9.527c.615-1.54.82-2.771.82-3.864 0-.405-.026-.78-.07-1.11m-7.981.105c.647-.03 1.232-.105 1.232-.105.582-.075.514-.93-.067-.899 0 0-1.755.135-2.88.135-1.064 0-2.85-.15-2.85-.15-.585-.03-.661.855-.075.885 0 0 .54.061 1.125.09l1.68 4.605-2.37 7.08L5.354 6.9c.649-.03 1.234-.1 1.234-.1.585-.075.516-.93-.065-.896 0 0-1.746.138-2.874.138-.2 0-.438-.008-.69-.015C4.911 3.15 8.235 1.215 12 1.215c2.809 0 5.365 1.072 7.286 2.833-.046-.003-.091-.009-.141-.009-1.06 0-1.812.923-1.812 1.914 0 .89.513 1.643 1.06 2.531.411.72.89 1.643.89 2.977 0 .915-.354 1.994-.821 3.479l-1.075 3.585-3.9-11.61.001.014zM12 22.784c-1.059 0-2.081-.153-3.048-.437l3.237-9.406 3.315 9.087c.024.053.05.101.078.149-1.12.393-2.325.609-3.582.609M1.211 12c0-1.564.336-3.05.935-4.39L7.29 21.709C3.694 19.96 1.212 16.271 1.211 12M12 0C5.385 0 0 5.385 0 12s5.385 12 12 12 12-5.385 12-12S18.615 0 12 0"/></svg>
+                    <span>Deployed as custom WordPress plugins</span>
+                </div>
 
                 <div class="tools-grid">
                     <div class="tool-card">
@@ -492,19 +548,19 @@
                 <h2 class="section-title">Deliverables</h2>
                 <p class="section-lede">Everything included in the engagement &mdash; the complete strategic blueprint.</p>
                 <div class="content-block" style="margin-bottom: 40px;">
-                    <ul class="content-list">
-                        <li>Complete website growth strategy</li>
-                        <li>SEO roadmap</li>
-                        <li>AEO roadmap</li>
-                        <li>GEO roadmap</li>
-                        <li>Local SEO expansion strategy</li>
-                        <li>Content architecture</li>
-                        <li>Topic cluster planning</li>
-                        <li>Interactive generator strategy</li>
-                        <li>Homepage repositioning recommendations</li>
-                        <li>Membership growth strategy</li>
-                        <li>Authority content plan</li>
-                        <li>Implementation priorities</li>
+                    <ul class="content-list checks">
+                        <li>Complete Website Growth Strategy</li>
+                        <li>SEO Roadmap</li>
+                        <li>AEO Roadmap</li>
+                        <li>GEO Roadmap</li>
+                        <li>Local SEO Expansion Strategy</li>
+                        <li>Content Architecture</li>
+                        <li>Topic Cluster Planning</li>
+                        <li>Interactive Generator Strategy</li>
+                        <li>Homepage Repositioning Recommendations</li>
+                        <li>Membership Growth Strategy</li>
+                        <li>Authority Content Plan</li>
+                        <li>Implementation Priorities</li>
                     </ul>
                 </div>
                 <div class="investment-box">
