@@ -1,481 +1,264 @@
-I would add this before the Executive Summary so Justin immediately understands **what he's buying** and **what outcome he's paying for.**
+# Website Growth System
 
----
-
-# Strategy
-
-The objective of this engagement is to transform **The Music Dept** from a traditional recording studio website into a search-first growth platform that consistently attracts musicians, bands, podcasters, actors, voice talent, schools, and creators throughout the Washington D.C. region.
-
-Rather than relying on a small number of search terms, we'll build a complete content and software ecosystem that positions The Music Dept as the authoritative destination for rehearsal, recording, creative production, and artist development.
-
-This strategy combines modern SEO, AI search optimization, local search, and proprietary lead-generation tools to increase qualified traffic, improve conversions, and create long-term competitive advantages.
-
-A major component of this project is the development of **custom WordPress plugins** that turn the website into an interactive platform instead of a static brochure. These tools will generate qualified leads, build topical authority, increase user engagement, and create assets that competitors cannot easily replicate.
-
----
-
-# Desired Outcome
-
-Upon completion, The Music Dept will have a scalable digital growth system designed to:
-
-* Increase qualified organic traffic from Google and AI-powered search engines.
-* Rank for hundreds of high-intent searches related to recording, rehearsal, podcasting, voice-over, acting, schools, and creative production.
-* Become the leading online resource for musicians and creators in the Washington D.C., Maryland, and Northern Virginia region.
-* Capture more leads through interactive planning tools, calculators, and generators.
-* Strengthen local search visibility across targeted cities, neighborhoods, universities, and landmarks.
-* Improve topical authority through structured content clusters and answer-based resources.
-* Build a sustainable content engine that continuously expands search visibility.
-* Increase membership sign-ups and studio bookings through better positioning and user experience.
-* Differentiate The Music Dept with proprietary WordPress plugins and interactive tools that competitors do not offer.
-
----
-
-# Project Scope
-
-The following strategic initiatives will be completed during this engagement and developed as custom WordPress plugins or integrated website features where applicable:
-
-* **Content Engine**
-
-  * Content hubs
-  * Use-case landing pages
-  * Topic clusters
-  * Content templates
-
-* **GEO (Generative Engine Optimization)**
-
-  * AI-friendly location pages
-  * Neighborhood pages
-  * Landmark and university pages
-
-* **AEO (Answer Engine Optimization)**
-
-  * Question hubs
-  * AI answer pages
-  * Structured FAQ framework
-
-* **Local SEO**
-
-  * Service pages
-  * City pages
-  * Local authority enhancements
-  * Gallery optimization
-
-* **Interactive Growth Tools (WordPress Plugins)**
-
-  * Music Release Planner
-  * Recording Budget Calculator
-  * EP Timeline Generator
-  * Band Practice Planner
-  * Music Marketing Checklist
-  * Studio Session Checklist
-  * Missing Royalties Finder
-  * Podcast Launch Planner
-  * Album Budget Planner
-  * Tour Rehearsal Planner
-  * Equipment Checklist Generator
-  * Session Prep Planner
-  * Music Career Roadmap
-
-* **Brand Repositioning**
-
-  * Homepage strategy
-  * Audience segmentation
-  * Service architecture
-  * Messaging framework
-
-* **Authority Content System**
-
-  * Resource center
-  * Local music guides
-  * Industry reference content
-
-* **Membership Growth System**
-
-  * Membership positioning
-  * Community features
-  * Member acquisition strategy
-
----
-
-I actually think calling these **"WordPress plugins"** undersells what you're building. I'd brand them as **Music Dept Studio Tools™** or **Studio Growth Tools™** throughout the proposal, then note that they're implemented as custom WordPress plugins. That makes the deliverable feel like proprietary software instead of just another plugin.
-
-# Proposal
-
-## Website Growth Strategy for The Music Dept
-
-### Prepared for Justin Campbell
-
+**Prepared for:** Justin Campbell — The Music Dept, 4848 Battery Lane, Bethesda, MD
 **Prepared by:** Kay Ali
-**Investment:** **$2,950**
+**Investment:** **$1,500**
 
 ---
 
 # Executive Summary
 
-The Music Dept has built a respected reputation and has an incredible history, but the website currently functions primarily as an online brochure. It explains what the studio is instead of becoming the destination musicians discover while searching for solutions.
+The Music Dept rents rooms. Every month starts at zero, and revenue depends on who happens to call.
 
-The goal of this project is to reposition The Music Dept from simply renting rehearsal rooms into becoming the leading creative resource for musicians, bands, podcasters, actors, voice talent, and creators throughout the Washington D.C. region.
+The objective of this engagement is to change that. We will transform The Music Dept from a room rental business into a predictable revenue business — built on recurring customers, high-value partnerships, and search visibility that compounds.
 
-Rather than relying on a handful of keywords like "recording studio Bethesda," we'll build an ecosystem that attracts visitors at every stage of their creative journey.
+The target is **$8,400 per month**, and here is exactly where it comes from:
 
-The strategy is built around eight growth pillars.
+| Offer | Price | Target/mo | Revenue |
+|---|---|---|---|
+| Rehearsal Lockout | $250/day | 14 days | $3,500 |
+| Monthly Artist Block (8 recording hrs) | $600/mo recurring | 4 clients | $2,400 |
+| Weekly Podcast Slot | $400/mo recurring | 3 shows | $1,200 |
+| Listening Party (4 evening hrs, PA, engineer) | $650/event | 2 events | $1,300 |
+| **Total** | | | **$8,400** |
 
----
+**$3,600 of that recurs on the 1st of every month** — before a single new customer walks in.
 
-# 1. Content Engine
-
-## Build Content Around What People Are Trying To Do
-
-Instead of creating pages about rooms, we'll create pages around goals and use cases.
-
-### Musicians
-
-* Record Your First EP
-* Record a Full-Length Album
-* Live Session Recording
-* Vocal Recording
-* Drum Recording
-* Instrument Recording
-* Acoustic Sessions
-* Demo Recording
-* Spotify Release Preparation
-* Music Video Audio Recording
-
-### Bands
-
-* Band Rehearsal
-* Tour Rehearsals
-* Pre-Show Practice
-* Album Rehearsals
-* Church Bands
-* Orchestra Practice
-* Musical Theater Rehearsals
-* Audition Preparation
-
-### Podcasters
-
-* Video Podcast Studio
-* Audio Podcast Recording
-* Interview Podcast Studio
-* Multi-Camera Podcasts
-* Podcast Launch Sessions
-
-### Voice Talent
-
-* Voice Over Recording
-* Commercial Voice Recording
-* Audiobook Recording
-* ADR
-* Voice Acting Demos
-
-### Actors
-
-A largely untapped opportunity.
-
-* Self Tape Studio
-* Acting Demo Reels
-* Audition Recording
-* Monologue Recording
-* Voice Demo Reels
-
-### Content Creators
-
-* YouTube Recording
-* Membership Content
-* Course Recording
-* Interview Production
-* Streaming Sessions
-
-### Schools
-
-* Student Recording Sessions
-* Choir Recording
-* Jazz Ensemble Recording
-* Music Program Projects
-
-### Events
-
-* Listening Parties
-* Album Release Events
-* Songwriting Camps
-* Writing Retreats
-* Artist Meet & Greets
-
-Every topic becomes multiple assets:
-
-* Dedicated landing page
-* Search-optimized article
-* FAQ page
-* Downloadable checklist
-* Instagram content
-* YouTube video
-* AI answer source
+Everything else in this proposal — the website, the content, the software, the search strategy — exists to fill this table. Nothing is included that doesn't move one of these four numbers.
 
 ---
 
-# 2. GEO (Generative Engine Optimization)
+# The Business Strategy
 
-Build pages around how people naturally search instead of relying only on city pages.
+The plan runs on four revenue engines.
 
-Examples include:
+**1. Lockout Days.** Full-day rehearsal buyouts at $250. Fourteen days a month covers over 40% of the goal, and lockouts sell to the buyers who book in bulk: touring bands, producers, managers.
 
-* Recording Studio Near NIH
-* Recording Studio Near American University
-* Recording Studio Near Howard University
-* Recording Studio Near UMD
-* Recording Studio Near Georgetown
-* Recording Studio Near George Washington University
-* Band Rehearsal Near Bethesda Metro
-* Recording Studio Near Silver Spring
-* Recording Studio Near College Park
+**2. Monthly Artist Blocks.** Eight recording hours for $600 a month, recurring. Four clients turn recording from a one-off transaction into subscription income.
 
-We'll also create high-quality neighborhood pages for:
+**3. Podcast Residencies.** A weekly slot, same day, same room, $400 a month. Podcasts are the ideal tenant: they book 52 weeks a year and never churn mid-season.
 
-* Bethesda
-* Chevy Chase
-* Kensington
-* Silver Spring
-* Rockville
-* Gaithersburg
-* Washington DC
-* Arlington
-* Alexandria
-* Hyattsville
+**4. Listening Parties.** A four-hour evening event with PA and engineer for $650. Two a month, sold per release to artists and labels.
 
-Each page will include:
+**Why recurring revenue matters.** A studio that starts every month at $3,600 makes better decisions than one that starts at zero. Recurring revenue funds the marketing, smooths the slow weeks, and makes the business sellable.
 
-* Parking information
-* Metro access
-* Driving directions
-* Nearby restaurants
-* Nearby music stores
-* Hotels
-* Equipment rental options
-* Original photography
+**Why relationships beat transactions.** One producer with a weekly residency is worth more than twenty individual bookings — and costs nothing to re-acquire each month. The strategy prioritizes buyers who purchase repeatedly and bring their own clients with them.
+
+**Why the buyer matters more than the booking.** Managers, labels, and podcast companies buy in bulk, pay on one invoice, and sign for months at a time. Individual artists fill the calendar; these buyers build the business.
 
 ---
 
-# 3. AEO (Answer Engine Optimization)
+# Target Growth Partners
 
-Create content that directly answers the questions musicians ask every day.
+Six buyer types, ranked by lifetime value.
 
-Examples include:
+| Partner | The deal | Lifetime value |
+|---|---|---|
+| **Producers** | Weekly residency, fixed day, their clients book at house rates | $800–$1,500/mo, indefinitely — plus every client they bring |
+| **Artist Managers** | Block hours across the roster, one invoice, priority scheduling | 2–3 Artist Blocks each; the roster renews even as artists change |
+| **Independent Labels** | Artist development days plus listening party packages per release | 4+ events per year, per label, tied to their release calendar |
+| **Podcast Networks** | Multiple weekly slots, one deal, consistent set | $800+/mo per network, 12-month commitments |
+| **Bands** | Lockouts, tour rehearsals, listening parties | Repeat bookings around every tour and release cycle |
+| **Artists** | Blocks, sessions, events | Fills remaining capacity; the best graduate into blocks |
 
-* How much rehearsal time does a band need?
-* What should I bring to my first recording session?
-* How much does recording an EP cost?
-* Can I record drums in an apartment?
-* How long does mixing take?
-* What's the difference between rehearsal and recording?
-* Can I record video and podcast at the same time?
-* Where can my band rehearse near Washington DC?
-* What microphones should singers use?
-* How do I prepare before recording vocals?
-
-Each article will become an AI-friendly resource designed to appear in Google, AI search engines, and voice assistants.
+**The play:** a 50-contact DMV outreach list, worked by phone and DM. Target: 3–5 partnership deals in 90 days, locking in $3,000–$4,000 of monthly revenue before consumer marketing even runs.
 
 ---
 
-# 4. Local SEO
+# Website Strategy
 
-Expand beyond one or two primary keywords by creating dedicated pages for every major service.
+The website is not a brochure. It is the sales platform — and its job is to shorten every buying decision.
 
-Examples include:
+**Offer Pages (4).** One page per revenue engine: Lockout, Artist Block, Podcast Slot, Listening Party. Each shows the rate, the gear, the room, the photos — and links directly into the existing booking system.
 
-* Band Rehearsal Bethesda
-* Podcast Studio Bethesda
-* Recording Studio Bethesda
-* Music Practice Rooms Bethesda
-* Voice Over Studio Bethesda
-* Audiobook Recording Bethesda
-* Album Recording Bethesda
-* Demo Recording Bethesda
-* Music Production Bethesda
-* Recording Engineer Bethesda
-* Band Rehearsal Maryland
-* Band Rehearsal Washington DC
-* Band Rehearsal Silver Spring
-* Band Rehearsal Rockville
-* Band Rehearsal Chevy Chase
+**Audience Pages.** Dedicated pages for producers, managers, labels, podcast networks, bands, and artists. Each one states the deal, the math versus retail rates, and who to call. These buyers skim; the pages are built for skimming.
 
-We'll also replace stock imagery with authentic local content featuring real sessions, rehearsals, and productions to strengthen local relevance and credibility.
+**Capability PDF.** A one-page document — rooms, gear, rates, capacity, load-in — generated from the same data as the site. Managers and labels forward files, not homepages. This is the asset that travels through their inbox.
+
+**Transparent pricing.** Every rate published. Hidden pricing creates phone calls; published pricing creates bookings.
+
+**Booking integration.** Every page ends in one action: book the room. No contact forms that go nowhere.
+
+A buyer should be able to land on the site, understand the offer, see the price, and book — in under three minutes.
 
 ---
 
-# 5. Interactive Lead Generators
+# Content Strategy
 
-These tools become long-term lead magnets while helping musicians solve real problems.
+Content is organized around bookings, not keywords. Six page systems, each with a job:
 
-Planned generators include:
+**Offer Pages** close the sale. They carry the rates, gear, and booking links for the four revenue engines.
 
-### Music Release Planner
+**Audience Pages** speak to each buyer type in their own language — a producer and a podcast network need different pages, not the same page twice.
 
-Build a complete release calendar based on:
+**Question Hub** captures buyers earlier in their decision: how much rehearsal time a band needs, what an EP costs, what to bring to a session. Each answer routes to the relevant offer page.
 
-* Release date
-* Budget
-* Distribution platform
-* Genre
+**Authority Guides** — DMV venues, open mic nights, local producers, mixing engineers, music schools — make The Music Dept the reference point for the local scene, and earn the links and mentions that lift everything else.
 
-Outputs a customized 90-day release strategy.
+**GEO Near Pages** capture "near me" intent around Howard, UMD, American, Georgetown, NIH, and Bethesda Metro.
 
----
+**City Pages** cover Bethesda, Silver Spring, Rockville, Chevy Chase, DC, and Arlington.
 
-### Recording Budget Calculator
-
-Estimate recording costs based on project scope.
+**Built as a system, not a writing project.** The near pages, city pages, and directory all generate from one template and one dataset of locations. Adding a new location means adding a row of data — not commissioning a new page. The system produces hundreds of pages with no ongoing writing cost.
 
 ---
 
-### EP Timeline Generator
+# The Bethesda Community Directory
 
-Create an eight-week production schedule.
+This is the most defensible asset in the plan.
 
----
+The Music Dept sits at 4848 Battery Lane. The directory makes it the digital hub of the music community around that address: a public, genuinely useful guide to the neighborhood.
 
-### Band Practice Planner
+**What it covers:**
 
-Generate structured rehearsal schedules.
+- Restaurants and food spots near Battery Lane
+- Music stores, instrument repair, and gear rental
+- Venues, open mics, and stages nearby
+- Music teachers and schools in the area
+- Creative businesses and services in the neighborhood
 
----
+Each listing carries the name, what they do, the address, distance from the studio, and a link. Listings generate from a places dataset into one template — one page per listing plus category indexes. Hundreds of pages, quarterly data refresh, no ongoing maintenance.
 
-### Music Marketing Checklist
+**What it produces:**
 
-Everything required before releasing new music.
+- **Google:** hyperlocal content dense with Bethesda names, streets, and landmarks — exactly what local rankings reward.
+- **AI search:** verifiable local detail that AI answers can cite when someone asks where to record near Bethesda.
+- **Partnerships:** neighboring businesses get free visibility and return it — referrals, flyers on counters, cross-promotion.
+- **Referrals:** musicians driving in from DC and Maryland use the directory as their guide to the area, making the studio the anchor of every trip.
+- **Local authority:** listed businesses link back and mention the studio, building a backlink profile no competitor can copy — because no competitor is the hub of this neighborhood.
 
----
-
-### Studio Session Checklist
-
-Exactly what to bring before arriving.
-
----
-
-### Missing Royalty Finder
-
-One of the strongest opportunities.
-
-Artists answer whether they're registered with:
-
-* ASCAP
-* BMI
-* SESAC
-* SoundExchange
-* The MLC
-* Songtrust
-* Harry Fox Agency
-* YouTube Content ID
-* Neighboring Rights Organizations
-* Distribution Services
-* Publishing Administration
-
-The tool identifies potential missing registrations and revenue opportunities.
+This is not a content tactic. It is a structural advantage: the studio becomes infrastructure for its own scene.
 
 ---
 
-Additional generators include:
+# Studio Growth Tools™
 
-* Podcast Launch Planner
-* Album Budget Planner
-* Tour Rehearsal Planner
-* Equipment Checklist Generator
-* Session Prep Planner
-* Music Career Roadmap
+Custom software, developed specifically for The Music Dept.
 
-Each tool collects leads while providing immediate value.
+Every tool solves a real problem for a musician — and every tool captures a lead and routes it to the right offer page. Useful enough to share; targeted enough to sell.
 
----
+**Launch set:**
 
-# 6. Brand Repositioning
+- **Missing Royalty Finder** — checks ASCAP, BMI, SESAC, SoundExchange, and MLC registrations and flags money being left on the table. The strongest lead magnet in the suite: it finds artists actual revenue.
+- **Recording Budget Calculator** — scopes a project's real cost before the first call, and lands the visitor on the Artist Block page.
+- **Music Release Planner** — builds a 90-day release calendar, and books the sessions that calendar requires.
+- **Studio Session Checklist** — exactly what to bring, delivered before the session that gets booked.
 
-The website should communicate more than room rentals.
+**Expansion set,** released as demand shows: Music Career Roadmap, Podcast Planner, EP Timeline Generator, Band Practice Planner, Album Budget Planner, Tour Rehearsal Planner, Session Prep Planner, and more.
 
-The objective is to establish The Music Dept as a complete creative destination.
-
-Messaging will be organized around audiences instead of facilities.
-
-Examples include:
-
-* For Bands
-* For Solo Artists
-* For Podcasters
-* For Voice Talent
-* For Actors
-* For Schools
-* For Content Creators
-* For Labels
-
-This approach immediately helps visitors understand that the studio was built specifically for their needs.
+No other studio in the region offers software. That alone changes what The Music Dept is.
 
 ---
 
-# 7. Authority Content
+# Local Search Strategy
 
-Develop high-value resources that naturally attract backlinks and establish topical authority.
+The local layer is straightforward and largely generated from the same data system:
 
-Potential guides include:
-
-* Best Music Venues in Washington DC
-* Best Open Mic Nights
-* Best Music Schools
-* Best Guitar Shops
-* Best Drum Shops
-* Best Recording Software
-* Best Studio Microphones
-* Best Local Producers
-* Best Mixing Engineers
-* Best Music Attorneys
-* Best Copyright Resources
-* Best Music Marketing Tools
-
-These assets strengthen long-term organic visibility while becoming reference material within the local music community.
+- **Service Pages** for every offer in every target market
+- **Neighborhood Pages** for the areas buyers actually search from
+- **University Pages** — Howard, UMD, American, Georgetown, GW
+- **Landmark Pages** — NIH, Bethesda Metro
+- **Structured Data** sitewide: LocalBusiness, Service with pricing, Event, FAQ, and per-listing markup across the directory
+- **Google Business Profile** rebuild: full service list with pricing, weekly photo and video posts, seeded Q&A
+- **Reviews:** every client asked same-day, targeting 100+ reviews
 
 ---
 
-# 8. Membership Growth Strategy
+# AI Search Strategy
 
-Shift the membership experience from simple discounts to community value.
+Buyers increasingly ask ChatGPT, Gemini, and Google AI Mode where to record — and those engines recommend businesses they can understand and verify.
 
-Potential member benefits include:
+**Answer Engine Optimization (AEO).** The Question Hub publishes direct, structured answers to the questions musicians actually ask. When an AI engine needs an answer about recording in the DMV, The Music Dept is the source.
 
-* Weekly rehearsal discounts
-* Last-minute booking opportunities
-* Artist networking events
-* Member directory
-* Monthly workshops
-* Recording discounts
-* Producer office hours
-* Member showcases
-* Equipment partner discounts
+**Generative Engine Optimization (GEO).** The near pages, city pages, and directory give AI engines what they trust most: specific, verifiable local facts — addresses, distances, transit, real businesses.
 
-The goal is to make membership something musicians actively want to belong to rather than simply another pricing option.
+**Structured content and schema.** Every page carries machine-readable markup — services with prices, events with dates, FAQs with answers — so engines don't have to guess what the studio offers or what it costs.
+
+The result: when someone asks an AI where a band should rehearse near DC, the answer is The Music Dept — with the rate and the booking link.
 
 ---
 
-# Deliverables
+# Conversion System
 
-The project includes:
+Traffic is worthless if booking is hard. Every element below removes friction:
 
-* Complete website growth strategy
-* SEO roadmap
-* AEO roadmap
-* GEO roadmap
-* Local SEO expansion strategy
-* Content architecture
-* Topic cluster planning
-* Interactive generator strategy
-* Homepage repositioning recommendations
-* Membership growth strategy
-* Authority content plan
-* Implementation priorities
+- **Published pricing** on every offer — no "call for rates"
+- **Direct booking integration** from every page
+- **Review generation** — a same-day ask after every session, compounding toward 100+
+- **Photo galleries** of real rooms, real gear, real sessions — no stock imagery
+- **Trust indicators** — gear lists, room specs, capacity, load-in details
+- **Testimonials** from producers, bands, and podcasters
+- **Capability PDF** for the buyers who forward instead of browse
+- **Fast booking path** — from any page to a confirmed booking in the fewest possible clicks
+
+The measure of the website is not traffic. It is the time between arrival and booking.
 
 ---
 
-# Project Investment
+# Build Roadmap
 
-**Website Growth Strategy & SEO Roadmap**
+**Phase 1 — Revenue Foundation**
+All four offers defined and priced. All rates published. Offer pages live and linked to the booking system. The 50-contact outreach list built. *Deliverables: 4 offer pages, published rate card, outreach list.*
 
-**Fixed Investment:** **$2,950**
+**Phase 2 — Website**
+Audience pages for all six buyer types. Capability PDF. Location dataset assembled; templates built. *Deliverables: 6 audience pages, capability PDF, template and data system.*
 
-This engagement provides a complete strategic blueprint for transforming The Music Dept into the leading rehearsal, recording, and creative production destination in the Washington D.C. region by expanding its visibility across search engines, AI search, local search, and high-intent customer journeys.
+**Phase 3 — Content System**
+Bethesda Community Directory generates from the dataset. GEO near pages and city pages go live. Google Business Profile rebuilt. Question Hub launches with the first 10 answers. *Deliverables: directory (hundreds of pages), near/city pages, GBP rebuild, 10-question hub.*
 
+**Phase 4 — Growth Tools**
+Missing Royalty Finder and Recording Budget Calculator ship. Release Planner and Session Checklist follow. Every tool wired to lead capture and offer pages. *Deliverables: 4 Studio Growth Tools™, live and capturing leads.*
+
+**Phase 5 — Authority Expansion**
+Five authority guides published. Expansion tools released as demand shows. Review count pushed past 100. Quarterly dataset refresh cycle begins. *Deliverables: 5 authority guides, expansion tools, 100+ review engine, refresh cadence.*
+
+---
+
+# Success Metrics
+
+The business metrics come first. The marketing metrics exist to serve them.
+
+**Business:**
+
+- Recurring Monthly Revenue (target: $3,600)
+- Lockout Days booked (target: 14/mo)
+- Artist Blocks active (target: 4)
+- Podcast Slots filled (target: 3)
+- Listening Parties booked (target: 2/mo)
+- Total Monthly Bookings
+- Qualified Leads from tools and pages
+
+**Market position:**
+
+- Google Reviews (target: 100+)
+- Organic Traffic
+- AI Search Visibility — citations in ChatGPT, Gemini, and Google AI Mode answers
+- Topical Authority — rankings across the question, guide, and local page systems
+
+Weekly scoreboard: 3–4 lockout days booked, recurring clients held steady, one event every other week.
+
+---
+
+# The Final Vision
+
+After this project, The Music Dept is not "a recording studio in Bethesda."
+
+It is:
+
+- **The first place musicians discover** — on Google, in AI answers, and through the neighborhood it anchors
+- **The easiest studio to book** — published rates, direct booking, no friction
+- **The most useful music resource in the DMV** — the tools, the guides, the directory
+- **The preferred partner** for producers, managers, labels, and podcasters
+- **A business built on predictable recurring revenue** — $3,600 locked in before each month begins, on the way to $8,400
+
+One line of math: 14 lockouts + 4 artist blocks + 3 podcast slots + 2 listening parties = **$8,400/month.**
+
+---
+
+# Investment
+
+**Website Growth System**
+
+**Fixed Investment: $1,500**
+
+One engagement. The complete system: revenue model, website, content engine, Bethesda Community Directory, Studio Growth Tools™ architecture, local and AI search strategy, conversion system, and the five-phase build roadmap.
