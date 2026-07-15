@@ -216,7 +216,7 @@ Five authority guides published. Expansion tools released as demand shows. Revie
 
 # Success Metrics
 
-The business metrics come first. The marketing metrics exist to serve them.
+The business metrics come first. The marketing metrics exist to serve them. The system delivers the platform, the pages, the tools, and the leads; the revenue targets are hit when that system is paired with the outreach play in Target Growth Partners.
 
 **Business:**
 
