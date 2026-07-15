@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Growth System | The Music Dept</title>
-    <meta name="description" content="A studio growth system for The Music Dept — a revenue model, sales-platform website, Bethesda Community Directory, and Studio Growth Tools™. Prepared by Kay Ali.">
+    <title>Website Growth Expansion | The Music Dept</title>
+    <meta name="description" content="A Website Growth & Revenue Expansion plan for The Music Dept — customer journey, conversion system, Bethesda Community Directory, and Studio Growth Tools™. Prepared by Kay Ali.">
     <link rel="icon" type="image/png" href="the-music-dept-favicon.png">
     <link rel="apple-touch-icon" href="the-music-dept-favicon.png">
 
@@ -61,12 +61,6 @@
             display: flex; align-items: center; gap: 18px;
             padding: 22px 30px; background: #000; color: #fff;
             border-bottom: 4px solid var(--brand);
-        }
-        .masthead .mark {
-            flex-shrink: 0; width: 56px; height: 56px;
-            background: var(--brand); color: #000; border: 3px solid #fff;
-            display: flex; align-items: center; justify-content: center;
-            font-family: var(--font-heading); font-weight: 700; font-size: 19px; letter-spacing: -1px;
         }
         .masthead .brand-logo { height: 60px; width: auto; display: block; flex-shrink: 0; }
         .masthead .masthead-tag { font-family: var(--font-mono); font-size: 12px; color: var(--brand); text-transform: uppercase; letter-spacing: 1px; }
@@ -300,7 +294,7 @@
         }
         .partner-list li p { font-size: 15px; font-weight: 600; color: var(--text-muted); }
 
-        /* DESIRED OUTCOMES - value highlight cards */
+        /* OUTCOME LIST */
         .outcome-list { list-style: none; display: grid; gap: 14px; margin-top: 24px; }
         .outcome-list li {
             display: flex; align-items: center; gap: 16px;
@@ -316,6 +310,34 @@
         .outcome-list li b { background: rgba(245, 178, 54, 0.55); padding: 0 4px; }
         @media (max-width: 600px) { .outcome-list li { font-size: 15px; padding: 14px 16px; } }
 
+        /* JOURNEY FLOW */
+        .flow { display: flex; flex-direction: column; align-items: center; margin: 30px auto 0; max-width: 640px; }
+        .flow-step {
+            background: #fff; border: 3px solid #000; box-shadow: 5px 5px 0px #000;
+            padding: 12px 24px; font-family: var(--font-mono); font-size: 14px; font-weight: 700;
+            text-transform: uppercase; text-align: center; width: 100%;
+        }
+        .flow-step small { display: block; font-size: 12px; text-transform: none; color: var(--text-muted); margin-top: 4px; font-weight: 700; }
+        .flow-step.hot { background: var(--brand); }
+        .flow-arrow { font-family: var(--font-mono); font-size: 18px; font-weight: 700; padding: 6px 0; color: #000; }
+        .section.dark .flow-arrow { color: var(--brand); }
+
+        /* VIDEO GRID */
+        .video-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px; margin-top: 24px; }
+        .video-card {
+            background: #fff; border: 2px solid #000; box-shadow: 4px 4px 0px #000; padding: 16px 18px;
+        }
+        .video-card .v-num {
+            display: inline-block; background: #000; color: var(--brand);
+            font-family: var(--font-mono); font-size: 12px; font-weight: 700; padding: 2px 8px; margin-bottom: 8px;
+        }
+        .video-card h4 { font-family: var(--font-body); text-transform: none; font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+        .video-card .v-target {
+            display: inline-block; font-family: var(--font-mono); font-size: 11px; font-weight: 700;
+            background: rgba(245, 178, 54, 0.4); border: 1px solid #000; padding: 1px 6px; margin-bottom: 6px; text-transform: uppercase;
+        }
+        .video-card p { font-size: 14px; color: var(--text-muted); font-weight: 600; font-style: italic; }
+
         /* STUDIO GROWTH TOOLS GRID */
         .tools-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 24px; margin-top: 30px; }
         .tool-card {
@@ -328,7 +350,6 @@
         }
         .tool-card h4 { color: var(--brand); font-size: 18px; margin-bottom: 12px; }
         .tool-card p { font-size: 15px; color: #ccc; font-weight: 400; line-height: 1.5; }
-        .tool-card ul { margin-top: 12px; padding-left: 20px; color: #aaa; font-size: 14px; font-family: var(--font-mono);}
 
         /* ROADMAP PHASES */
         .phase-list { list-style: none; display: grid; gap: 20px; margin-top: 30px; }
@@ -371,7 +392,6 @@
         }
         .inv-price { font-family: var(--font-heading); font-weight: 700; font-size: 64px; color: #000; margin: 16px 0 4px; }
         .inv-compare { font-family: var(--font-mono); font-weight: 700; font-size: 15px; color: #000; margin-bottom: 20px; }
-        .inv-compare s { text-decoration-thickness: 2px; opacity: 0.85; }
         .inv-desc { font-family: var(--font-mono); font-size: 16px; font-weight: 700; color: #000; }
 
         /* SIGNATURE SECTION */
@@ -412,17 +432,19 @@
         <div class="toc-inner">
             <span class="toc-label">The System //</span>
             <a href="#executive"><span class="num">00</span> Summary</a>
-            <a href="#strategy"><span class="num">01</span> Strategy</a>
-            <a href="#partners"><span class="num">02</span> Partners</a>
-            <a href="#channels"><span class="num">03</span> Channels</a>
+            <a href="#revenue"><span class="num">01</span> Revenue</a>
+            <a href="#buyers"><span class="num">02</span> Buyers</a>
+            <a href="#journey"><span class="num">03</span> Journey</a>
             <a href="#website"><span class="num">04</span> Website</a>
-            <a href="#content"><span class="num">05</span> Content</a>
-            <a href="#directory"><span class="num">06</span> Directory</a>
-            <a href="#tools"><span class="num">07</span> Tools™</a>
+            <a href="#conversion"><span class="num">05</span> Convert</a>
+            <a href="#outreach"><span class="num">06</span> Outreach</a>
+            <a href="#social"><span class="num">07</span> Social</a>
             <a href="#search"><span class="num">08</span> Search</a>
-            <a href="#conversion"><span class="num">09</span> Convert</a>
-            <a href="#roadmap"><span class="num">10</span> Roadmap</a>
-            <a href="#investment"><span class="num">11</span> Investment</a>
+            <a href="#directory"><span class="num">09</span> Directory</a>
+            <a href="#legacy"><span class="num">10</span> Legacy</a>
+            <a href="#tools"><span class="num">11</span> Tools™</a>
+            <a href="#roadmap"><span class="num">12</span> Roadmap</a>
+            <a href="#investment"><span class="num">13</span> Investment</a>
         </div>
     </nav>
 
@@ -439,9 +461,9 @@
             <!-- HERO / COVER -->
             <div class="hero">
                 <div class="hero-content">
-                    <div class="pre-headline">Website Growth System</div>
-                    <h1 class="main-headline">From room rentals to <span class="highlight">$8,400 a month</span> in predictable revenue.</h1>
-                    <p class="sub-headline">A studio growth system for The Music Dept. The website, content, and software all serve one goal: the business.</p>
+                    <div class="pre-headline">Website Growth Expansion</div>
+                    <h1 class="main-headline">From one-off bookings to <span class="highlight">$8,400 a month</span> in predictable revenue.</h1>
+                    <p class="sub-headline">Not a redesign. An expansion of the website, marketing assets, and booking process The Music Dept already has.</p>
                     <div class="hero-meta">
                         <span>Prepared for: <b>Justin Campbell</b></span>
                         <span>Prepared by: <b>Kay Ali</b></span>
@@ -454,7 +476,7 @@
             <div class="section" id="executive">
                 <span class="eyebrow">00 // Executive Summary</span>
                 <h2 class="section-title">The Business Comes First</h2>
-                <p class="section-lede">The Music Dept rents rooms. Every month starts at zero, and revenue depends on who happens to call. This engagement changes that: it transforms The Music Dept from a room rental business into a <strong>predictable revenue business</strong> — built on recurring customers, high-value partnerships, and search visibility that compounds.</p>
+                <p class="section-lede">The Music Dept already has what most studios spend years building: a website, a booking system, a Google Business Profile, a social presence, paying customers — and a room where music history was made. This plan expands what exists. The objective: become the <strong>highest-converting recording and rehearsal studio in the DMV</strong> by improving every stage of the customer journey.</p>
                 <p class="section-lede">The target is <strong>$8,400 per month</strong>. Here is exactly where it comes from:</p>
 
                 <div class="rev-table-wrap">
@@ -474,34 +496,34 @@
 
                 <div class="content-block" style="background: var(--brand);">
                     <h3 style="border-color: #000;">The Foundation</h3>
-                    <p><strong>$3,600 of this recurs on the 1st of every month</strong> — before a single new customer walks in. Everything else in this proposal — the website, the content, the software, the search strategy — exists to fill this table. Nothing is included that doesn't move one of these four numbers.</p>
+                    <p>Recurring revenue provides the stability — <strong>$3,600 locked in on the 1st of every month</strong>. Lockouts and events maximize what each month produces on top of it. Everything in this proposal exists to fill this table.</p>
                 </div>
             </div>
 
-            <!-- 01. BUSINESS STRATEGY -->
-            <div class="section alt" id="strategy">
-                <span class="eyebrow">01 // The Business Strategy</span>
-                <h2 class="section-title">Four Revenue Engines</h2>
-                <p class="section-lede">The plan runs on four offers. Each one is priced, targeted, and sold to a specific buyer.</p>
+            <!-- 01. REVENUE STRATEGY -->
+            <div class="section alt" id="revenue">
+                <span class="eyebrow">01 // Revenue Strategy</span>
+                <h2 class="section-title">Four Core Engines + Expansion Revenue</h2>
+                <p class="section-lede">The plan runs on four priced, targeted offers — with expansion revenue layered on the same rooms and the same pages.</p>
 
                 <div class="engine-grid">
                     <div class="engine-card">
                         <span class="engine-num">Engine 1</span>
                         <h4>Lockout Days</h4>
                         <span class="engine-price">$250/day × 14 = $3,500</span>
-                        <p>Full-day rehearsal buyouts. Over 40% of the goal, sold to the buyers who book in bulk: touring bands, producers, managers.</p>
+                        <p>Full-day rehearsal buyouts, sold to the buyers who book in bulk: touring bands, producers, managers.</p>
                     </div>
                     <div class="engine-card">
                         <span class="engine-num">Engine 2</span>
                         <h4>Monthly Artist Blocks</h4>
                         <span class="engine-price">$600/mo × 4 = $2,400</span>
-                        <p>Eight recording hours a month, recurring. Turns recording from a one-off transaction into subscription income.</p>
+                        <p>Eight recording hours a month, recurring. Recording becomes subscription income.</p>
                     </div>
                     <div class="engine-card">
                         <span class="engine-num">Engine 3</span>
                         <h4>Podcast Residencies</h4>
                         <span class="engine-price">$400/mo × 3 = $1,200</span>
-                        <p>A weekly slot, same day, same room. Podcasts are the ideal tenant: they book 52 weeks a year and never churn mid-season.</p>
+                        <p>A weekly slot, same day, same room. Podcasts book 52 weeks a year and never churn mid-season.</p>
                     </div>
                     <div class="engine-card">
                         <span class="engine-num">Engine 4</span>
@@ -512,283 +534,302 @@
                 </div>
 
                 <div class="content-block" style="margin-top: 40px;">
-                    <h3>Why This Works</h3>
-                    <ul class="outcome-list">
-                        <li><span class="chk">1</span><span><b>Recurring revenue changes the business.</b> A studio that starts every month at $3,600 makes better decisions than one that starts at zero. It funds marketing, smooths slow weeks, and makes the business sellable.</span></li>
-                        <li><span class="chk">2</span><span><b>Relationships beat transactions.</b> One producer with a weekly residency is worth more than twenty individual bookings — and costs nothing to re-acquire each month.</span></li>
-                        <li><span class="chk">3</span><span><b>The buyer matters more than the booking.</b> Managers, labels, and podcast companies buy in bulk, pay on one invoice, and sign for months. Individual artists fill the calendar; these buyers build the business.</span></li>
+                    <h3>Expansion Revenue</h3>
+                    <p>Layered on top of the $8,400 base, using the same rooms and pages:</p>
+                    <ul class="content-list">
+                        <li>Producer Residencies — fixed weekly day</li>
+                        <li>Podcast Packages — multi-slot network deals</li>
+                        <li>Corporate Recording — branded &amp; training audio</li>
+                        <li>Voice Over — commercial, audiobook, ADR</li>
+                        <li>Music Videos — the space as a shoot location</li>
+                        <li>Memberships — a future phase</li>
                     </ul>
+                    <p style="margin-top: 20px;">Recurring revenue reduces dependence on one-off bookings. <strong>A studio that starts every month at $3,600 makes better decisions than one that starts at zero.</strong></p>
                 </div>
             </div>
 
-            <!-- 02. TARGET GROWTH PARTNERS -->
-            <div class="section" id="partners">
-                <span class="eyebrow">02 // Buyer Strategy</span>
-                <h2 class="section-title">Target Growth Partners</h2>
-                <p class="section-lede">Six buyer types, ranked by lifetime value. One relationship at the top of this list can cover a quarter of the monthly goal.</p>
+            <!-- 02. TARGET BUYERS -->
+            <div class="section" id="buyers">
+                <span class="eyebrow">02 // Target Buyers</span>
+                <h2 class="section-title">Who Buys, What They Need</h2>
+                <p class="section-lede">Core buyers build the business — one relationship can cover a quarter of the monthly goal. Expansion buyers fill the calendar with the same rooms and pages.</p>
 
                 <ul class="partner-list">
                     <li>
                         <span class="p-name">Producers</span>
-                        <p>Weekly residency, fixed day, their clients book at house rates.</p>
-                        <span class="p-value">Lifetime value: $800–$1,500/mo, indefinitely — plus every client they bring</span>
+                        <p>Need a reliable weekly room at a fixed cost → Producer Residency.</p>
+                        <span class="p-value">$800–$1,500/mo, indefinitely — plus every client they bring</span>
                     </li>
                     <li>
                         <span class="p-name">Artist Managers</span>
-                        <p>Block hours across the roster, one invoice, priority scheduling.</p>
-                        <span class="p-value">Lifetime value: 2–3 Artist Blocks each; the roster renews even as artists change</span>
+                        <p>Need block hours across a roster, one invoice → Artist Blocks.</p>
+                        <span class="p-value">2–3 Artist Blocks each; the roster renews even as artists change</span>
                     </li>
                     <li>
                         <span class="p-name">Independent Labels</span>
-                        <p>Artist development days plus listening party packages per release.</p>
-                        <span class="p-value">Lifetime value: 4+ events per year, per label, tied to their release calendar</span>
+                        <p>Need dev days plus a release event per drop → Blocks + Listening Parties.</p>
+                        <span class="p-value">4+ events per year, per label, tied to their release calendar</span>
                     </li>
                     <li>
                         <span class="p-name">Podcast Networks</span>
-                        <p>Multiple weekly slots, one deal, consistent set.</p>
-                        <span class="p-value">Lifetime value: $800+/mo per network, 12-month commitments</span>
+                        <p>Need a consistent set for multiple shows, one deal → Podcast Packages.</p>
+                        <span class="p-value">$800+/mo per network, 12-month commitments</span>
                     </li>
                     <li>
-                        <span class="p-name">Bands</span>
-                        <p>Lockouts, tour rehearsals, listening parties.</p>
-                        <span class="p-value">Lifetime value: repeat bookings around every tour and release cycle</span>
-                    </li>
-                    <li>
-                        <span class="p-name">Artists</span>
-                        <p>Blocks, sessions, events. Fills remaining capacity.</p>
-                        <span class="p-value">Lifetime value: the best graduate into recurring Artist Blocks</span>
+                        <span class="p-name">Bands &amp; Artists</span>
+                        <p>Need serious rehearsal, recording, and release events → Lockouts, Sessions, Parties.</p>
+                        <span class="p-value">Repeat bookings around every tour and release; the best graduate into Blocks</span>
                     </li>
                 </ul>
 
-                <div class="content-block" style="background: var(--brand); margin-top: 40px;">
-                    <h3 style="border-color: #000;">The Play</h3>
-                    <p>A 50-contact DMV outreach list, worked by phone and DM. Target: <strong>3–5 partnership deals in 90 days</strong>, locking in $3,000–$4,000 of monthly revenue before consumer marketing even runs.</p>
+                <div class="content-block" style="margin-top: 40px;">
+                    <h3>Expansion Buyers</h3>
+                    <ul class="content-list">
+                        <li>Content Creators — creator packages</li>
+                        <li>Corporate Clients — branded podcasts, training audio</li>
+                        <li>Voice Talent — booth time + engineer</li>
+                        <li>Schools — student &amp; ensemble sessions</li>
+                        <li>Churches — worship band rehearsal + recording</li>
+                        <li>Event Planners — a unique venue with pro sound</li>
+                        <li>Wedding Professionals — rehearsals, custom songs</li>
+                        <li>Videographers — a location with real gear</li>
+                        <li>Photographers — a set that reads "music"</li>
+                    </ul>
+                    <p style="margin-top: 20px;">Every buyer type gets a page that speaks to them directly — priced and linked to booking.</p>
                 </div>
             </div>
 
-            <!-- 03. DEMAND CHANNELS -->
-            <div class="section alt" id="channels">
-                <span class="eyebrow">03 // Demand Channels</span>
-                <h2 class="section-title">Where Leads Actually Come From</h2>
-                <p class="section-lede">This system is built around how buyers already find and contact the studio — not a theory. Discovery happens in four places, in this order: <strong>Google Business Profile, social media, Google search, and AI search</strong>. Conversations happen in four others: <strong>DMs, email, phone, and Facebook group comments</strong>. Every piece of this plan feeds one of those eight channels.</p>
+            <!-- 03. ACQUISITION + JOURNEY -->
+            <div class="section alt" id="journey">
+                <span class="eyebrow">03 // Customer Acquisition</span>
+                <h2 class="section-title">Eight Lead Sources, One Journey</h2>
+                <p class="section-lede">Leads come from eight places today: <strong>Google Business Profile, social media, Google search, AI search (ChatGPT, Gemini, Google AI Mode, Perplexity), Facebook groups, referrals, partnerships, and word of mouth.</strong> This project strengthens every one of them.</p>
+
+                <div class="content-block">
+                    <h3>How Each Channel Gets Stronger</h3>
+                    <ul class="content-list">
+                        <li>GBP — full rebuild + weekly cadence</li>
+                        <li>Social — the 15-video plan</li>
+                        <li>Google — offer, audience &amp; local pages</li>
+                        <li>AI search — structured, citable content</li>
+                        <li>FB groups — keyword replies → automated DM</li>
+                        <li>Referrals — directory + review engine</li>
+                        <li>Partnerships — dedicated pages + capability PDF</li>
+                        <li>Word of mouth — easier to recommend, easier to book</li>
+                    </ul>
+                </div>
+
+                <div class="content-block">
+                    <h3>The Customer Journey</h3>
+                    <p>Every improvement in this proposal raises conversion at one of these stages:</p>
+                    <div class="flow">
+                        <div class="flow-step">Discovery<small>GBP · Instagram · TikTok · Facebook · Google · AI Search · FB Groups · Referrals</small></div>
+                        <div class="flow-arrow">↓</div>
+                        <div class="flow-step">Website</div>
+                        <div class="flow-arrow">↓</div>
+                        <div class="flow-step hot">Offer Pages<small>pricing · photos · proof</small></div>
+                        <div class="flow-arrow">↓</div>
+                        <div class="flow-step">Contact<small>DM · Phone · Email · SMS · Website Form</small></div>
+                        <div class="flow-arrow">↓</div>
+                        <div class="flow-step">Follow-up<small>automated, same-day</small></div>
+                        <div class="flow-arrow">↓</div>
+                        <div class="flow-step hot">Booking</div>
+                        <div class="flow-arrow">↓</div>
+                        <div class="flow-step">Review → Repeat Client → Referral</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 04. WEBSITE GROWTH EXPANSION -->
+            <div class="section" id="website">
+                <span class="eyebrow">04 // Website Growth Expansion</span>
+                <h2 class="section-title">Expand What Already Works</h2>
+                <p class="section-lede"><strong>This is not a redesign.</strong> The existing website, booking system, and brand stay. We expand them — with the pages, proof, and paths that turn visitors into booked sessions.</p>
+
+                <div class="content-block">
+                    <h3>Offer Pages (10)</h3>
+                    <p>A dedicated landing page for every way the studio makes money:</p>
+                    <ul class="content-list">
+                        <li>Recording Sessions</li>
+                        <li>Band Rehearsal</li>
+                        <li>Artist Blocks</li>
+                        <li>Producer Residency</li>
+                        <li>Podcast Recording</li>
+                        <li>Listening Parties</li>
+                        <li>Voice Over</li>
+                        <li>Corporate Podcast Recording</li>
+                        <li>Music Videos</li>
+                        <li>Content Creator Packages</li>
+                    </ul>
+                    <p style="margin-top: 20px;">Every page includes: pricing, equipment, photos, video, testimonials, FAQs, reviews, directions — and five ways to act: <strong>Book Now · Call · Text · Email · Directions.</strong> No dead ends.</p>
+                </div>
+
+                <div class="content-block">
+                    <h3>Plus the Supporting Structure</h3>
+                    <ul class="content-list checks">
+                        <li>Audience Pages — one per buyer type</li>
+                        <li>Question Hub — routes to offers</li>
+                        <li>Press Page — for media &amp; curators</li>
+                        <li>Capability Page + forwardable PDF</li>
+                        <li>Legacy Page — the Track Recorders story</li>
+                        <li>Bethesda Community Directory</li>
+                        <li>Resources &amp; lead magnets</li>
+                        <li>Improved navigation + internal linking</li>
+                        <li>Trust elements on every page</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 05. CONVERSION & CLOSING -->
+            <div class="section alt" id="conversion">
+                <span class="eyebrow">05 // Conversion &amp; Closing Rate</span>
+                <h2 class="section-title">Close More of What Already Comes In</h2>
+                <p class="section-lede"><strong>Increasing the close rate on existing traffic often generates more revenue than increasing traffic.</strong> Both halves get built: the pages that convert, and the follow-up that closes.</p>
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 30px;">
                     <div class="content-block" style="margin: 0;">
-                        <h3>Discovery — Where They Find Us</h3>
+                        <h3>On the Pages</h3>
                         <ul class="content-list" style="grid-template-columns: 1fr;">
-                            <li>1. Google Business Profile — the #1 lead source; rebuilt with pricing, photos, weekly posts</li>
-                            <li>2. Social media — TikTok + IG discovery videos on a weekly cadence</li>
-                            <li>3. Google search — offer, near, and city pages</li>
-                            <li>4. AI search — AEO/GEO so ChatGPT and Gemini recommend the studio</li>
+                            <li>Transparent pricing — no "call for rates"</li>
+                            <li>Professional photography + studio video</li>
+                            <li>Real testimonials, clear descriptions</li>
+                            <li>Booking CTAs everywhere; fast pages</li>
+                            <li>Trust indicators, FAQs, capability PDF</li>
                         </ul>
                     </div>
                     <div class="content-block" style="margin: 0;">
-                        <h3>Conversation — Where They Reach Out</h3>
+                        <h3>After the Inquiry</h3>
                         <ul class="content-list" style="grid-template-columns: 1fr;">
-                            <li>DMs — ManyChat answers instantly, 24/7</li>
-                            <li>Email — templates + capability PDF, same-day pricing</li>
-                            <li>Phone — rate card at hand, SMS follow-up after every call</li>
-                            <li>Facebook group comments — keyword replies route to DM</li>
+                            <li>Response in minutes, not days</li>
+                            <li>Structured follow-up on every lead</li>
+                            <li>DM · phone · email · SMS · form</li>
+                            <li>Automated reminders + confirmations</li>
+                            <li>Offer pages, never the homepage</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="content-block" style="margin-top: 30px;">
-                    <h3>ManyChat Automation</h3>
-                    <p>ManyChat is wired into Instagram and Facebook. Comment or DM a keyword — <strong>"BOOK"</strong> or <strong>"RATES"</strong> — and the buyer instantly gets the rate card, the right offer page, and the booking link, while the lead is captured automatically. No inquiry waits overnight. Facebook group comments get the same treatment: a keyword reply moves the conversation to DM, where the automation closes the loop.</p>
-                </div>
-
-                <div class="content-block">
-                    <h3>Cold Email — The Area List</h3>
-                    <p>A cold list of area <strong>artists, DJs, and event planners</strong> gets a short sequence: who we are, the offer math, the capability PDF, the booking link. Every reply gets pricing the same day. This runs alongside the 50-contact partner outreach — that list works the bulk buyers; this one fills the calendar.</p>
+                    <h3>Lead Capture + SMS</h3>
+                    <p>Formspree forms, phone, email, SMS, newsletter signup, lead magnets, and booking requests all feed <strong>one lead management process</strong> with instant confirmation emails. No inquiry falls through a crack. Visitors can <strong>text questions, request pricing, book consultations</strong> — and receive confirmations, reminders, and follow-ups automatically.</p>
                 </div>
 
                 <div class="content-block" style="background: var(--brand);">
-                    <h3 style="border-color: #000;">The 10 Discovery Videos — TikTok + IG</h3>
-                    <p>Ten videos, shot in one batch, published on a schedule. Every one ends with the same call to action — <strong>"DM 'BOOK'"</strong> — feeding ManyChat directly.</p>
-                    <ul class="content-list">
-                        <li>30-second full studio tour</li>
-                        <li>Room-by-room gear breakdown</li>
-                        <li>"What $250 gets you" — lockout day</li>
-                        <li>Podcast setup time-lapse</li>
-                        <li>Listening party recap reel</li>
-                        <li>Real session clip with an artist</li>
-                        <li>"What an EP actually costs"</li>
-                        <li>Behind the board — engineer at work</li>
-                        <li>What to bring to your first session</li>
-                        <li>"Everything 5 min from the studio" — directory teaser</li>
-                    </ul>
+                    <h3 style="border-color: #000;">CRM &amp; Follow-up Flow</h3>
+                    <div class="flow">
+                        <div class="flow-step">Traffic → Website → Formspree</div>
+                        <div class="flow-arrow">↓</div>
+                        <div class="flow-step">Email → SMS → ManyChat → Phone</div>
+                        <div class="flow-arrow">↓</div>
+                        <div class="flow-step hot">Booked Session</div>
+                        <div class="flow-arrow">↓</div>
+                        <div class="flow-step">Review Request → Repeat Booking → Referral</div>
+                    </div>
                 </div>
             </div>
 
-            <!-- 04. WEBSITE STRATEGY -->
-            <div class="section" id="website">
-                <span class="eyebrow">04 // Website Strategy</span>
-                <h2 class="section-title">The Sales Platform</h2>
-                <p class="section-lede"><strong>This is not a new website.</strong> It is an extension of the current site — same domain, same brand, same booking system — with a sales layer added on top. Its job is to shorten every buying decision: a buyer should land, understand the offer, see the price, and book — in under three minutes.</p>
+            <!-- 06. EMAIL + MANYCHAT -->
+            <div class="section" id="outreach">
+                <span class="eyebrow">06 // Email &amp; ManyChat</span>
+                <h2 class="section-title">Outreach That Never Sleeps</h2>
+                <p class="section-lede">The website continuously grows an email database — and ManyChat answers every DM and comment the moment it arrives.</p>
 
                 <div class="content-block">
-                    <h3>Offer Pages (4)</h3>
-                    <p>One page per revenue engine: Lockout, Artist Block, Podcast Slot, Listening Party. Each shows the rate, the gear, the room, the photos — links <strong>directly into the existing booking system</strong>, and carries a <strong>text-to-book SMS link</strong> for buyers who'd rather text than fill a form.</p>
+                    <h3>Email Marketing</h3>
+                    <p>Campaigns by segment — artists, bands, managers, labels, podcasters, past customers, corporate clients, music schools, venues — carrying announcements, availability, new offers, listening parties, seasonal promotions, and educational content.</p>
+                    <p style="margin-top: 16px;"><strong>Cold outreach</strong> targets the area list: artists, DJs, event planners, music promoters, entertainment attorneys, videographers, photographers, managers, labels, and agencies. Every campaign lands on a <strong>dedicated landing page — never the homepage</strong>. Every reply gets pricing the same day.</p>
                 </div>
+
                 <div class="content-block">
-                    <h3>Audience Pages</h3>
-                    <p>Dedicated pages for producers, managers, labels, podcast networks, bands, and artists. Each states the deal, the math versus retail rates, and who to call. These buyers skim; the pages are built for skimming.</p>
-                </div>
-                <div class="content-block">
-                    <h3>Capability PDF</h3>
-                    <p>A one-page document — rooms, gear, rates, capacity, load-in — generated from the same data as the site. Managers and labels <strong>forward files, not homepages</strong>. This is the asset that travels through their inbox.</p>
-                </div>
-                <div class="content-block">
-                    <h3>Transparent Pricing + Direct Booking</h3>
-                    <p>Every rate published. Hidden pricing creates phone calls; published pricing creates bookings. Every page ends in one action: <strong>book the room</strong>.</p>
+                    <h3>ManyChat Integration</h3>
+                    <p>Wired into Instagram, Facebook, and Messenger. Comment or DM a keyword — <strong>"BOOK"</strong> or <strong>"RATES"</strong> — and the buyer instantly gets the rate card, the right offer page, and the booking link.</p>
+                    <ul class="content-list">
+                        <li>Lead capture + qualification</li>
+                        <li>FAQ answers, 24/7</li>
+                        <li>Booking requests</li>
+                        <li>Email + SMS collection</li>
+                        <li>Review requests</li>
+                        <li>Automated follow-up</li>
+                    </ul>
+                    <p style="margin-top: 20px;">Response time drops. Booked appointments rise. Facebook group comments route to DM, where the automation closes the loop.</p>
                 </div>
             </div>
 
-            <!-- 05. CONTENT STRATEGY -->
-            <div class="section alt" id="content">
-                <span class="eyebrow">05 // Content Strategy</span>
-                <h2 class="section-title">Content Organized Around Bookings</h2>
-                <p class="section-lede">Six page systems, each with a job. Not random SEO pages — every system routes to an offer.</p>
+            <!-- 07. SOCIAL MEDIA GROWTH -->
+            <div class="section alt" id="social">
+                <span class="eyebrow">07 // Social Media Growth</span>
+                <h2 class="section-title">The 15 Videos</h2>
+                <p class="section-lede">Fifteen videos for TikTok, Instagram, and Facebook — each aimed at a specific buyer, each ending in a clear action: <strong>Call · Text · Book · Email</strong>, or "DM 'BOOK'" feeding ManyChat.</p>
 
-                <div class="content-block">
-                    <h3>The Six Systems</h3>
-                    <ul class="content-list">
-                        <li>Offer Pages — close the sale</li>
-                        <li>Audience Pages — one per buyer type</li>
-                        <li>Question Hub — capture early buyers</li>
-                        <li>Authority Guides — own the local scene</li>
-                        <li>GEO Near Pages — "near me" intent</li>
-                        <li>City Pages — DMV coverage</li>
-                    </ul>
-                </div>
-
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 30px;">
-                    <div class="content-block" style="margin: 0;">
-                        <h3>Question Hub</h3>
-                        <p>Captures buyers earlier in their decision. Each answer routes to the relevant offer page.</p>
-                        <ul class="content-list" style="grid-template-columns: 1fr;">
-                            <li>How much rehearsal time does a band need?</li>
-                            <li>How much does recording an EP cost?</li>
-                            <li>What should I bring to a session?</li>
-                            <li>Rehearsal vs. recording — which first?</li>
-                        </ul>
-                    </div>
-                    <div class="content-block" style="margin: 0;">
-                        <h3>Near + City Pages</h3>
-                        <p>Capture location intent where buyers actually search from.</p>
-                        <ul class="content-list" style="grid-template-columns: 1fr;">
-                            <li>Howard · UMD · American · Georgetown</li>
-                            <li>NIH · Bethesda Metro</li>
-                            <li>Bethesda · Silver Spring · Rockville</li>
-                            <li>Chevy Chase · DC · Arlington</li>
-                        </ul>
-                    </div>
+                <div class="video-grid">
+                    <div class="video-card"><span class="v-num">01</span><h4>Why Bands Choose The Music Dept</h4><span class="v-target">Bands ready to book</span><p>"If you're comparing rehearsal spaces around DC, here's why bands keep coming back."</p></div>
+                    <div class="video-card"><span class="v-num">02</span><h4>Record Where Music History Was Made</h4><span class="v-target">Recording artists</span><p>"This Bethesda studio has roots going back to the 1960s. Today, it's where the next generation records."</p></div>
+                    <div class="video-card"><span class="v-num">03</span><h4>Book an Entire Day. Leave With Your EP Started.</h4><span class="v-target">Recording packages</span><p>"Here's exactly what you can get done in one full-day session."</p></div>
+                    <div class="video-card"><span class="v-num">04</span><h4>Why Producers Book Weekly Studio Blocks</h4><span class="v-target">High-value producers</span><p>"If you're booking studio time every week, you're probably spending more than you need to."</p></div>
+                    <div class="video-card"><span class="v-num">05</span><h4>Stop Rehearsing in Garages and Storage Units</h4><span class="v-target">Serious bands</span><p>"Your live show is only as good as your rehearsal space."</p></div>
+                    <div class="video-card"><span class="v-num">06</span><h4>Need a Podcast Studio Near DC? Watch This First.</h4><span class="v-target">Businesses · creators</span><p>"If you're starting a podcast, here's what a professional setup actually looks like."</p></div>
+                    <div class="video-card"><span class="v-num">07</span><h4>Planning a Listening Party or Album Release?</h4><span class="v-target">Planners · artists</span><p>"Before you rent a random event space, see how artists are launching projects here."</p></div>
+                    <div class="video-card"><span class="v-num">08</span><h4>Event Planners: A Hidden Venue in Bethesda</h4><span class="v-target">Event planners</span><p>"Need a unique venue for a music event, mixer, listening party, or workshop?"</p></div>
+                    <div class="video-card"><span class="v-num">09</span><h4>The Fastest Way to Book Studio Time</h4><span class="v-target">Ready to buy</span><p>"Need studio time this week? Here's how to book in under 60 seconds."</p></div>
+                    <div class="video-card"><span class="v-num">10</span><h4>Why Artists Drive Past Other Studios</h4><span class="v-target">Comparison shoppers</span><p>"People come from DC, Maryland, and Northern Virginia for one reason..."</p></div>
+                    <div class="video-card"><span class="v-num">11</span><h4>What $250 Gets You at The Music Dept</h4><span class="v-target">Price shoppers</span><p>"Here's exactly what your money gets you when you book a lockout day."</p></div>
+                    <div class="video-card"><span class="v-num">12</span><h4>One Studio. Three Ways to Use It.</h4><span class="v-target">Multiple audiences</span><p>"Most people think we're just a recording studio. They're wrong."</p></div>
+                    <div class="video-card"><span class="v-num">13</span><h4>Decades in the DMV Music Scene</h4><span class="v-target">Trust</span><p>"Studios come and go. This space has been part of the local scene since the late 1960s."</p></div>
+                    <div class="video-card"><span class="v-num">14</span><h4>Ask These Five Questions First</h4><span class="v-target">Comparing studios</span><p>"Parking? Does the band fit? What's included? Record and rehearse? How fast can I book?"</p></div>
+                    <div class="video-card"><span class="v-num">15</span><h4>Ready to Create? We'll Handle the Space.</h4><span class="v-target">Buying intent</span><p>"Band, producer, podcaster, or planner — the space is built. Bring the idea."</p></div>
                 </div>
 
                 <div class="content-block" style="background: var(--brand); margin-top: 30px;">
-                    <h3 style="border-color: #000;">Built As a System, Not a Writing Project</h3>
-                    <p>The near pages, city pages, and directory all generate from <strong>one template and one dataset</strong>. Adding a location means adding a row of data — not commissioning a new page. Hundreds of pages, no ongoing writing cost.</p>
+                    <h3 style="border-color: #000;">Bonus Series: The Highest-Value Buyers</h3>
+                    <p>Recurring videos titled <strong>For Producers · For Artist Managers · For Podcast Networks · For Event Planners · For Record Labels · For Content Creators.</strong> Those audiences bring multiple bookings instead of single sessions — far more valuable over time.</p>
                 </div>
             </div>
 
-            <!-- 06. BETHESDA COMMUNITY DIRECTORY -->
-            <div class="section dark" id="directory">
-                <span class="eyebrow">06 // Competitive Advantage</span>
-                <h2 class="section-title">The Bethesda Community Directory</h2>
-                <p class="section-lede">The most defensible asset in the plan. The Music Dept sits at 4848 Battery Lane — the directory makes it the <strong style="background:rgba(245,178,54,0.25); color:#fff;">digital hub of the music community</strong> around that address: a public, genuinely useful guide to the neighborhood.</p>
-
-                <div class="tools-grid">
-                    <div class="tool-card">
-                        <div class="tool-badge">Coverage</div>
-                        <h4>What It Covers</h4>
-                        <p>Restaurants and food spots near Battery Lane. Music stores, instrument repair, and gear rental. Venues, open mics, and stages. Music teachers and schools. Creative businesses in the neighborhood.</p>
-                    </div>
-                    <div class="tool-card">
-                        <div class="tool-badge">Google</div>
-                        <h4>Search Authority</h4>
-                        <p>Hyperlocal content dense with Bethesda names, streets, and landmarks — exactly what local rankings reward. Listed businesses link back, building a backlink profile no competitor can copy.</p>
-                    </div>
-                    <div class="tool-card">
-                        <div class="tool-badge">AI Search</div>
-                        <h4>AI Visibility</h4>
-                        <p>Verifiable local detail that AI answers can cite when someone asks where to record near Bethesda. The directory feeds the near pages and city pages with real data.</p>
-                    </div>
-                    <div class="tool-card">
-                        <div class="tool-badge">Community</div>
-                        <h4>Partnerships &amp; Referrals</h4>
-                        <p>Neighboring businesses get free visibility and return it — referrals, flyers on counters, cross-promotion. Musicians driving in use it as their guide, making the studio the anchor of every trip.</p>
-                    </div>
-                </div>
-
-                <p class="section-lede" style="margin-top: 30px; margin-bottom: 0; color: #ccc;">Listings generate from a places dataset into one template — one page per listing plus category indexes. Hundreds of pages, quarterly data refresh, no ongoing maintenance. This is not a content tactic. <strong style="background:rgba(245,178,54,0.25); color:#fff;">It is a structural advantage: the studio becomes infrastructure for its own scene.</strong></p>
-            </div>
-
-            <!-- 07. STUDIO GROWTH TOOLS -->
-            <div class="section alt" id="tools">
-                <span class="eyebrow">07 // Proprietary Software</span>
-                <h2 class="section-title">Studio Growth Tools™</h2>
-                <p class="section-lede">Custom software, developed specifically for The Music Dept. Every tool solves a real problem for a musician — and every tool captures a lead and routes it to the right offer page. Useful enough to share; targeted enough to sell.</p>
-
-                <div class="tools-grid">
-                    <div class="tool-card">
-                        <div class="tool-badge">Lead Magnet #1</div>
-                        <h4>Missing Royalty Finder</h4>
-                        <p>Checks ASCAP, BMI, SESAC, SoundExchange, and MLC registrations and flags money being left on the table. The strongest tool in the suite: it finds artists actual revenue.</p>
-                    </div>
-                    <div class="tool-card">
-                        <div class="tool-badge">Pre-Sale</div>
-                        <h4>Recording Budget Calculator</h4>
-                        <p>Scopes a project's real cost before the first call — and lands the visitor on the Artist Block page.</p>
-                    </div>
-                    <div class="tool-card">
-                        <div class="tool-badge">Pipeline</div>
-                        <h4>Music Release Planner</h4>
-                        <p>Builds a 90-day release calendar — and books the sessions that calendar requires.</p>
-                    </div>
-                    <div class="tool-card">
-                        <div class="tool-badge">Retention</div>
-                        <h4>Studio Session Checklist</h4>
-                        <p>Exactly what to bring, delivered before the session that gets booked.</p>
-                    </div>
-                </div>
-                <p class="section-lede" style="margin-top: 30px; margin-bottom: 0;">The expansion set ships as demand shows: <strong>Music Career Roadmap</strong>, Podcast Planner, EP Timeline Generator, Band Practice Planner, Album Budget Planner, Tour Rehearsal Planner, Session Prep Planner, and more. No other studio in the region offers software. That alone changes what The Music Dept is.</p>
-            </div>
-
-            <!-- 08. LOCAL + AI SEARCH -->
+            <!-- 08. SEARCH: GBP + LOCAL + AI -->
             <div class="section" id="search">
                 <span class="eyebrow">08 // Search Strategy</span>
-                <h2 class="section-title">Local Search + AI Search</h2>
-                <p class="section-lede">Two layers, largely generated from the same data system. Both exist to put the offers in front of buyers at the moment of decision.</p>
+                <h2 class="section-title">GBP + Google + AI Search</h2>
+                <p class="section-lede">The #1 lead source gets a full system. The rest of search gets a practical, template-driven build.</p>
+
+                <div class="content-block">
+                    <h3>Google Business Profile — The #1 Lead Source</h3>
+                    <ul class="content-list">
+                        <li>Weekly photos + videos</li>
+                        <li>Weekly posts</li>
+                        <li>Services + products with pricing</li>
+                        <li>Seeded FAQs and Q&amp;A</li>
+                        <li>Booking links, events, offers</li>
+                        <li>Review engine — 100+ target</li>
+                        <li>Monthly optimization</li>
+                    </ul>
+                </div>
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 30px;">
                     <div class="content-block" style="margin: 0;">
-                        <h3>Local Search</h3>
+                        <h3>Google Search</h3>
                         <ul class="content-list" style="grid-template-columns: 1fr;">
-                            <li>Service Pages for every offer</li>
-                            <li>Neighborhood Pages</li>
-                            <li>University Pages — Howard, UMD, AU, Georgetown</li>
-                            <li>Landmark Pages — NIH, Bethesda Metro</li>
-                            <li>Structured Data sitewide</li>
-                            <li>Google Business Profile rebuild</li>
-                            <li>Review engine — 100+ reviews</li>
+                            <li>Offer + Audience Pages — the money pages</li>
+                            <li>Question Hub + Authority Guides</li>
+                            <li>Neighborhood, city + university pages</li>
+                            <li>Bethesda Directory — hundreds of pages</li>
+                            <li>Structured data + internal linking</li>
                         </ul>
                     </div>
                     <div class="content-block" style="margin: 0;">
                         <h3>AI Search</h3>
                         <ul class="content-list" style="grid-template-columns: 1fr;">
-                            <li>Answer Engine Optimization (AEO)</li>
-                            <li>Generative Engine Optimization (GEO)</li>
-                            <li>Question hubs with structured answers</li>
-                            <li>FAQs on every offer page</li>
-                            <li>Schema: services, prices, events, FAQs</li>
+                            <li>ChatGPT · Gemini · Google AI Mode · Perplexity · Claude</li>
+                            <li>Schema + structured FAQs on every page</li>
+                            <li>Consistent business info everywhere</li>
+                            <li>Entity building across hundreds of pages</li>
+                            <li>Structured service pages with pricing</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="content-block" style="background: var(--brand); margin-top: 30px;">
-                    <h3 style="border-color: #000;">Why AI Search Gets Its Own Strategy</h3>
-                    <p>Buyers increasingly ask ChatGPT, Gemini, and Google AI Mode where to record — and those engines recommend businesses they can <strong>understand and verify</strong>. Structured answers, machine-readable pricing, and verifiable local facts make The Music Dept the answer. When someone asks an AI where a band should rehearse near DC, the response is The Music Dept — with the rate and the booking link.</p>
+                    <h3 style="border-color: #000;">The Result</h3>
+                    <p>AI engines recommend businesses they can <strong>understand and verify</strong>. When someone asks where a band should rehearse near DC, the answer is The Music Dept — with the rate and the booking link.</p>
                 </div>
 
                 <!-- STANDARD MAP PREVIEW -->
@@ -805,36 +846,100 @@
                 </div>
             </div>
 
-            <!-- 09. CONVERSION SYSTEM -->
-            <div class="section alt" id="conversion">
-                <span class="eyebrow">09 // Conversion System</span>
-                <h2 class="section-title">Remove Every Point of Friction</h2>
-                <p class="section-lede">Traffic is worthless if booking is hard. The measure of the website is not traffic — it is the time between arrival and booking, and the rate at which inquiries close.</p>
+            <!-- 09. BETHESDA COMMUNITY DIRECTORY -->
+            <div class="section dark" id="directory">
+                <span class="eyebrow">09 // Competitive Advantage</span>
+                <h2 class="section-title">The Bethesda Community Directory</h2>
+                <p class="section-lede">The studio becomes the <strong style="background:rgba(245,178,54,0.25); color:#fff;">digital hub of the local creative community</strong> — a public, genuinely useful guide to the neighborhood around 4848 Battery Lane.</p>
 
-                <div class="content-block">
-                    <ul class="content-list checks">
-                        <li>Published pricing — no "call for rates"</li>
-                        <li>Direct booking integration from every page</li>
-                        <li>SMS text-to-book on every offer page</li>
-                        <li>ManyChat instant replies — DMs &amp; comments</li>
-                        <li>Same-day review ask after every session</li>
-                        <li>Photo galleries — real rooms, real sessions</li>
-                        <li>Trust indicators — gear, specs, load-in</li>
-                        <li>Testimonials from producers &amp; podcasters</li>
-                        <li>Capability PDF for buyers who forward</li>
-                        <li>Fast booking path — fewest possible clicks</li>
-                    </ul>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-badge">Coverage</div>
+                        <h4>What It Covers</h4>
+                        <p>Restaurants and coffee shops. Music stores and instrument repair. Venues and open mics. Music schools and teachers. Creative businesses. Parking, transit, and nearby hotels.</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-badge">Google</div>
+                        <h4>Search Authority</h4>
+                        <p>Hyperlocal content dense with Bethesda names, streets, and landmarks. Listed businesses link back — a backlink profile no competitor can copy.</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-badge">AI Search</div>
+                        <h4>AI Visibility</h4>
+                        <p>Verifiable local detail AI answers can cite when someone asks where to record near Bethesda. Feeds the near and city pages with real data.</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-badge">Community</div>
+                        <h4>Partnerships &amp; Referrals</h4>
+                        <p>Neighboring businesses get free visibility and return it — referrals, flyers, cross-promotion. Musicians driving in use it as their guide to the area.</p>
+                    </div>
                 </div>
 
-                <div class="content-block" style="background: var(--brand);">
-                    <h3 style="border-color: #000;">Closing Rate</h3>
-                    <p>Most contacts arrive by DM, email, phone, and Facebook comments — and deals are won or lost on response speed. The rule: <strong>every inquiry gets the price and the booking link in minutes, not days.</strong> ManyChat handles DMs and comments instantly. Templates handle email and SMS. Published pricing kills the back-and-forth. Closing rate — inquiry to booking — is tracked from week one as the headline conversion number.</p>
+                <p class="section-lede" style="margin-top: 30px; margin-bottom: 0; color: #ccc;">Listings generate from a places dataset into one template — one page per listing plus category indexes. Hundreds of pages, quarterly refresh, no ongoing maintenance. <strong style="background:rgba(245,178,54,0.25); color:#fff;">The studio becomes infrastructure for its own scene.</strong></p>
+            </div>
+
+            <!-- 10. LEGACY & BRAND STORY -->
+            <div class="section alt" id="legacy">
+                <span class="eyebrow">10 // Legacy &amp; Brand Story</span>
+                <h2 class="section-title">Record Where History Was Made</h2>
+                <p class="section-lede">The studio's biggest competitive advantage can't be copied by any competitor: <strong>history</strong>. The Music Dept occupies the historic <strong>Track Recorders</strong> location, with roots dating back to the late 1960s.</p>
+
+                <div class="content-block">
+                    <h3>Putting the Legacy to Work</h3>
+                    <ul class="content-list checks">
+                        <li>Legacy Page — story, timeline, verified artist history</li>
+                        <li>Press Kit + Media Page — for journalists &amp; curators</li>
+                        <li>Historic Content Series — social + site content</li>
+                        <li>Timeline + historic photos woven through the site</li>
+                    </ul>
+                    <p style="margin-top: 20px;">Positioning: a modern creative space that is also a lasting part of DMV music history. Studios come and go; this room has been part of the scene for over fifty years. <strong>Trust builder — never nostalgia, never overstated.</strong></p>
                 </div>
             </div>
 
-            <!-- 10. BUILD ROADMAP -->
-            <div class="section" id="roadmap">
-                <span class="eyebrow">10 // Build Roadmap</span>
+            <!-- 11. STUDIO GROWTH TOOLS -->
+            <div class="section" id="tools">
+                <span class="eyebrow">11 // Proprietary Software</span>
+                <h2 class="section-title">Studio Growth Tools™</h2>
+                <p class="section-lede">Custom software, developed specifically for The Music Dept. Every tool captures a lead while providing immediate value — useful enough to share, targeted enough to sell.</p>
+
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-badge">Lead Magnet #1</div>
+                        <h4>Missing Royalty Finder</h4>
+                        <p>Checks ASCAP, BMI, SESAC, SoundExchange, and MLC registrations and flags money being left on the table. It finds artists actual revenue.</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-badge">Pre-Sale</div>
+                        <h4>Recording Budget Calculator</h4>
+                        <p>Scopes a project's real cost before the first call — and lands the visitor on the Artist Block page.</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-badge">Pipeline</div>
+                        <h4>Music Release Planner</h4>
+                        <p>Builds a 90-day release calendar — and books the sessions that calendar requires.</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-badge">Retention</div>
+                        <h4>Session Checklist</h4>
+                        <p>Exactly what to bring, delivered before the session that gets booked.</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-badge">Authority</div>
+                        <h4>Music Career Roadmap</h4>
+                        <p>Where the artist is, what comes next — and which studio service gets them there.</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-badge">Podcast</div>
+                        <h4>Podcast Planner</h4>
+                        <p>From idea to first episode — ending at the podcast offer page.</p>
+                    </div>
+                </div>
+                <p class="section-lede" style="margin-top: 30px; margin-bottom: 0;">No other studio in the region offers software. That alone changes what The Music Dept is.</p>
+            </div>
+
+            <!-- 12. BUILD ROADMAP -->
+            <div class="section alt" id="roadmap">
+                <span class="eyebrow">12 // Build Roadmap</span>
                 <h2 class="section-title">Five Phases</h2>
                 <p class="section-lede">Revenue first. Everything else builds on it.</p>
 
@@ -843,50 +948,50 @@
                         <span class="ph-num">1</span>
                         <div>
                             <h4>Revenue Foundation</h4>
-                            <p>All four offers defined and priced. All rates published. Offer pages live and linked to the booking system. The 50-contact partner outreach list built, plus the cold email list of area artists, DJs, and event planners.</p>
-                            <span class="ph-deliver">Deliverables: 4 offer pages · published rate card · partner outreach list · cold email list</span>
+                            <p>All offers defined and priced. All rates published. Core offer pages live and linked to booking. Partner outreach list (50 contacts) plus the cold email list of area artists, DJs, and event planners.</p>
+                            <span class="ph-deliver">Deliverables: offer pages · rate card · both outreach lists</span>
                         </div>
                     </li>
                     <li>
                         <span class="ph-num">2</span>
                         <div>
-                            <h4>Website Extension</h4>
-                            <p>Audience pages for all six buyer types, added to the existing site. Capability PDF. SMS text-to-book and ManyChat keyword automation wired in. Location dataset assembled; page templates built.</p>
-                            <span class="ph-deliver">Deliverables: 6 audience pages · capability PDF · SMS + ManyChat · template + data system</span>
+                            <h4>Website Expansion</h4>
+                            <p>The full 10-offer-page set. Audience pages for every buyer type. Capability PDF, press page, legacy page. SMS text-to-book, Formspree lead capture, and ManyChat automation wired in.</p>
+                            <span class="ph-deliver">Deliverables: 10 offer pages · audience pages · capability PDF · press + legacy pages · SMS + ManyChat + lead capture</span>
                         </div>
                     </li>
                     <li>
                         <span class="ph-num">3</span>
                         <div>
-                            <h4>Content System</h4>
-                            <p>Bethesda Community Directory generates from the dataset. GEO near pages and city pages go live. Google Business Profile rebuilt. Question Hub launches with the first 10 answers. The 10 discovery videos shot in one batch and scheduled for TikTok and IG.</p>
-                            <span class="ph-deliver">Deliverables: directory (hundreds of pages) · near/city pages · GBP rebuild · 10-question hub · 10 discovery videos</span>
+                            <h4>Content &amp; Visibility</h4>
+                            <p>Bethesda Community Directory generates from the dataset. Near and city pages live. GBP rebuilt on a weekly cadence. Question Hub launches. The 15 videos shot in batches and scheduled.</p>
+                            <span class="ph-deliver">Deliverables: directory · near/city pages · GBP system · question hub · 15-video plan in motion</span>
                         </div>
                     </li>
                     <li>
                         <span class="ph-num">4</span>
                         <div>
-                            <h4>Growth Tools</h4>
-                            <p>Missing Royalty Finder and Recording Budget Calculator ship. Release Planner and Session Checklist follow. Every tool wired to lead capture and offer pages.</p>
-                            <span class="ph-deliver">Deliverables: 4 Studio Growth Tools™ — live and capturing leads</span>
+                            <h4>Growth Tools &amp; Email</h4>
+                            <p>Missing Royalty Finder and Budget Calculator ship; Release Planner and Session Checklist follow. Email campaigns launch by segment; cold outreach begins, landing on dedicated pages.</p>
+                            <span class="ph-deliver">Deliverables: 4+ Studio Growth Tools™ · segmented email campaigns · cold outreach live</span>
                         </div>
                     </li>
                     <li>
                         <span class="ph-num">5</span>
                         <div>
                             <h4>Authority Expansion</h4>
-                            <p>Five authority guides published. Expansion tools released as demand shows. Review count pushed past 100. Quarterly dataset refresh cycle begins.</p>
-                            <span class="ph-deliver">Deliverables: 5 authority guides · expansion tools · 100+ review engine · refresh cadence</span>
+                            <p>Authority guides published. Historic content series running. Expansion tools as demand shows. Review count past 100. Quarterly dataset refresh cycle begins.</p>
+                            <span class="ph-deliver">Deliverables: 5 authority guides · legacy series · expansion tools · 100+ reviews</span>
                         </div>
                     </li>
                 </ul>
             </div>
 
-            <!-- 10. SUCCESS METRICS + FINAL VISION -->
-            <div class="section alt" id="metrics">
-                <span class="eyebrow">11 // Success Metrics</span>
-                <h2 class="section-title">Measured In Revenue First</h2>
-                <p class="section-lede">The business metrics come first. The marketing metrics exist to serve them. The system delivers the platform, the pages, the tools, and the leads; the revenue targets are hit when that system is paired with the outreach play in Section 02. Weekly scoreboard: 3–4 lockout days booked, recurring clients held steady, one event every other week.</p>
+            <!-- 13. SUCCESS METRICS + FINAL VISION -->
+            <div class="section" id="metrics">
+                <span class="eyebrow">13 // Success Metrics</span>
+                <h2 class="section-title">Measured In Business Outcomes</h2>
+                <p class="section-lede">The system delivers the platform, the pages, the tools, and the leads; the revenue targets are hit when that system is paired with the outreach play. Weekly scoreboard: 3–4 lockout days booked, recurring clients held steady, one event every other week.</p>
 
                 <div class="content-block">
                     <h3>Business</h3>
@@ -894,63 +999,66 @@
                         <div class="metric-card">Recurring Monthly Revenue <span class="m-target">Target: $3,600</span></div>
                         <div class="metric-card">Lockout Days <span class="m-target">Target: 14/mo</span></div>
                         <div class="metric-card">Artist Blocks <span class="m-target">Target: 4 active</span></div>
-                        <div class="metric-card">Podcast Slots <span class="m-target">Target: 3 filled</span></div>
+                        <div class="metric-card">Podcast Clients <span class="m-target">Target: 3 filled</span></div>
                         <div class="metric-card">Listening Parties <span class="m-target">Target: 2/mo</span></div>
-                        <div class="metric-card">Monthly Bookings <span class="m-target">Tracked weekly</span></div>
-                        <div class="metric-card">Qualified Leads <span class="m-target">From tools + pages + DMs</span></div>
-                        <div class="metric-card">Closing Rate <span class="m-target">Inquiry → booking</span></div>
-                        <div class="metric-card">Speed to Reply <span class="m-target">Minutes, not days</span></div>
+                        <div class="metric-card">Monthly Bookings <span class="m-target">+ website conversions</span></div>
+                        <div class="metric-card">Qualified Leads <span class="m-target">Pages · tools · DMs · forms</span></div>
+                        <div class="metric-card">Close Rate <span class="m-target">Inquiry → booking, from week 1</span></div>
+                        <div class="metric-card">Repeat Customers <span class="m-target">+ referral growth</span></div>
+                        <div class="metric-card">Email + SMS Subscribers <span class="m-target">Growing monthly</span></div>
                     </div>
                 </div>
                 <div class="content-block">
                     <h3>Market Position</h3>
                     <div class="metric-grid">
                         <div class="metric-card">Google Reviews <span class="m-target">Target: 100+</span></div>
-                        <div class="metric-card">Organic Traffic <span class="m-target">Month over month</span></div>
+                        <div class="metric-card">GBP Actions <span class="m-target">Calls · directions · bookings</span></div>
+                        <div class="metric-card">Organic Search Visibility <span class="m-target">Month over month</span></div>
                         <div class="metric-card">AI Search Visibility <span class="m-target">Citations in AI answers</span></div>
-                        <div class="metric-card">Topical Authority <span class="m-target">Question + guide rankings</span></div>
                     </div>
                 </div>
 
                 <div class="content-block" style="background: var(--brand);">
                     <h3 style="border-color: #000;">The Final Vision</h3>
-                    <p>After this project, The Music Dept is not "a recording studio in Bethesda." It is:</p>
+                    <p>The Music Dept becomes more than a rehearsal studio. It becomes:</p>
                     <ul class="outcome-list">
-                        <li><span class="chk">✓</span><span><b>The first place musicians discover</b> — on Google, in AI answers, and through the neighborhood it anchors.</span></li>
-                        <li><span class="chk">✓</span><span><b>The easiest studio to book</b> — published rates, direct booking, no friction.</span></li>
-                        <li><span class="chk">✓</span><span><b>The most useful music resource in the DMV</b> — the tools, the guides, the directory.</span></li>
-                        <li><span class="chk">✓</span><span><b>The preferred partner</b> for producers, managers, labels, and podcasters.</span></li>
-                        <li><span class="chk">✓</span><span><b>A business built on predictable recurring revenue</b> — $3,600 locked in before each month begins, on the way to $8,400.</span></li>
+                        <li><span class="chk">✓</span><span><b>The most discoverable studio in the DMV</b> — across Google, AI search, social, and the neighborhood it anchors.</span></li>
+                        <li><span class="chk">✓</span><span><b>The easiest studio to book</b> — published rates, five contact methods, instant follow-up.</span></li>
+                        <li><span class="chk">✓</span><span><b>A trusted destination</b> for artists, producers, podcasters, and corporate clients.</span></li>
+                        <li><span class="chk">✓</span><span><b>A local music authority</b> built on decades of verified history.</span></li>
+                        <li><span class="chk">✓</span><span><b>Multiple lead sources</b> instead of dependence on one channel.</span></li>
+                        <li><span class="chk">✓</span><span><b>Predictable recurring revenue,</b> higher close rates, stronger follow-up — a system that keeps generating bookings year after year.</span></li>
                     </ul>
-                    <p style="margin-top: 20px; font-family: var(--font-mono); font-size: 15px;">14 lockouts + 4 artist blocks + 3 podcast slots + 2 listening parties = <strong>$8,400/month.</strong></p>
+                    <p style="margin-top: 20px; font-family: var(--font-mono); font-size: 15px;">14 lockouts + 4 artist blocks + 3 podcast slots + 2 listening parties = <strong>$8,400/month</strong> — before expansion revenue even starts.</p>
                 </div>
             </div>
 
             <!-- INVESTMENT -->
-            <div class="section" id="investment">
+            <div class="section alt" id="investment">
                 <span class="eyebrow">Scope of Work</span>
                 <h2 class="section-title">One Engagement. The Complete System.</h2>
-                <p class="section-lede">Everything in this proposal is included — the revenue model, the platform, the content engine, the software, and the roadmap to build it.</p>
+                <p class="section-lede">Everything in this proposal is included — the revenue model, the customer journey, the pages, the automation, the software, and the roadmap to build it.</p>
                 <div class="content-block" style="margin-bottom: 40px;">
                     <ul class="content-list checks">
-                        <li>The $8,400 Revenue Model</li>
-                        <li>Growth Partner Strategy + Outreach Plan</li>
-                        <li>Website Sales Platform Architecture</li>
-                        <li>Offer + Audience Page System</li>
-                        <li>Capability PDF</li>
-                        <li>Demand Channels — ManyChat · SMS · cold email · 10 videos</li>
-                        <li>Content System — 6 page engines</li>
+                        <li>The $8,400 Revenue Model + Expansion Revenue</li>
+                        <li>Target Buyer Strategy — 15 buyer types</li>
+                        <li>Customer Journey + 8-Channel Acquisition Plan</li>
+                        <li>10 Offer Pages + Audience Pages</li>
+                        <li>Press, Capability + Legacy Pages</li>
+                        <li>Conversion + Closing Rate System</li>
+                        <li>Lead Capture — Formspree · SMS · Email · ManyChat</li>
+                        <li>Email Marketing + Cold Outreach</li>
+                        <li>The 15-Video Social Plan + Bonus Series</li>
+                        <li>GBP System + Local &amp; AI Search</li>
                         <li>Bethesda Community Directory</li>
-                        <li>Studio Growth Tools™ Architecture</li>
-                        <li>Local Search Strategy</li>
-                        <li>AI Search Strategy (AEO + GEO)</li>
-                        <li>Conversion System</li>
+                        <li>Studio Growth Tools™</li>
                         <li>Five-Phase Build Roadmap</li>
+                        <li>Business-First Success Metrics</li>
                     </ul>
                 </div>
                 <div class="investment-box">
                     <span class="eyebrow" style="background:#000; color:#fff;">Project Investment</span>
-                    <h2 class="section-title" style="margin-bottom:0;">Website Growth System</h2>
+                    <h2 class="section-title" style="margin-bottom:0;">Website Growth Expansion</h2>
                     <div class="inv-tag">Studio Growth System · One-Time Project</div>
                     <div class="inv-price">$1,500</div>
                     <div class="inv-compare">+ $4,000 performance bonus — due only when monthly revenue hits $8,400</div>
@@ -969,7 +1077,7 @@
                     <form id="proposal-form" action="https://formspree.io/f/mkovvjjw" method="POST">
                         <div class="terms-box">
                             <strong>Terms & Conditions</strong>
-                            <p>By signing below, you agree to the $1,500 fixed investment for the Website Growth System, due in full as a single payment upon acceptance — no installments or payment plans. You also agree to a $4,000 performance bonus, due only in the first month The Music Dept books $8,400 in revenue under this model. Signing officially initiates Phase 1: Revenue Foundation.</p>
+                            <p>By signing below, you agree to the $1,500 fixed investment for the Website Growth Expansion, due in full as a single payment upon acceptance — no installments or payment plans. You also agree to a $4,000 performance bonus, due only in the first month The Music Dept books $8,400 in revenue under this model. Signing officially initiates Phase 1: Revenue Foundation.</p>
                             <label class="checkbox-label">
                                 <input type="checkbox" name="accepted" required>
                                 <span style="color: #000;">I accept the terms, conditions, and scope of this proposal.</span>
@@ -980,7 +1088,7 @@
                             <label for="signature">Authorized Signature (Type Full Name)</label>
                             <input type="text" id="signature" name="signature" placeholder="e.g. Justin Campbell" required autocomplete="name">
                             <input type="hidden" name="_subject" value="The Music Dept — Proposal Signed">
-                            <input type="hidden" name="proposal" value="Website Growth System — $1,500 + $4,000 performance bonus at $8,400/mo">
+                            <input type="hidden" name="proposal" value="Website Growth Expansion — $1,500 + $4,000 performance bonus at $8,400/mo">
 
                             <button type="submit" class="cta-button" style="width: 100%; max-width: 100%; margin-top: 24px;">
                                 <span class="cta-main-text">Sign & Approve</span>

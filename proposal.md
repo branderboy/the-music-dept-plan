@@ -1,18 +1,18 @@
-# Website Growth System
+# Website Growth Expansion
 
 **Prepared for:** Justin Campbell — The Music Dept, 4848 Battery Lane, Bethesda, MD
 **Prepared by:** Kay Ali
-**Investment:** **$1,500**
+**Investment:** **$1,500** + $4,000 performance bonus at $8,400/month
 
 ---
 
 # Executive Summary
 
-The Music Dept rents rooms. Every month starts at zero, and revenue depends on who happens to call.
+The Music Dept already has what most studios spend years building: a website, a booking system, a Google Business Profile, a social media presence, paying customers — and a room where music history was made.
 
-The objective of this engagement is to change that. We will transform The Music Dept from a room rental business into a predictable revenue business — built on recurring customers, high-value partnerships, and search visibility that compounds.
+This proposal is not a redesign and not an SEO project. It is a **Website Growth Expansion**: a plan to make The Music Dept the highest-converting recording and rehearsal studio in the DMV by improving every stage of the customer journey — discovery, inquiry, follow-up, booking, review, repeat, referral.
 
-The target is **$8,400 per month**, and here is exactly where it comes from:
+The target is **$8,400 per month**:
 
 | Offer | Price | Target/mo | Revenue |
 |---|---|---|---|
@@ -22,283 +22,346 @@ The target is **$8,400 per month**, and here is exactly where it comes from:
 | Listening Party (4 evening hrs, PA, engineer) | $650/event | 2 events | $1,300 |
 | **Total** | | | **$8,400** |
 
-**$3,600 of that recurs on the 1st of every month** — before a single new customer walks in.
-
-Everything else in this proposal — the website, the content, the software, the search strategy — exists to fill this table. Nothing is included that doesn't move one of these four numbers.
+Recurring revenue provides the stability — **$3,600 locked in on the 1st of every month**. Lockouts and events maximize what each month can produce on top of it.
 
 ---
 
-# The Business Strategy
+# Revenue Strategy
 
-The plan runs on four revenue engines.
+**The four core engines:**
 
-**1. Lockout Days.** Full-day rehearsal buyouts at $250. Fourteen days a month covers over 40% of the goal, and lockouts sell to the buyers who book in bulk: touring bands, producers, managers.
+1. **Lockout Days** — full-day rehearsal buyouts at $250. Sold to the buyers who book in bulk: touring bands, producers, managers.
+2. **Monthly Artist Blocks** — eight recording hours, $600/month recurring. Recording becomes subscription income.
+3. **Podcast Residencies** — a weekly slot, same day, same room, $400/month. Podcasts book 52 weeks a year and never churn mid-season.
+4. **Listening Parties** — a four-hour evening event with PA and engineer, $650, sold per release.
 
-**2. Monthly Artist Blocks.** Eight recording hours for $600 a month, recurring. Four clients turn recording from a one-off transaction into subscription income.
+**Expansion revenue,** layered on the same rooms and the same pages:
 
-**3. Podcast Residencies.** A weekly slot, same day, same room, $400 a month. Podcasts are the ideal tenant: they book 52 weeks a year and never churn mid-season.
+- **Producer Residencies** — a fixed weekly day; the producer's clients book at house rates
+- **Podcast Packages** — multi-slot deals for networks and corporate shows
+- **Corporate Recording** — training audio, branded podcasts, internal media
+- **Voice Over** — commercial, audiobook, ADR sessions
+- **Music Videos** — the space as a shoot location alongside audio sessions
+- **Memberships** — a future phase, once the recurring base is established
 
-**4. Listening Parties.** A four-hour evening event with PA and engineer for $650. Two a month, sold per release to artists and labels.
-
-**Why recurring revenue matters.** A studio that starts every month at $3,600 makes better decisions than one that starts at zero. Recurring revenue funds the marketing, smooths the slow weeks, and makes the business sellable.
-
-**Why relationships beat transactions.** One producer with a weekly residency is worth more than twenty individual bookings — and costs nothing to re-acquire each month. The strategy prioritizes buyers who purchase repeatedly and bring their own clients with them.
-
-**Why the buyer matters more than the booking.** Managers, labels, and podcast companies buy in bulk, pay on one invoice, and sign for months at a time. Individual artists fill the calendar; these buyers build the business.
+Recurring revenue reduces dependence on one-off bookings. A studio that starts every month at $3,600 makes better decisions than one that starts at zero.
 
 ---
 
-# Target Growth Partners
+# Target Buyers
 
-Six buyer types, ranked by lifetime value.
+**Core buyers — the relationships that build the business:**
 
-| Partner | The deal | Lifetime value |
+| Buyer | What they need | What solves it |
 |---|---|---|
-| **Producers** | Weekly residency, fixed day, their clients book at house rates | $800–$1,500/mo, indefinitely — plus every client they bring |
-| **Artist Managers** | Block hours across the roster, one invoice, priority scheduling | 2–3 Artist Blocks each; the roster renews even as artists change |
-| **Independent Labels** | Artist development days plus listening party packages per release | 4+ events per year, per label, tied to their release calendar |
-| **Podcast Networks** | Multiple weekly slots, one deal, consistent set | $800+/mo per network, 12-month commitments |
-| **Bands** | Lockouts, tour rehearsals, listening parties | Repeat bookings around every tour and release cycle |
-| **Artists** | Blocks, sessions, events | Fills remaining capacity; the best graduate into blocks |
+| Producers | A reliable weekly room at a fixed cost | Producer Residency |
+| Artist Managers | Block hours across a roster, one invoice | Artist Blocks |
+| Independent Labels | Dev days + release events per drop | Blocks + Listening Parties |
+| Podcast Networks | Consistent set, multiple shows, one deal | Podcast Packages |
+| Bands | Serious rehearsal + tour prep | Lockout Days |
+| Artists | Recording, releasing, performing | Sessions, Blocks, Parties |
 
-**The play:** a 50-contact DMV outreach list, worked by phone and DM. Target: 3–5 partnership deals in 90 days, locking in $3,000–$4,000 of monthly revenue before consumer marketing even runs.
+**Expansion buyers — filled by the same pages and offers:**
 
----
+| Buyer | What they need | What solves it |
+|---|---|---|
+| Content Creators | Pro audio/video for channels and courses | Creator Packages |
+| Corporate Clients | Branded podcasts, training audio | Corporate Recording |
+| Voice Talent | Booth time, engineer, fast turnaround | Voice Over Sessions |
+| Schools | Student sessions, ensemble recording | Group Sessions |
+| Churches | Worship band rehearsal + recording | Lockouts + Sessions |
+| Event Planners | A unique venue with pro sound | Listening Parties + Events |
+| Wedding Professionals | Rehearsals, custom-song sessions | Sessions + Rehearsal |
+| Videographers | A distinctive location with real gear | Music Video Shoots |
+| Photographers | The same — a set that reads "music" | Location Bookings |
 
-# Demand Channels
-
-This system is built around how buyers already find and contact the studio — not a theory.
-
-**Discovery happens in four places, in this order:**
-
-1. **Google Business Profile** — the #1 lead source; rebuilt with pricing, photos, and weekly posts
-2. **Social media** — TikTok + IG discovery videos on a weekly cadence
-3. **Google search** — offer, near, and city pages
-4. **AI search** — AEO/GEO so ChatGPT and Gemini recommend the studio
-
-**Conversations happen in four others:** DMs, email, phone, and Facebook group comments. Every piece of this plan feeds one of those eight channels.
-
-**ManyChat automation.** ManyChat is wired into Instagram and Facebook. Comment or DM a keyword — "BOOK" or "RATES" — and the buyer instantly gets the rate card, the right offer page, and the booking link, while the lead is captured automatically. No inquiry waits overnight. Facebook group comments get the same treatment: a keyword reply moves the conversation to DM, where the automation closes the loop.
-
-**Cold email — the area list.** A cold list of area artists, DJs, and event planners gets a short sequence: who we are, the offer math, the capability PDF, the booking link. Every reply gets pricing the same day. This runs alongside the 50-contact partner outreach — that list works the bulk buyers; this one fills the calendar.
-
-**The 10 discovery videos (TikTok + IG).** Shot in one batch, published on a schedule. Every one ends with the same call to action — "DM 'BOOK'" — feeding ManyChat directly:
-
-1. 30-second full studio tour
-2. Room-by-room gear breakdown
-3. "What $250 gets you" — lockout day
-4. Podcast setup time-lapse
-5. Listening party recap reel
-6. Real session clip with an artist
-7. "What an EP actually costs"
-8. Behind the board — engineer at work
-9. What to bring to your first session
-10. "Everything 5 minutes from the studio" — directory teaser
+Every buyer type gets a page that speaks to them directly, priced and linked to booking.
 
 ---
 
-# Website Strategy
+# Customer Acquisition
 
-**This is not a new website.** It is an extension of the current site — same domain, same brand, same booking system — with a sales layer added on top. Its job is to shorten every buying decision.
+Leads come from eight places today:
 
-**Offer Pages (4).** One page per revenue engine: Lockout, Artist Block, Podcast Slot, Listening Party. Each shows the rate, the gear, the room, the photos — links directly into the existing booking system, and carries a text-to-book SMS link for buyers who'd rather text than fill a form.
+1. **Google Business Profile**
+2. **Social Media**
+3. **Google Search**
+4. **AI Search** (ChatGPT, Gemini, Google AI Mode, Perplexity)
+5. **Facebook Groups**
+6. **Referrals**
+7. **Partnerships**
+8. **Word of Mouth**
 
-**Audience Pages.** Dedicated pages for producers, managers, labels, podcast networks, bands, and artists. Each one states the deal, the math versus retail rates, and who to call. These buyers skim; the pages are built for skimming.
-
-**Capability PDF.** A one-page document — rooms, gear, rates, capacity, load-in — generated from the same data as the site. Managers and labels forward files, not homepages. This is the asset that travels through their inbox.
-
-**Transparent pricing.** Every rate published. Hidden pricing creates phone calls; published pricing creates bookings.
-
-**Booking integration.** Every page ends in one action: book the room. No contact forms that go nowhere.
-
-A buyer should be able to land on the site, understand the offer, see the price, and book — in under three minutes.
-
----
-
-# Content Strategy
-
-Content is organized around bookings, not keywords. Six page systems, each with a job:
-
-**Offer Pages** close the sale. They carry the rates, gear, and booking links for the four revenue engines.
-
-**Audience Pages** speak to each buyer type in their own language — a producer and a podcast network need different pages, not the same page twice.
-
-**Question Hub** captures buyers earlier in their decision: how much rehearsal time a band needs, what an EP costs, what to bring to a session. Each answer routes to the relevant offer page.
-
-**Authority Guides** — DMV venues, open mic nights, local producers, mixing engineers, music schools — make The Music Dept the reference point for the local scene, and earn the links and mentions that lift everything else.
-
-**GEO Near Pages** capture "near me" intent around Howard, UMD, American, Georgetown, NIH, and Bethesda Metro.
-
-**City Pages** cover Bethesda, Silver Spring, Rockville, Chevy Chase, DC, and Arlington.
-
-**Built as a system, not a writing project.** The near pages, city pages, and directory all generate from one template and one dataset of locations. Adding a new location means adding a row of data — not commissioning a new page. The system produces hundreds of pages with no ongoing writing cost.
+This project strengthens all eight: the GBP gets a full rebuild and weekly cadence; social gets the 15-video plan; Google gets the offer, audience, and local pages; AI search gets structured content it can cite; Facebook groups get keyword replies routed to automated DMs; referrals get a directory and review engine worth talking about; partnerships get dedicated pages and a capability PDF; word of mouth gets a studio that's easier to recommend because it's easier to book.
 
 ---
 
-# The Bethesda Community Directory
+# The Customer Journey
 
-This is the most defensible asset in the plan.
+```
+DISCOVERY
+  Google Business Profile · Instagram · TikTok · Facebook
+  Google · AI Search · Facebook Groups · Referrals
+        ↓
+WEBSITE
+        ↓
+OFFER PAGES  (pricing, photos, proof)
+        ↓
+CONTACT  — DM · Phone · Email · SMS · Website Form
+        ↓
+FOLLOW-UP  (automated, same-day)
+        ↓
+BOOKING
+        ↓
+REVIEW REQUEST
+        ↓
+REPEAT CLIENT
+        ↓
+REFERRAL
+```
 
-The Music Dept sits at 4848 Battery Lane. The directory makes it the digital hub of the music community around that address: a public, genuinely useful guide to the neighborhood.
-
-**What it covers:**
-
-- Restaurants and food spots near Battery Lane
-- Music stores, instrument repair, and gear rental
-- Venues, open mics, and stages nearby
-- Music teachers and schools in the area
-- Creative businesses and services in the neighborhood
-
-Each listing carries the name, what they do, the address, distance from the studio, and a link. Listings generate from a places dataset into one template — one page per listing plus category indexes. Hundreds of pages, quarterly data refresh, no ongoing maintenance.
-
-**What it produces:**
-
-- **Google:** hyperlocal content dense with Bethesda names, streets, and landmarks — exactly what local rankings reward.
-- **AI search:** verifiable local detail that AI answers can cite when someone asks where to record near Bethesda.
-- **Partnerships:** neighboring businesses get free visibility and return it — referrals, flyers on counters, cross-promotion.
-- **Referrals:** musicians driving in from DC and Maryland use the directory as their guide to the area, making the studio the anchor of every trip.
-- **Local authority:** listed businesses link back and mention the studio, building a backlink profile no competitor can copy — because no competitor is the hub of this neighborhood.
-
-This is not a content tactic. It is a structural advantage: the studio becomes infrastructure for its own scene.
-
----
-
-# Studio Growth Tools™
-
-Custom software, developed specifically for The Music Dept.
-
-Every tool solves a real problem for a musician — and every tool captures a lead and routes it to the right offer page. Useful enough to share; targeted enough to sell.
-
-**Launch set:**
-
-- **Missing Royalty Finder** — checks ASCAP, BMI, SESAC, SoundExchange, and MLC registrations and flags money being left on the table. The strongest lead magnet in the suite: it finds artists actual revenue.
-- **Recording Budget Calculator** — scopes a project's real cost before the first call, and lands the visitor on the Artist Block page.
-- **Music Release Planner** — builds a 90-day release calendar, and books the sessions that calendar requires.
-- **Studio Session Checklist** — exactly what to bring, delivered before the session that gets booked.
-
-**Expansion set,** released as demand shows: Music Career Roadmap, Podcast Planner, EP Timeline Generator, Band Practice Planner, Album Budget Planner, Tour Rehearsal Planner, Session Prep Planner, and more.
-
-No other studio in the region offers software. That alone changes what The Music Dept is.
+Every improvement in this proposal raises conversion at one of these stages. More discovery surfaces. Clearer offer pages. More ways to make contact. Faster follow-up. Less friction at booking. A review ask every time. A reason to come back.
 
 ---
 
-# Local Search Strategy
+# Website Growth Expansion
 
-The local layer is straightforward and largely generated from the same data system:
+**This is not a redesign.** The existing website, booking system, and brand stay. We expand them.
 
-- **Service Pages** for every offer in every target market
-- **Neighborhood Pages** for the areas buyers actually search from
-- **University Pages** — Howard, UMD, American, Georgetown, GW
-- **Landmark Pages** — NIH, Bethesda Metro
-- **Structured Data** sitewide: LocalBusiness, Service with pricing, Event, FAQ, and per-listing markup across the directory
-- **Google Business Profile** rebuild: full service list with pricing, weekly photo and video posts, seeded Q&A
-- **Reviews:** every client asked same-day, targeting 100+ reviews
+**Offer Pages (10).** Dedicated landing pages for: Recording Sessions, Band Rehearsal, Artist Blocks, Producer Residency, Podcast Recording, Listening Parties, Voice Over, Corporate Podcast Recording, Music Videos, and Content Creator Packages.
+
+Every offer page includes: pricing, equipment, photos, video, testimonials, FAQs — and five ways to act: **Book Now, Call, Text, Email, Directions.** Reviews on the page. No dead ends.
+
+**Audience Pages.** One page per buyer type, stating the deal, the math versus retail, and who to call.
+
+**Question Hub.** Direct answers to what buyers ask before booking, each routing to an offer page.
+
+**Press Page + Capability Page.** For media, managers, and labels — the facts, forwardable.
+
+**Legacy Page.** The Track Recorders history (below) gets a permanent home.
+
+**Bethesda Community Directory.** The neighborhood hub (below).
+
+**Plus:** resources, lead magnets, improved navigation, deliberate internal linking, and trust elements on every page.
+
+---
+
+# Conversion & Closing Rate
+
+**Increasing the close rate on existing traffic often generates more revenue than increasing traffic.** Both halves get built.
+
+**Conversion optimization — on the pages:**
+
+- Transparent pricing — no "call for rates"
+- Professional photography and studio video
+- Real testimonials and clear service descriptions
+- Booking CTAs on every page; fast-loading pages
+- Multiple contact methods; trust indicators; FAQs; capability PDF
+
+**Closing rate optimization — after the inquiry:**
+
+- Faster response time — minutes, not days
+- Structured follow-up on every lead
+- Multiple contact methods: DM, phone, email, SMS, form
+- Automated reminders and confirmations
+- Offer-specific landing pages, not the homepage
+- Review generation building trust for the next buyer
+
+**Lead capture system.** Formspree forms, phone, email, SMS, newsletter signup, lead magnets, and booking requests — all feeding **one lead management process** with instant confirmation emails. No inquiry falls through a crack.
+
+**SMS integration.** Visitors can text questions, request pricing, book consultations, and receive confirmations, reminders, and follow-ups — automated where it makes sense.
+
+**CRM & follow-up flow:**
+
+```
+Traffic → Website → Formspree → Email → SMS → ManyChat → Phone
+       → Booked Session → Review Request → Repeat Booking → Referral
+```
+
+---
+
+# Email Marketing & ManyChat
+
+**Email.** The website continuously grows an email database. Campaigns by segment — artists, bands, managers, labels, podcasters, past customers, corporate clients, music schools, venues — carrying announcements, availability, new offers, listening parties, seasonal promotions, educational content, and studio updates.
+
+**Cold outreach** targets the area list: artists, DJs, event planners, music promoters, entertainment attorneys, videographers, photographers, managers, labels, and agencies. Every campaign sends prospects to a **dedicated landing page, never the homepage.** Every reply gets pricing the same day.
+
+**ManyChat.** Wired into Instagram, Facebook, and Messenger. It handles lead capture, FAQs, booking requests, email and SMS collection, lead qualification, review requests, and automated follow-up. Comment or DM a keyword — "BOOK" or "RATES" — and the buyer gets the rate card, the right offer page, and the booking link instantly. Response time drops; booked appointments rise.
+
+---
+
+# Social Media Growth: The 15 Videos
+
+Fifteen videos, each aimed at a specific buyer, each ending in a clear action (Call · Text · Book · Email — or "DM 'BOOK'" feeding ManyChat):
+
+1. **Looking for a Band Rehearsal Space? Here's Why Bands Choose The Music Dept.** — bands ready to book
+2. **Record Where Music History Was Made** — recording artists; the late-1960s roots as a trust builder, not nostalgia
+3. **Book an Entire Day. Leave With Your EP Started.** — recording packages
+4. **Why Producers Are Booking Weekly Studio Blocks** — high-value producers; introduces the Residency
+5. **Stop Rehearsing in Garages and Storage Units** — serious bands; rooms, PA, parking, amenities
+6. **Need a Podcast Studio Near DC? Watch This First.** — businesses, creators, podcasters
+7. **Planning a Listening Party or Album Release?** — event planners and artists
+8. **Event Planners: Here's a Hidden Venue in Bethesda** — flexibility of the space
+9. **The Fastest Way to Book Studio Time** — ready-to-buy visitors; book in under 60 seconds
+10. **Why Artists Drive Past Other Studios to Record Here** — comparison shoppers
+11. **What $250 Gets You at The Music Dept** — price shoppers; transparency builds trust
+12. **One Studio. Three Ways to Use It.** — rehearsal, recording, podcasting, events
+13. **Part of the DMV Music Scene for Decades** — verified history, no overstated claims
+14. **Don't Book a Studio Until You Ask These Five Questions** — parking? band fits? what's included? record and rehearse? how fast to book?
+15. **Ready to Create? We'll Handle the Space.** — everyone with buying intent
+
+**Bonus series for the highest-value buyers:** recurring videos titled *For Producers, For Artist Managers, For Podcast Networks, For Event Planners, For Record Labels, For Content Creators.* Those audiences bring multiple bookings, not single sessions.
+
+---
+
+# Google Business Profile Strategy
+
+The #1 lead source becomes the strongest lead generator:
+
+- Weekly photos and videos
+- Weekly posts
+- Full services and products with pricing
+- Seeded FAQs and Q&A
+- Booking links, events, and offers
+- Review generation — a same-day ask after every session, targeting 100+
+- Monthly optimization
+
+---
+
+# Search Strategy
+
+Practical, and largely generated from one template-and-dataset system:
+
+- **Offer Pages** and **Audience Pages** — the money pages
+- **Question Hub** — the questions buyers actually ask
+- **Authority Guides** — DMV venues, open mics, producers, engineers, schools
+- **Neighborhood Pages** and **City Pages** — Bethesda, Silver Spring, Rockville, Chevy Chase, DC, Arlington; near pages for Howard, UMD, American, Georgetown, NIH, Bethesda Metro
+- **Bethesda Directory** — hundreds of hyperlocal pages
+- **Structured Data** — services with prices, events, FAQs, local business markup
+- **Internal Linking** — every content page routes to an offer
+
+Each page answers a real customer question while increasing visibility.
 
 ---
 
 # AI Search Strategy
 
-Buyers increasingly ask ChatGPT, Gemini, and Google AI Mode where to record — and those engines recommend businesses they can understand and verify.
+Buyers now ask ChatGPT, Gemini, Google AI Mode, Perplexity, and Claude where to record — and those engines recommend businesses they can understand and verify.
 
-**Answer Engine Optimization (AEO).** The Question Hub publishes direct, structured answers to the questions musicians actually ask. When an AI engine needs an answer about recording in the DMV, The Music Dept is the source.
+The plan gives them exactly that: schema on every page, structured FAQs, consistent business information everywhere the studio appears, structured service pages with pricing, and genuinely helpful content. Entity building — the studio's name, address, history, and offers repeated consistently across hundreds of pages — is what makes an AI engine confident enough to recommend it.
 
-**Generative Engine Optimization (GEO).** The near pages, city pages, and directory give AI engines what they trust most: specific, verifiable local facts — addresses, distances, transit, real businesses.
-
-**Structured content and schema.** Every page carries machine-readable markup — services with prices, events with dates, FAQs with answers — so engines don't have to guess what the studio offers or what it costs.
-
-The result: when someone asks an AI where a band should rehearse near DC, the answer is The Music Dept — with the rate and the booking link.
+When someone asks an AI where a band should rehearse near DC, the answer is The Music Dept — with the rate and the booking link.
 
 ---
 
-# Conversion System
+# The Bethesda Community Directory
 
-Traffic is worthless if booking is hard. Every element below removes friction:
+The studio becomes the digital hub of the local creative community. A public, genuinely useful guide to the neighborhood around 4848 Battery Lane:
 
-- **Published pricing** on every offer — no "call for rates"
-- **Direct booking integration** from every page
-- **SMS text-to-book** on every offer page
-- **ManyChat instant replies** in DMs and comments
-- **Review generation** — a same-day ask after every session, compounding toward 100+
-- **Photo galleries** of real rooms, real gear, real sessions — no stock imagery
-- **Trust indicators** — gear lists, room specs, capacity, load-in details
-- **Testimonials** from producers, bands, and podcasters
-- **Capability PDF** for the buyers who forward instead of browse
-- **Fast booking path** — from any page to a confirmed booking in the fewest possible clicks
+- Restaurants and coffee shops
+- Music stores and instrument repair
+- Venues and open mics
+- Music schools and teachers
+- Creative businesses
+- Parking, transit, and nearby hotels
 
-**Closing rate.** Most contacts arrive by DM, email, phone, and Facebook comments — and deals are won or lost on response speed. The rule: every inquiry gets the price and the booking link in minutes, not days. ManyChat handles DMs and comments instantly; templates handle email and SMS; published pricing kills the back-and-forth. Closing rate — inquiry to booking — is tracked from week one as the headline conversion number.
+Listings generate from a places dataset into one template — one page per listing plus category indexes. Hundreds of pages, quarterly refresh, no ongoing maintenance.
 
-The measure of the website is not traffic. It is the time between arrival and booking, and the rate at which inquiries close.
+**The payoff:** hyperlocal Google authority; verifiable detail AI answers can cite; partnership and referral loops with every listed business; and a backlink profile no competitor can copy — because no competitor is the hub of this neighborhood.
+
+---
+
+# Legacy & Brand Story
+
+One of the studio's biggest competitive advantages is unmarketable by competitors: **history**. The Music Dept occupies the historic **Track Recorders** location, with roots dating back to the late 1960s.
+
+The plan puts that legacy to work:
+
+- **Legacy Page** — the story, the timeline, the verified artist history
+- **Press Kit + Media Page** — for journalists, bloggers, and playlist curators
+- **Historic Content Series** — social and site content drawn from the archive
+- **Timeline and historic photos** woven through the site
+
+Positioning: a modern creative space that is also a lasting part of DMV music history. Studios come and go; this room has been part of the scene for over fifty years. Trust builder — never nostalgia, never overstated.
+
+---
+
+# Studio Growth Tools™
+
+Custom software, developed specifically for The Music Dept. Every tool captures a lead while providing immediate value:
+
+- **Missing Royalty Finder** — checks ASCAP, BMI, SESAC, SoundExchange, and MLC registrations; finds artists actual money
+- **Recording Budget Calculator** — scopes real cost before the first call
+- **Music Release Planner** — a 90-day release calendar that books the sessions it requires
+- **Session Checklist** — what to bring, delivered before the booked session
+- **Music Career Roadmap** — where the artist is, what comes next
+- **Podcast Planner** — from idea to first episode, ending at the podcast offer page
+
+No other studio in the region offers software.
 
 ---
 
 # Build Roadmap
 
 **Phase 1 — Revenue Foundation**
-All four offers defined and priced. All rates published. Offer pages live and linked to the booking system. The 50-contact partner outreach list built, plus the cold email list of area artists, DJs, and event planners. *Deliverables: 4 offer pages, published rate card, partner outreach list, cold email list.*
+All offers defined and priced. All rates published. Core offer pages live and linked to booking. Partner outreach list (50 contacts) plus the cold email list of area artists, DJs, and event planners. *Deliverables: offer pages, rate card, both outreach lists.*
 
-**Phase 2 — Website Extension**
-Audience pages for all six buyer types, added to the existing site. Capability PDF. SMS text-to-book and ManyChat keyword automation wired in. Location dataset assembled; templates built. *Deliverables: 6 audience pages, capability PDF, SMS + ManyChat, template and data system.*
+**Phase 2 — Website Expansion**
+The full 10-offer-page set. Audience pages for every buyer type. Capability PDF, press page, legacy page. SMS text-to-book, Formspree lead capture, and ManyChat automation wired in. *Deliverables: 10 offer pages, audience pages, capability PDF, press + legacy pages, SMS + ManyChat + lead capture.*
 
-**Phase 3 — Content System**
-Bethesda Community Directory generates from the dataset. GEO near pages and city pages go live. Google Business Profile rebuilt. Question Hub launches with the first 10 answers. The 10 discovery videos shot in one batch and scheduled for TikTok and IG. *Deliverables: directory (hundreds of pages), near/city pages, GBP rebuild, 10-question hub, 10 discovery videos.*
+**Phase 3 — Content & Visibility**
+Bethesda Community Directory generates from the dataset. Near and city pages live. GBP rebuilt on a weekly cadence. Question Hub launches. The 15 videos shot in batches and scheduled. *Deliverables: directory, near/city pages, GBP system, question hub, 15-video plan in motion.*
 
-**Phase 4 — Growth Tools**
-Missing Royalty Finder and Recording Budget Calculator ship. Release Planner and Session Checklist follow. Every tool wired to lead capture and offer pages. *Deliverables: 4 Studio Growth Tools™, live and capturing leads.*
+**Phase 4 — Growth Tools & Email**
+Missing Royalty Finder and Budget Calculator ship; Release Planner and Session Checklist follow. Email campaigns launch by segment; cold outreach begins, landing on dedicated pages. *Deliverables: 4+ Studio Growth Tools™, segmented email campaigns, cold outreach live.*
 
 **Phase 5 — Authority Expansion**
-Five authority guides published. Expansion tools released as demand shows. Review count pushed past 100. Quarterly dataset refresh cycle begins. *Deliverables: 5 authority guides, expansion tools, 100+ review engine, refresh cadence.*
+Authority guides published. Historic content series running. Expansion tools as demand shows. Review count past 100. Quarterly dataset refresh. *Deliverables: 5 authority guides, legacy series, expansion tools, 100+ reviews.*
 
 ---
 
 # Success Metrics
 
-The business metrics come first. The marketing metrics exist to serve them. The system delivers the platform, the pages, the tools, and the leads; the revenue targets are hit when that system is paired with the outreach play in Target Growth Partners.
-
-**Business:**
+Measured by business outcomes first:
 
 - Recurring Monthly Revenue (target: $3,600)
-- Lockout Days booked (target: 14/mo)
-- Artist Blocks active (target: 4)
-- Podcast Slots filled (target: 3)
-- Listening Parties booked (target: 2/mo)
-- Total Monthly Bookings
-- Qualified Leads from tools, pages, and DMs
-- Closing Rate — inquiry to booking
-- Speed to Reply — minutes, not days
+- Lockout Days (14/mo) · Artist Blocks (4) · Podcast Clients (3) · Listening Parties (2/mo)
+- Monthly Bookings and Website Conversions
+- Qualified Leads — from pages, tools, DMs, and forms
+- Close Rate — inquiry to booking, tracked from week one
+- Repeat Customers and Referral Growth
+- Email Subscribers and SMS Subscribers
 
-**Market position:**
+And market position:
 
 - Google Reviews (target: 100+)
-- Organic Traffic
-- AI Search Visibility — citations in ChatGPT, Gemini, and Google AI Mode answers
-- Topical Authority — rankings across the question, guide, and local page systems
-
-Weekly scoreboard: 3–4 lockout days booked, recurring clients held steady, one event every other week.
+- Google Business Profile actions — calls, directions, bookings
+- Organic Search Visibility
+- AI Search Visibility — citations in ChatGPT, Gemini, Google AI Mode, and Perplexity answers
 
 ---
 
 # The Final Vision
 
-After this project, The Music Dept is not "a recording studio in Bethesda."
+The Music Dept becomes more than a rehearsal studio. It becomes:
 
-It is:
+- **The most discoverable studio in the DMV** — across Google, AI search, social, and the neighborhood it anchors
+- **The easiest studio to book** — published rates, five contact methods, instant follow-up
+- **A trusted destination** for artists, producers, podcasters, and corporate clients
+- **A local music authority built on decades of verified history**
+- **A business with multiple lead sources** instead of dependence on one channel
+- **A business with predictable recurring revenue,** higher close rates, stronger follow-up, and a marketing system that keeps generating bookings year after year
 
-- **The first place musicians discover** — on Google, in AI answers, and through the neighborhood it anchors
-- **The easiest studio to book** — published rates, direct booking, no friction
-- **The most useful music resource in the DMV** — the tools, the guides, the directory
-- **The preferred partner** for producers, managers, labels, and podcasters
-- **A business built on predictable recurring revenue** — $3,600 locked in before each month begins, on the way to $8,400
-
-One line of math: 14 lockouts + 4 artist blocks + 3 podcast slots + 2 listening parties = **$8,400/month.**
+14 lockouts + 4 artist blocks + 3 podcast slots + 2 listening parties = **$8,400/month** — before the expansion revenue even starts.
 
 ---
 
 # Investment
 
-**Website Growth System**
+**Website Growth Expansion**
 
 **Fixed Investment: $1,500** — paid in full upon acceptance. One payment, no installments.
 
 **Performance Bonus: $4,000** — due only in the first month The Music Dept books $8,400 in revenue under this model. If the system doesn't deliver, the bonus is never due.
 
-One engagement. The complete system: revenue model, demand channels, website extension, content engine, Bethesda Community Directory, Studio Growth Tools™ architecture, local and AI search strategy, conversion system, and the five-phase build roadmap.
+One engagement. The complete system: revenue model, customer journey, website expansion, conversion and closing-rate system, email + SMS + ManyChat, the 15-video social plan, GBP system, local and AI search, Bethesda Community Directory, legacy positioning, Studio Growth Tools™, and the five-phase roadmap.
