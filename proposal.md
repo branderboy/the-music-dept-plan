@@ -92,7 +92,7 @@ Leads come from eight places today:
 7. **Partnerships**
 8. **Word of Mouth**
 
-This project strengthens all eight: the GBP gets a full rebuild and weekly cadence; social gets the 15-video plan; Google gets the offer, audience, and local pages; AI search gets structured content it can cite; Facebook groups get keyword replies routed to automated DMs; referrals get a directory and review engine worth talking about; partnerships get dedicated pages and a capability PDF; word of mouth gets a studio that's easier to recommend because it's easier to book.
+This project strengthens all eight: the GBP gets a full rebuild and weekly cadence; social gets the 15-video plan; Google gets the offer, audience, and local pages; AI search gets structured content it can cite; Facebook groups get keyword replies routed to DM; referrals get a directory and review engine worth talking about; partnerships get dedicated pages and a capability PDF; word of mouth gets a studio that's easier to recommend because it's easier to book.
 
 ---
 
@@ -174,28 +174,31 @@ Every offer page includes: pricing, equipment, photos, video, testimonials, FAQs
 **CRM & follow-up flow:**
 
 ```
-Traffic → Website → Formspree → Email → SMS → ManyChat → Phone
+Traffic → Website → Formspree → Email → SMS → Phone
        → Booked Session → Review Request → Repeat Booking → Referral
 ```
+*(ManyChat automation slots into this flow when it rolls out.)*
 
 ---
 
-# Email Marketing & ManyChat
+# Email Marketing & Automation — Next Phase
+
+Email marketing and ManyChat automation roll out as the **next phase** — after the pages, offers, and lead capture are live and producing. The site starts collecting the email database from day one, so the list is ready when the campaigns launch.
 
 **Email.** The website continuously grows an email database. Campaigns by segment — artists, bands, managers, labels, podcasters, past customers, corporate clients, music schools, venues — carrying announcements, availability, new offers, listening parties, seasonal promotions, educational content, and studio updates.
 
-**Cold outreach** targets the area list: artists, DJs, event planners, music promoters, entertainment attorneys, videographers, photographers, managers, labels, and agencies. Every campaign sends prospects to a **dedicated landing page, never the homepage.** Every reply gets pricing the same day.
+**Cold outreach** will target the area list: artists, DJs, event planners, music promoters, entertainment attorneys, videographers, photographers, managers, labels, and agencies. Every campaign sends prospects to a **dedicated landing page, never the homepage.** Every reply gets pricing the same day.
 
-**ManyChat.** Wired into Instagram, Facebook, and Messenger. It handles lead capture, FAQs, booking requests, email and SMS collection, lead qualification, review requests, and automated follow-up. Comment or DM a keyword — "BOOK" or "RATES" — and the buyer gets the rate card, the right offer page, and the booking link instantly. Response time drops; booked appointments rise.
+**ManyChat — coming soon.** A planned automation layer for Instagram, Facebook, and Messenger, added once the pages and lead capture are live and producing. Comment or DM a keyword — "BOOK" or "RATES" — and the buyer will instantly get the rate card, the right offer page, and the booking link, with lead capture, FAQ answers, review requests, and follow-up handled automatically. Until then, DMs and comments are handled with saved replies and the same rule as every other channel: price and booking link in minutes, not days.
 
 ---
 
 # Social Media Growth: The 15 Videos
 
-Fifteen videos, each aimed at a specific buyer, each ending in a clear action (Call · Text · Book · Email — or "DM 'BOOK'" feeding ManyChat):
+Fifteen videos, each aimed at a specific buyer, each ending in a clear action (Call · Text · Book · Email · DM "BOOK"):
 
 1. **Looking for a Band Rehearsal Space? Here's Why Bands Choose The Music Dept.** — bands ready to book
-2. **Record Where Music History Was Made** — recording artists; the late-1960s roots as a trust builder, not nostalgia
+2. **Didn't Barbra Streisand, The Grateful Dead, David Bowie & Stevie Wonder Record Here?** — recording artists; the late-1960s roots as a trust builder, not nostalgia
 3. **Book an Entire Day. Leave With Your EP Started.** — recording packages
 4. **Why Producers Are Booking Weekly Studio Blocks** — high-value producers; introduces the Residency
 5. **Stop Rehearsing in Garages and Storage Units** — serious bands; rooms, PA, parking, amenities
@@ -288,16 +291,12 @@ Positioning: a modern creative space that is also a lasting part of DMV music hi
 
 # Studio Growth Tools™
 
-Custom software, developed specifically for The Music Dept. Every tool captures a lead while providing immediate value:
+Custom software, developed specifically for The Music Dept. We launch with **two tools** — focused, not scattered. Each captures a lead while providing immediate value:
 
-- **Missing Royalty Finder** — checks ASCAP, BMI, SESAC, SoundExchange, and MLC registrations; finds artists actual money
-- **Recording Budget Calculator** — scopes real cost before the first call
-- **Music Release Planner** — a 90-day release calendar that books the sessions it requires
-- **Session Checklist** — what to bring, delivered before the booked session
-- **Music Career Roadmap** — where the artist is, what comes next
-- **Podcast Planner** — from idea to first episode, ending at the podcast offer page
+- **Missing Royalty Finder** — checks ASCAP, BMI, SESAC, SoundExchange, and MLC registrations; finds artists actual money. The strongest lead magnet a studio can offer.
+- **Recording Budget Calculator** — scopes a project's real cost before the first call, and lands the visitor on the Artist Block page ready to book.
 
-No other studio in the region offers software.
+No other studio in the region offers software. More tools can follow — but only after these two prove themselves in leads and bookings.
 
 ---
 
@@ -307,16 +306,16 @@ No other studio in the region offers software.
 All offers defined and priced. All rates published. Core offer pages live and linked to booking. Partner outreach list (50 contacts) plus the cold email list of area artists, DJs, and event planners. *Deliverables: offer pages, rate card, both outreach lists.*
 
 **Phase 2 — Website Expansion**
-The full 10-offer-page set. Audience pages for every buyer type. Capability PDF, press page, legacy page. SMS text-to-book, Formspree lead capture, and ManyChat automation wired in. *Deliverables: 10 offer pages, audience pages, capability PDF, press + legacy pages, SMS + ManyChat + lead capture.*
+The full 10-offer-page set. Audience pages for every buyer type. Capability PDF, press page, legacy page. SMS text-to-book and Formspree lead capture wired in. *Deliverables: 10 offer pages, audience pages, capability PDF, press + legacy pages, SMS + lead capture.*
 
 **Phase 3 — Content & Visibility**
 Bethesda Community Directory generates from the dataset. Near and city pages live. GBP rebuilt on a weekly cadence. Question Hub launches. The 15 videos shot in batches and scheduled. *Deliverables: directory, near/city pages, GBP system, question hub, 15-video plan in motion.*
 
-**Phase 4 — Growth Tools & Email**
-Missing Royalty Finder and Budget Calculator ship; Release Planner and Session Checklist follow. Email campaigns launch by segment; cold outreach begins, landing on dedicated pages. *Deliverables: 4+ Studio Growth Tools™, segmented email campaigns, cold outreach live.*
+**Phase 4 — Growth Tools & Email (next phase)**
+The two launch tools ship — Missing Royalty Finder and Recording Budget Calculator — wired to lead capture and offer pages. Email campaigns launch by segment; cold outreach begins, landing on dedicated pages. *Deliverables: 2 Studio Growth Tools™, segmented email campaigns, cold outreach live.*
 
 **Phase 5 — Authority Expansion**
-Authority guides published. Historic content series running. Expansion tools as demand shows. Review count past 100. Quarterly dataset refresh. *Deliverables: 5 authority guides, legacy series, expansion tools, 100+ reviews.*
+Authority guides published. Historic content series running. ManyChat automation rolls out. More growth tools only if the first two earn it. Review count past 100. Quarterly dataset refresh. *Deliverables: 5 authority guides, legacy series, ManyChat rollout, 100+ reviews.*
 
 ---
 
@@ -364,4 +363,4 @@ The Music Dept becomes more than a rehearsal studio. It becomes:
 
 **Performance Bonus: $4,000** — due only in the first month The Music Dept books $8,400 in revenue under this model. If the system doesn't deliver, the bonus is never due.
 
-One engagement. The complete system: revenue model, customer journey, website expansion, conversion and closing-rate system, email + SMS + ManyChat, the 15-video social plan, GBP system, local and AI search, Bethesda Community Directory, legacy positioning, Studio Growth Tools™, and the five-phase roadmap.
+One engagement. The complete system: revenue model, customer journey, website expansion, conversion and closing-rate system, SMS + lead capture (email marketing and ManyChat as the next phase), the 15-video social plan, GBP system, local and AI search, Bethesda Community Directory, legacy positioning, two launch Studio Growth Tools™, and the five-phase roadmap.
