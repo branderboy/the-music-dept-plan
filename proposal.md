@@ -217,17 +217,36 @@ Fifteen videos, each aimed at a specific buyer, each ending in a clear action (C
 
 ---
 
-# Google Business Profile Strategy
+# Google Business Profile System
 
-The #1 lead source becomes the strongest lead generator:
+The #1 lead source gets an operating system, not a cleanup.
 
-- Weekly photos and videos
-- Weekly posts
-- Full services and products with pricing
-- Seeded FAQs and Q&A
-- Booking links, events, and offers
-- Review generation — a same-day ask after every session, targeting 100+
-- Monthly optimization
+**Baseline first.** Before touching anything, we scan the local map grid for the money keywords — "recording studio Bethesda," "band rehearsal near me" — and snapshot the top competitors' review counts, velocity, and categories. That's the "before" every monthly report is measured against.
+
+**A profile built for queries:**
+
+- Primary category matched to the money term; every legitimate additional category added — each one is a query surface
+- Every service loaded with a keyword + geo description
+- Description with the primary keyword and city front-loaded
+- 100% profile completeness — itself a ranking signal
+- Entity building: schema on the site linking every claimed profile (Google, Facebook, Yelp, Apple Maps, Bing Places), with identical business information everywhere
+- Weekly posts plus weekly real photos and video — a dead profile decays
+
+**The review engine:**
+
+- Same-day SMS ask with a one-tap review link, after every session
+- Steady velocity beats spikes: 8–15 real reviews a month, toward 100+
+- Coached asks — "mention it was a podcast session and you're from Silver Spring." When review text matches a search, Google quotes it under the listing in the map pack
+- 100% of reviews answered within 24–48 hours: first name, the service, the neighborhood, one real detail — rotated so a hundred replies never read like one template
+- Negatives handled calm and factual, resolved offline; the updated reply is what future buyers read
+
+**The Q&A engine.** The most neglected surface on GBP — and Google explicitly allows owners to seed and answer their own questions. We load the 10–12 questions buyers actually ask (rates, parking, gear, "can I record and rehearse the same day?"), answer each with the service and city in sentence one, and check weekly — because anyone can post a wrong answer on the profile, and nobody gets to answer for us.
+
+**Products tab = free ad space.** Each offer — Lockout Day, Artist Block, Podcast Slot, Listening Party — loads as a product card with a photo, a from-price, and a link to its offer page. Four image cards on the profile, shown above reviews on many mobile layouts. Almost no competitor uses this.
+
+**Tracking and upkeep.** Tagged website link so map traffic is measured separately in analytics. FAQ schema on the site mirroring the GBP Q&A. Monthly category, citation, and competitor audits — including truthful spam reports on keyword-stuffed competitor names, which Google approves and which move rankings faster than months of link building.
+
+**Kept honest:** review velocity, category coverage, and proximity decide most of map rank. The rest compounds because it's cheap, durable, and nobody else in the pack is doing it.
 
 ---
 
