@@ -2,7 +2,7 @@
 
 **Prepared for:** Justin Campbell — The Music Dept, 4848 Battery Lane, Bethesda, MD
 **Prepared by:** Kay Ali
-**Investment:** **$1,500** + $4,000 performance bonus at $8,400/month
+**Investment:** **$2,750** + $4,000 performance bonus at $8,400/month
 
 ---
 
@@ -378,7 +378,7 @@ The Music Dept becomes more than a rehearsal studio. It becomes:
 
 **Website Growth Expansion**
 
-**Fixed Investment: $1,500** — paid in full upon acceptance. One payment, no installments.
+**Fixed Investment: $2,750** — paid in full upon acceptance. One payment, no installments.
 
 **Performance Bonus: $4,000** — due only in the first month The Music Dept books $8,400 in revenue under this model. If the system doesn't deliver, the bonus is never due.
 
